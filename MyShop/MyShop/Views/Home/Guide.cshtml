@@ -1,0 +1,277 @@
+﻿@{
+    ViewData["Title"] = "Guide";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+
+    .instruments-section h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .instruments-section p {
+        font-size: 1.25rem;
+        color: #555;
+        text-align: center;
+    }
+
+    /* Black Line */
+    hr.thick-black-line {
+        border: none; /* Remove default borders */
+        height: 5px; /* Set the height */
+        background-color: black !important; /* Force black color */
+        margin: 0 auto; /* Center it horizontally */
+        width: 80%; /* Adjust width */
+    }
+
+
+    /* Dropdown Buttons Alignment */
+    .instrument-buttons {
+        display: flex;
+        gap: 1rem; /* Add spacing between dropdown buttons */
+        padding-left: 10%; /* Align dropdown buttons with the left edge of the line */
+    }
+
+        .instrument-buttons .dropdown {
+            display: inline-block;
+        }
+
+        /* Styling for Buttons */
+        .instrument-buttons .btn {
+            font-size: 1rem;
+            font-weight: bold;
+            padding: 0.5rem 1.5rem;
+        }
+
+    /* Dropdown Menu Styling */
+    .dropdown-menu {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+
+
+</style>
+
+
+<section class="instruments-section text-center py-5">
+    <h1 class="mb-3">Instruments</h1>
+    <p class="mb-4">
+        Here, the SoundWave’s expert players guide you through the intricacies of the instruments they play.
+        Choose an instrument from one of the sections.
+    </p>
+    <hr class="thick-black-line mb-4" />
+
+    <!-- Dropdown Buttons -->
+    <div class="instrument-buttons text-start">
+        <!-- Dropdown for Instruments -->
+        <div class="dropdown">
+            <button class="btn btn-light border text-danger dropdown-toggle"
+                    type="button"
+                    id="instrumentDropdown"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                Instruments
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="instrumentDropdown">
+                <li><a class="dropdown-item instrument-item" href="#">Guitars</a></li>
+                <li><a class="dropdown-item instrument-item" href="#">Drums</a></li>
+                <li><a class="dropdown-item instrument-item" href="#">Orchestra</a></li>
+            </ul>
+        </div>
+
+        <!-- Dropdown for Level -->
+        <div class="dropdown">
+            <button class="btn btn-light border text-danger dropdown-toggle"
+                    type="button"
+                    id="levelDropdown"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                Level
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="levelDropdown">
+                <li><a class="dropdown-item level-item" href="#">Beginner</a></li>
+                <li><a class="dropdown-item level-item" href="#">Professional</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="card-container" class="d-flex justify-content-center gap-4 mt-5"></div>
+
+</section>
+
+<script>
+    const instrumentDropdown = document.querySelectorAll('.instrument-item');
+    const levelDropdown = document.querySelectorAll('.level-item');
+    const cardContainer = document.getElementById('card-container');
+
+    let selectedInstrument = '';
+    let selectedLevel = '';
+
+    const guitarsData = [
+        {
+            img: '@Url.Content("~/Images/guitar-4750599_1280.jpg")',
+            title: 'Acoustic Guitar',
+            link: '#'
+        },
+        {
+            img: '@Url.Content("~/Images/electric-guitar-7815026_1280.jpg")',
+            title: 'Electric Guitar',
+            link: '#'
+        },
+        {
+            img: '@Url.Content("~/Images/bass-guitar-913092_1280.jpg")',
+            title: 'Bass Guitar',
+            link: '#'
+        }
+    ];
+
+    const DrumsData = [
+        {
+            img: '@Url.Content("~/Images/african-2771092_1280.jpg")',
+            title: 'Hand Drums',
+            link: '#'
+        },
+        {
+            img: '@Url.Content("~/Images/electronic-drum-pad-5854409_1280.jpg")',
+            title: 'Electronic Drums',
+            link: '#'
+        },
+        {
+            img: '@Url.Content("~/Images/drum-set-1839383_1280.jpg")',
+            title: 'Acoustic Drums',
+            link: '#'
+        }
+    ];
+
+    const OrchestraData = [
+        {
+            img: '@Url.Content("~/Images/bowed-instrument-1853324_1280.jpg")',
+            title: 'Strings',
+            link: '#'
+        },
+        {
+            img: '@Url.Content("~/Images/saxophone-3246650_1280.jpg")',
+            title: 'Brass',
+            link: '#'
+        },
+        
+    ];
+
+    instrumentDropdown.forEach(item => {
+        item.addEventListener('click', function () {
+            selectedInstrument = this.textContent.trim();
+            checkSelection();
+        });
+    });
+
+    levelDropdown.forEach(item => {
+        item.addEventListener('click', function () {
+            selectedLevel = this.textContent.trim();
+            checkSelection();
+        });
+    });
+
+    function checkSelection() {
+        if (selectedInstrument === 'Guitars' && selectedLevel === 'Beginner') {
+            renderCards(guitarsData);
+        } 
+        else if (selectedInstrument === 'Guitars' && selectedLevel === 'Professional') {
+            renderCards(guitarsData);
+        }
+        else if (selectedInstrument === 'Drums' && (selectedLevel === 'Professional' || selectedLevel === 'Beginner')) {
+            renderCards(DrumsData);
+
+        }
+        else if (selectedInstrument === 'Orchestra' && (selectedLevel === 'Professional' || selectedLevel === 'Beginner')) {
+            renderCards(OrchestraData);
+
+        }
+        else {
+            cardContainer.innerHTML = ''; // Clear cards
+        }
+    }
+
+    function renderCards(data) {
+        cardContainer.innerHTML = ''; // Clear previous cards
+
+        data.forEach(item => {
+            if (item.title.toLowerCase() === 'electric guitar') {
+                if (selectedLevel.toLowerCase() === 'beginner') {
+                    item.link = 'electricguid'; // Set link to electricguid for Beginners
+                } else {
+                    item.link = 'proelectric'; // Set link to proelectric for other levels
+                }
+            } else if (item.title.toLowerCase() === 'acoustic guitar') {
+                if (selectedLevel.toLowerCase() === 'beginner') {
+                    item.link = 'acousticpeg'; // Set link to acousticpeg for Beginners
+                } else {
+                    item.link = 'acousticpro'; // Set link to acousticpro for other levels
+                }
+            } else if (item.title.toLowerCase() === 'bass guitar') {
+                if (selectedLevel.toLowerCase() === 'beginner') {
+                    item.link = 'bassbeg'; // Set link to bassbeg for Beginners
+                } else {
+                    item.link = 'basspro'; // Set link to basspro for other levels
+                }
+            } else if (item.title.toLowerCase() === 'hand drums') {
+                if (selectedLevel.toLowerCase() === 'beginner') {
+                    item.link = 'handbeg'; // Set link to bassbeg for Beginners
+                } else {
+                    item.link = 'handpro'; // Set link to basspro for other levels
+                }
+            } else if (item.title.toLowerCase() === 'electronic drums') {
+                if (selectedLevel.toLowerCase() === 'beginner') {
+                    item.link = 'delebeg'; // Set link to bassbeg for Beginners
+                } else {
+                    item.link = 'delepro'; // Set link to basspro for other levels
+                }
+            } else if (item.title.toLowerCase() === 'acoustic drums') {
+                if (selectedLevel.toLowerCase() === 'beginner') {
+                    item.link = 'dacosticbeg'; // Set link to bassbeg for Beginners
+                } else {
+                    item.link = 'dacousticpro'; // Set link to basspro for other levels
+                }
+            } else if (item.title.toLowerCase() === 'strings') {
+                if (selectedLevel.toLowerCase() === 'beginner') {
+                    item.link = 'stringsbeg'; // Set link to bassbeg for Beginners
+                } else {
+                    item.link = 'stringspro'; // Set link to basspro for other levels
+                }
+            } else if (item.title.toLowerCase() === 'brass') {
+                if (selectedLevel.toLowerCase() === 'beginner') {
+                    item.link = 'brassbeg'; // Set link to bassbeg for Beginners
+                } else {
+                    item.link = 'brasspro'; // Set link to basspro for other levels
+                }
+            } else {
+                // Default case if no matches found
+                item.link = 'default'; // Default link or other fallback
+            }
+
+
+            const card = document.createElement('div');
+            card.classList.add('card');
+            card.style.width = '22rem';
+            card.style.textAlign = 'center';
+            card.style.border = '1px solid #ddd';
+            card.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)';
+            card.style.borderRadius = '8px';
+
+            card.innerHTML = `
+                    <img src="${item.img}" alt="${item.title}" style="width:100%;border-bottom:1px solid #ddd;">
+                    <h5 style="font-size:1.25rem;font-weight:bold;margin:1rem 0;">${item.title}</h5>
+                    <a href="${item.link}" class="btn btn-danger" style="margin-bottom:1rem;font-weight:bold;">Read more</a>
+                `;
+            cardContainer.appendChild(card);
+            
+            
+        });
+    }
+</script>
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

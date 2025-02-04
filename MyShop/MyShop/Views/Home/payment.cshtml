@@ -1,0 +1,710 @@
+﻿@{
+    ViewData["Title"] = "payment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<style>
+    .payment-view {
+        max-width: 600px;
+        margin: 0 auto;
+        font-family: Arial, sans-serif;
+    }
+
+    .group-box {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 16px;
+        margin-bottom: 20px;
+        background-color: #f9f9f9;
+    }
+
+    .form-group input[type="checkbox"] {
+        display: inline-block; /* Ensure checkbox is inline with label */
+        margin-right: 10px; /* Space between checkbox and label */
+    }
+
+    .form-group label {
+        display: inline-block; /* Align label inline with checkbox */
+        vertical-align: middle; /* Vertically center the label */
+    }
+
+    h3 {
+        margin-top: 0;
+    }
+
+    label {
+        display: block;
+        margin-top: 10px;
+    }
+
+    input, select {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .phone-input {
+        display: flex;
+        align-items: center;
+    }
+
+    #phone-key {
+        background-color: #eee;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px 0 0 4px;
+    }
+
+    #phone {
+        border-radius: 0 4px 4px 0;
+    }
+
+    .total-amount {
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    /* Modal Background */
+    .modul {
+        display: none; /* Hidden by default */
+        position: fixed;
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.4); /* Background color with transparency */
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    /* Modal Content */
+    .modul-content {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        width: 400px; /* Adjust the width */
+        margin: auto;
+    }
+
+        /* Centering the modal content */
+        .modul-content h3 {
+            text-align: center;
+        }
+
+    /* Payment Icons */
+    .payment-icons {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+        .payment-icons img {
+            height: 32px;
+            width: auto;
+        }
+
+    /* Form Styling */
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+        .form-group label {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+    .form-row {
+        display: flex;
+        gap: 10px;
+    }
+
+        .form-row .form-group {
+            flex: 1;
+        }
+
+    /* Buttons */
+    .form-buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+        .form-buttons button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+            .form-buttons button:first-child {
+                background: #ddd;
+                color: #333;
+            }
+
+            .form-buttons button:last-child {
+                background: #4CAF50;
+                color: #fff;
+            }
+
+    button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+    /* Group Box Styling */
+    .group-boxx {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: #fff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Payment Options Styling */
+    .payment-option {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        gap: 15px;
+    }
+
+        .payment-option input[type="radio"] {
+            margin: 0;
+            width: 18px;
+            height: 18px;
+            accent-color: #4CAF50;
+            cursor: pointer;
+        }
+
+        .payment-option label {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            cursor: pointer;
+        }
+
+            .payment-option label span {
+                font-size: 16px;
+                font-weight: bold;
+                color: #333;
+            }
+
+    .payment-icons img {
+        height: 32px;
+        width: auto;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .modddal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-contttent {
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        width: 90%;
+        max-width: 500px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+
+    .summary-details {
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .delivery-message {
+        font-weight: bold;
+        color: #4CAF50;
+        margin-top: 15px;
+    }
+
+    .modul-actions button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .modul-actions button:hover {
+            background-color: #45a049;
+        }
+
+    /* Adjust layout for left-right alignment */
+    .payment-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    }
+
+    .payment-view {
+        width: 45%; /* Adjust width to take less space */
+        padding-right: 20px;
+    }
+
+    #shopping-cart-section {
+        width: 50%; /* Right half of the screen */
+        margin: 30px;
+        padding: 40px;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        float: right;
+    }
+
+        #shopping-cart-section h3 {
+            font-size: 36px; /* Increased font size */
+            color: #333;
+            margin-bottom: 25px;
+        }
+
+    /* Table Styling */
+    #cart-items-table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: #fff;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+        #cart-items-table th, #cart-items-table td {
+            padding: 25px;
+            text-align: left;
+            font-size: 22px; /* Larger font size */
+            color: #555;
+            border-bottom: 1px solid #ddd;
+        }
+
+        #cart-items-table th {
+            background-color: #8B0000; /* Dark Red */
+            color: #fff;
+            font-weight: bold;
+        }
+
+        /* Row Hover Effect */
+        #cart-items-table tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        /* Image Styling */
+        #cart-items-table img {
+            width: 120px; /* Larger image size */
+            height: 120px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+</style>
+
+<div class="payment-container">
+
+    <!-- Payment Section (Left Side) -->
+    <div class="payment-view">
+        <!-- User Info Section -->
+        <div class="group-box" id="user-info-box">
+            <h3>User Information</h3>
+            <label for="country">Country:</label>
+            <select id="country" onchange="updatePhoneKey()">
+                <option value="JO">Jordan (JO)</option>
+                <option value="SA">Saudi Arabia (SA)</option>
+                <option value="EG">Egypt (EG)</option>
+                <option value="KW">Kuwait (KW)</option>
+                <option value="LB">Lebanon (LB)</option>
+                <option value="PS">Palestine (PS)</option>
+                <option value="QA">Qatar (QA)</option>
+                <option value="SY">Syria (SY)</option>
+                <option value="AE">United Arab Emirates (AE)</option>
+                <option value="OM">Oman (OM)</option>
+                <option value="IQ">Iraq (IQ)</option>
+            </select>
+
+            <label for="name">First Name:</label>
+            <input type="text" id="name" placeholder="Enter your first name" />
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" placeholder="Enter your last name" />
+
+            <label for="phone">Phone Number:</label>
+            <div class="phone-input">
+                <span id="phone-key">+962</span>
+                <input type="text" id="phone" placeholder="Enter your phone number" />
+            </div>
+
+            <label for="state">State/Province:</label>
+            <input type="text" id="state" placeholder="Enter your state or province" />
+
+            <label for="city">City:</label>
+            <input type="text" id="city" placeholder="Enter your city" />
+
+            <label for="address">Street/Address:</label>
+            <input type="text" id="address" placeholder="Enter your address" />
+
+            <label for="details">Details (Apartment, Unit, etc.):</label>
+            <input type="text" id="details" placeholder="e.g., Apartment 12, Floor 3" />
+        </div>
+        
+        <!-- Payment Method Section -->
+        <div class="group-boxx" id="payment-method-box">
+            <h3>Payment Method</h3>
+            <div class="payment-option">
+                <input type="radio" name="payment-method" id="card" value="card" onclick="showCardModal()" />
+                <label for="card">
+                    <span>Card</span>
+                    <div class="payment-icons">
+                        <img src="~/Images/visa.png" alt="Visa" />
+                        <img src="~/Images/card.png" alt="Mastercard" />
+                        <img src="~/Images/amex.png" alt="Amex" />
+                        <img src="~/Images/discover.png" alt="Discover" />
+                    </div>
+                </label>
+            </div>
+
+            <div class="payment-option">
+                <input type="radio" name="payment-method" id="cash" value="cash" />
+                <label for="cash">
+                    <span>Cash on Delivery</span>
+                </label>
+            </div>
+        </div>
+
+        <!-- Card Modal (Hidden by default) -->
+        <div id="card-modal" class="modul">
+            <div class="modul-content">
+                <h3>Payment Information</h3>
+                <div class="payment-icons">
+                    <img src="~/Images/visa.png" alt="Visa" />
+                    <img src="~/Images/card.png" alt="Mastercard" />
+                    <img src="~/Images/amex.png" alt="Amex" />
+                    <img src="~/Images/discover.png" alt="Discover" />
+                </div>
+
+                <form id="card-info-form" onsubmit="submitCardDetails(event)">
+                    <div class="form-group">
+                        <label for="card-number">Card Number*</label>
+                        <input type="text" id="card-number" placeholder="1234 5678 9012 3456" required />
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="exp-month">Exp. Month*</label>
+                            <select id="exp-month" required>
+                                <option value="">MM</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <!-- Add all months -->
+                                <option value="12">12</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exp-year">Exp. Year*</label>
+                            <select id="exp-year" required>
+                                <option value="">YY</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <!-- Add more years -->
+                                <option value="30">30</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="cvv">Security Code*</label>
+                            <input type="text" id="cvv" placeholder="CVV" required />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name-on-card">Name on Card*</label>
+                        <input type="text" id="name-on-card" placeholder="Cardholder Name" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="primary-method">Make this the primary payment method</label>
+                        <input type="checkbox" id="primary-method" />
+                    </div>
+
+                    <div class="modul-actions">
+                        <button type="button" onclick="closeCardModal()">Cancel</button>
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="total-amount-section" class="total-amount">
+            <p>Total Amount: <span id="total-amount-value">$0.00</span></p>
+            <button id="confirm-payment-btn" onclick="showPaymentSummaryModal()">Confirm Payment</button>
+        </div>
+
+    </div>
+
+    <!-- Shopping Cart Section (Right Side) -->
+    <div id="shopping-cart-section">
+        <h3>Your Shopping Cart</h3>
+        <table id="cart-items-table" style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody id="cartItem">
+                <!-- Cart items will be populated here -->
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+<script>
+    function updatePhoneKey() {
+        const country = document.getElementById("country").value;
+        const phoneKeyMap = {
+            JO: "+962",
+            SA: "+966",
+            EG: "+20",
+            KW: "+965",
+            LB: "+961",
+            PS: "+970",
+            QA: "+974",
+            SY: "+963",
+            AE: "+971",
+            OM: "+968",
+            IQ: "+964",
+        };
+        document.getElementById("phone-key").innerText = phoneKeyMap[country];
+    }
+
+    function showCardModal() {
+        document.getElementById("card-modal").style.display = "flex";
+    }
+
+    function closeCardModal() {
+        document.getElementById("card-modal").style.display = "none";
+    }
+
+    function submitCardDetails(event) {
+        event.preventDefault(); // Prevent the default form submission behavior
+
+        // Perform your custom form submission logic here
+        const cardNumber = document.getElementById("card-number").value;
+        const expMonth = document.getElementById("exp-month").value;
+        const expYear = document.getElementById("exp-year").value;
+        const cvv = document.getElementById("cvv").value;
+        const nameOnCard = document.getElementById("name-on-card").value;
+
+        // Example validation (you can customize this)
+        if (!cardNumber || !expMonth || !expYear || !cvv || !nameOnCard) {
+            alert("Please fill in all required fields.");
+            return;
+        }
+
+        // Close the modal
+        closeCardModal();
+
+        // Optionally log or process card information
+        console.log("Card details submitted:", {
+            cardNumber,
+            expMonth,
+            expYear,
+            cvv,
+            nameOnCard,
+        });
+
+        
+    }
+
+    function showPaymentSummaryModal() {
+        // Get the selected payment method
+        const paymentMethodRadio = document.querySelector('input[name="payment-method"]:checked');
+
+        if (!paymentMethodRadio) {
+            alert("Please select a payment method.");
+            return;
+        }
+
+        const selectedPaymentMethod = paymentMethodRadio.value; // Fetch the selected value
+
+        // Update billing details based on the payment method
+        const billingDetails =
+            selectedPaymentMethod === "card"
+                ? "Payment Method: Card"
+                : "Payment Method: Cash on Delivery";
+
+        // Address logic
+        const address = `${document.getElementById("address").value}, ${document.getElementById("city").value}, ${document.getElementById("state").value}`;
+        const totalAmount = document.getElementById("total-amount-value").innerText;
+
+        // Update the summary modal
+        document.getElementById("summary-address").innerText = address || "No address provided";
+        document.getElementById("summary-billing").innerText = billingDetails;
+        document.getElementById("summary-total").innerText = totalAmount;
+
+        // Log for debugging
+        console.log("Selected Payment Method:", selectedPaymentMethod);
+
+        // Show the modal
+        document.getElementById("payment-summary-modal").style.display = "block";
+    }
+
+    function closePaymentSummaryModal() {
+        document.getElementById("payment-summary-modal").style.display = "none";
+    }
+
+    async function fetchTotalAmount() {
+        try {
+            // Retrieve user info from localStorage (or session)
+            const userInfo = JSON.parse(localStorage.getItem("userInfo"));
+            debugger
+            if (!userInfo || !userInfo.user.id) {
+                alert("User information is missing. Please log in.");
+                return;
+            }
+
+            // Send the request to the API
+            const response = await fetch("https://localhost:7298/Payment/process-payment", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ userId: userInfo.user.id }), // Send userId to the API
+            });
+
+            if (!response.ok) {
+                const errorData = await response.json();
+                alert(`Error: ${errorData.message}`);
+                return;
+            }
+
+            // Parse response data
+            const data = await response.json();
+
+            // Update the total amount in the DOM
+            const totalAmountElement = document.getElementById("total-amount-value");
+            if (totalAmountElement) {
+                totalAmountElement.innerText = `$${data.totalAmount.toFixed(2)}`;
+            }
+        } catch (error) {
+            console.error("Error fetching total amount:", error);
+            alert("An error occurred while fetching the total amount. Please try again.");
+        }
+    }
+    async function fetchCart() {
+        try {
+            // Retrieve user info from localStorage (or session)
+            const userInfo = JSON.parse(localStorage.getItem("userInfo"));
+            if (!userInfo || !userInfo.user.id) {
+                alert("User information is missing. Please log in.");
+                return;
+            }
+
+            // Send the request to the API
+            const response = await fetch("https://localhost:7298/api/ShoppingCart/view", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ userId: userInfo.user.id }), // Send userId to the API
+            });
+
+            if (!response.ok) {
+                const errorData = await response.json();
+                alert(`Error: ${errorData.message}`);
+                return;
+            }
+
+            // Parse response data
+            const cartItems = await response.json();
+
+            // Get the table body element
+            const cartTableBody = document.getElementById("cartItem");
+
+            // Clear existing table rows
+            cartTableBody.innerHTML = "";
+
+            // Populate the table with cart items
+            cartItems.forEach((item) => {
+                // Create a new row for each item
+                const row = document.createElement("tr");
+
+                // Image Column
+                const imageCell = document.createElement("td");
+                const image = document.createElement("img");
+                image.src = `data:image/jpeg;base64,${item.imageData}`; // Convert base64 to image source
+                image.alt = item.name;
+                image.style.width = "50px"; // Set image size
+                image.style.height = "auto";
+                imageCell.appendChild(image);
+                row.appendChild(imageCell);
+
+                // Name Column
+                const nameCell = document.createElement("td");
+                nameCell.textContent = item.name;
+                row.appendChild(nameCell);
+
+                // Price Column
+                const priceCell = document.createElement("td");
+                priceCell.textContent = `$${(item.price)}`; // Assuming price is in cents
+                row.appendChild(priceCell);
+
+                // Quantity Column
+                const quantityCell = document.createElement("td");
+                quantityCell.textContent = item.quantity;
+                row.appendChild(quantityCell);
+
+                // Append the row to the table body
+                cartTableBody.appendChild(row);
+            });
+        } catch (error) {
+            console.error("Error fetching cart items:", error);
+            alert("An error occurred while fetching the cart items. Please try again.");
+        }
+    }
+
+      
+    window.onload = () => {
+        fetchCart();
+        fetchTotalAmount(); // If necessary, keep this separate
+    };
+
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.js"></script>

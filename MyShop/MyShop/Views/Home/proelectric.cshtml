@@ -1,0 +1,220 @@
+﻿@{
+    ViewData["Title"] = "proelectric";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* General Styles */
+    /* General Styles */
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    /* Header Phrase Styles */
+    .header-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+        .header-phrase h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+    /* Main Content Styles */
+    main {
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    section {
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        color: #d32f2f; /* Red */
+        border-bottom: 2px solid #d32f2f; /* Red */
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .content-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .content-card {
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+        .content-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .content-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .content-card h3 {
+            margin: 15px;
+            color: #333;
+        }
+
+        .content-card p, .content-card ul {
+            margin: 0 15px 15px;
+            color: #555;
+        }
+
+        .content-card ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+    /* Footer Phrase Styles */
+    .footer-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+    }
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Guitar Buying Guide for Professionals</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Phrase -->
+    <div class="header-phrase">
+        <h1>Electric Guitar Buying Guide for Professionals</h1>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Section 1: Determine Your Playing Style and Genre -->
+        <section class="playing-style">
+            <h2>1. Determine Your Playing Style and Genre</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/tape-2264972_1280.jpg" alt="Rock and Metal">
+                    <h3>Rock and Metal</h3>
+                    <p>Humbuckers for heavy tones. Recommended: <strong>Gibson Les Paul, ESP LTD, Ibanez</strong>.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/performance-3202707_1280.jpg" alt="Blues and Jazz">
+                    <h3>Blues and Jazz</h3>
+                    <p>Semi-hollow or hollow-body guitars for warm tones. Recommended: <strong>Gibson ES-335, PRS Hollowbody</strong>.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/girl-6824548_1280.jpg" alt="Funk and Pop">
+                    <h3>Funk and Pop</h3>
+                    <p>Single-coil pickups for bright tones. Recommended: <strong>Fender Stratocaster, Telecaster</strong>.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Understand the Key Guitar Components -->
+        <section class="guitar-components">
+            <h2>2. Understand the Key Guitar Components</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    
+                    <h3>Body Types</h3>
+                    <ul>
+                        <li><strong>Solid Body:</strong> Versatile and durable.</li>
+                        <li><strong>Hollow Body:</strong> Resonant tones for jazz/blues.</li>
+                        <li><strong>Semi-Hollow:</strong> Warmth with reduced feedback.</li>
+                    </ul>
+                </div>
+                <div class="content-card">
+                   
+                    <h3>Pickups</h3>
+                    <ul>
+                        <li><strong>Single-Coil:</strong> Bright and clear tones.</li>
+                        <li><strong>Humbuckers:</strong> Warm and thick tones.</li>
+                        <li><strong>Active Pickups:</strong> High output for metal/shred.</li>
+                    </ul>
+                </div>
+                <div class="content-card">
+                    
+                    <h3>Neck Profile</h3>
+                    <ul>
+                        <li><strong>Slim Neck:</strong> Faster playability.</li>
+                        <li><strong>Thick Neck:</strong> Better grip for rhythm.</li>
+                        <li><strong>Scale Length:</strong> Fender (25.5") vs. Gibson (24.75").</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Set Your Budget -->
+        <section class="budget">
+            <h2>3. Set Your Budget</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                   
+                    <h3>Guitars</h3>
+                    <p>Professional-grade guitars typically range from <strong>$1,500 to $5,000</strong>.</p>
+                </div>
+                <div class="content-card">
+                   
+                    <h3>Amplifiers</h3>
+                    <p>Allocate funds for a quality amp like <strong>Fender Twin Reverb</strong> or <strong>Marshall JCM800</strong>.</p>
+                </div>
+                <div class="content-card">
+                   
+                    <h3>Accessories</h3>
+                    <p>Don’t forget essentials like <strong>pedalboards, straps, cables, and cases</strong>.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Recommended Guitars -->
+        <section class="recommended-guitars">
+            <h2>Recommended Electric Guitars for Professional Players</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/other-2614387_1280.jpg" alt="Fender Stratocaster">
+                    <h3>Fender American Ultra Stratocaster</h3>
+                    <p>Versatile, bright single-coils with noiseless pickups.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/acoustic-guitar-1839379_1280.jpg" alt="Gibson Les Paul">
+                    <h3>Gibson Les Paul Standard</h3>
+                    <p>Thick, warm humbucker tone for rock and blues.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/electric-guitar-4345340_1280.jpg" alt="PRS Custom 24">
+                    <h3>PRS Custom 24</h3>
+                    <p>Coil-tapping for versatile tones and sleek design.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Phrase -->
+    <div class="footer-phrase">
+        <p>Start Your Guitar Journey Today!</p>
+    </div>
+</body>
+</html>

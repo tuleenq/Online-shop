@@ -1,0 +1,207 @@
+﻿@{
+    ViewData["Title"] = "Beginners Guide to Orchestra Strings";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* General Styles */
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    /* Header Phrase Styles */
+    .header-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .header-phrase h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    /* Main Content Styles */
+    main {
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    section {
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        color: #d32f2f; /* Red */
+        border-bottom: 2px solid #d32f2f; /* Red */
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .content-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .content-card {
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .content-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .content-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .content-card h3 {
+        margin: 15px;
+        color: #333;
+    }
+
+    .content-card p, .content-card ul {
+        margin: 0 15px 15px;
+        color: #555;
+    }
+
+    .content-card ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    /* Footer Phrase Styles */
+    .footer-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginners Guide to Orchestra Strings</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Phrase -->
+    <div class="header-phrase">
+        <h1>Beginners Guide to Orchestra Strings</h1>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Section 1: Understanding the Instruments -->
+        <section class="instrument-guide">
+            <h2>1. Understanding the Instruments</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/violin-6708567_1280.jpg" alt="Violin">
+                    <h3>The Violin</h3>
+                    <p>Learn about the violin, its role in the orchestra, and basic techniques for getting started.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/instrument-3208416_1280.jpg" alt="Viola">
+                    <h3>The Viola</h3>
+                    <p>An introduction to the viola, its rich tones, and how it complements the violin section.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/cello-521172_1280.jpg" alt="Cello">
+                    <h3>The Cello</h3>
+                    <p>Explore the cello's deep, resonant sound and its foundational role in orchestral music.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/Double_Bass__In2.jpg" alt="Double Bass">
+                    <h3>The Double Bass</h3>
+                    <p>Discover the double bass, the largest string instrument, and its contribution to the orchestra's depth.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Basic Playing Techniques -->
+        <section class="playing-techniques">
+            <h2>2. Basic Playing Techniques</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Bowing Basics</h3>
+                    <p>Learn proper bowing techniques to produce clear and consistent sound on string instruments.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Finger Placement</h3>
+                    <p>Understand the importance of correct finger placement for intonation and fluid playing.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Posture and Positioning</h3>
+                    <p>Develop good posture and instrument positioning to avoid strain and improve performance.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Maintenance and Care -->
+        <section class="maintenance-guide">
+            <h2>3. Maintenance and Care</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>String Care</h3>
+                    <p>Tips for cleaning and maintaining your strings to ensure longevity and quality sound.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Bow Maintenance</h3>
+                    <p>Learn how to care for your bow, including rehairing and proper storage techniques.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Instrument Storage</h3>
+                    <p>Best practices for storing your instrument to prevent damage and maintain its condition.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Recommended Starter Kits -->
+        <section class="recommended-kits">
+            <h2>4. Recommended Starter Kits</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/violin-kit.jpg" alt="Beginner Violin Kit">
+                    <h3>Beginner Violin Kit</h3>
+                    <p>A complete violin kit designed for beginners, including a bow, case, and rosin.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/cello-kit.jpg" alt="Beginner Cello Kit">
+                    <h3>Beginner Cello Kit</h3>
+                    <p>An ideal cello kit for beginners, offering great sound quality and durability.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/strings-kit.jpg" alt="Essential Accessories">
+                    <h3>Essential Accessories</h3>
+                    <p>A collection of must-have accessories for string players, including tuners, shoulder rests, and more.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Phrase -->
+    <div class="footer-phrase">
+        <p>Start Your Musical Journey with Orchestra Strings!</p>
+    </div>
+</body>
+</html>

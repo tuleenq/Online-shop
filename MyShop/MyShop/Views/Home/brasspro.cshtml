@@ -1,0 +1,200 @@
+﻿@{
+    ViewData["Title"] = "Professional's Guide to Orchestra Brass";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* General Styles */
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    /* Header Phrase Styles */
+    .header-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+        .header-phrase h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+    /* Main Content Styles */
+    main {
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    section {
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        color: #d32f2f; /* Red */
+        border-bottom: 2px solid #d32f2f; /* Red */
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .content-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .content-card {
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+        .content-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .content-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .content-card h3 {
+            margin: 15px;
+            color: #333;
+        }
+
+        .content-card p, .content-card ul {
+            margin: 0 15px 15px;
+            color: #555;
+        }
+
+        .content-card ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+    /* Footer Phrase Styles */
+    .footer-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional's Guide to Orchestra Brass</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Phrase -->
+    <div class="header-phrase">
+        <h1>Professional's Guide to Orchestra Brass</h1>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Section 1: Advanced Brass Techniques -->
+        <section class="advanced-techniques">
+            <h2>1. Advanced Brass Techniques</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/advanced-trumpet.jpg" alt="Advanced Trumpet">
+                    <h3>Trumpet: Mastering High Notes</h3>
+                    <p>To achieve clear and resonant high notes, focus on breath support, embouchure strength, and consistent practice with scales and arpeggios. Employ buzzing exercises to enhance lip flexibility and ensure a strong foundation for high-pitched playing.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/trombone-411035_1280.jpg" alt="Advanced Trombone">
+                    <h3>Trombone: Advanced Slide Control</h3>
+                    <p>Master precise slide positioning through daily exercises that emphasize muscle memory. Use a metronome to perfect timing in rapid shifts, and practice smooth legato transitions for seamless note connections.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/pro-frenschhorn.jpg" alt="Professional French Horn">
+                    <h3>French Horn: Complex Phrasing</h3>
+                    <p>Enhance your musicality by practicing long tones with dynamic variations. Focus on breath control and articulation to achieve smooth, expressive phrasing that conveys emotional depth in your performances.</p>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Section 2: Professional Performance Skills -->
+        <section class="performance-skills">
+            <h2>2. Professional Performance Skills</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Dynamic Range Mastery</h3>
+                    <p>Practice crescendos and decrescendos across various dynamic levels. Incorporate etudes that challenge your control of soft passages and powerful climaxes, ensuring a wide expressive range in performances.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Blend and Balance</h3>
+                    <p>Focus on listening to fellow musicians during rehearsals. Adjust your tone and volume to complement the brass section, ensuring a harmonious sound within the orchestra.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Improvisation in Brass</h3>
+                    <p>For jazz or contemporary settings, practice scale modes, chord progressions, and rhythmic variations. Improvisation requires a deep understanding of musical theory and confidence in real-time creativity.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Maintenance for Professional Brass Instruments -->
+        <section class="instrument-maintenance">
+            <h2>3. Maintenance for Professional Brass Instruments</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Precision Cleaning</h3>
+                    <p>Disassemble your instrument periodically for thorough cleaning. Use cleaning brushes and cloths specifically designed for brass instruments to remove dirt and prevent corrosion.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Custom Modifications</h3>
+                    <p>Consider custom modifications such as valve alignments or hand-engraving to enhance playability and personalize your instrument. Consult professional technicians for high-quality results.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Storage Solutions</h3>
+                    <p>Store your instrument in a sturdy, well-padded case. Use a humidity-controlled environment to protect against extreme temperature changes and ensure longevity.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Recommended Professional Brass Instruments -->
+        <section class="recommended-instruments">
+            <h2>4. Recommended Professional Brass Instruments</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Professional Trumpet</h3>
+                    <p>This trumpet offers superior craftsmanship, with precision-engineered valves and a rich tonal palette suitable for solo and ensemble performances.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Custom Trombone</h3>
+                    <p>Featuring advanced slide mechanics and customizable tuning options, this trombone delivers unparalleled performance for experienced players.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Deluxe French Horn</h3>
+                    <p>Handcrafted with precision, this French horn produces a warm, resonant sound. Its durable design ensures reliability in demanding orchestral settings.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Phrase -->
+    <div class="footer-phrase">
+        <p>Elevate Your Brass Performance to the Professional Level!</p>
+    </div>
+</body>
+</html>

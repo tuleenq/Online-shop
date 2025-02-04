@@ -1,0 +1,127 @@
+﻿@{
+    ViewData["Title"] = "SearchBrand";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .card-title {
+        transition: transform 0.3s ease, color 0.3s ease;
+        cursor: pointer;
+    }
+
+        .card-title:hover {
+            transform: scale(1.1);
+            color: #dc3545; /* Highlight color */
+        }
+
+    .spinner-container {
+        position: fixed;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+        z-index: 9999;
+    }
+
+
+</style>
+
+
+<div class="container">
+    <div id="loading-spinner-container" class="spinner-container">
+        <div class="spinner-border text-danger" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    <div class="row" id="product-container">
+        <!-- Product cards will be dynamically added here -->
+    </div>
+</div>
+
+
+<div class="features-section py-4 bg-light">
+
+    <div class="row text-center">
+        <div class="col-md-3">
+            <img src="~/Images/box.png" alt="Same Day Delivery" class="mb-sm-1" style="width: 40px; height: 40px;">
+            <h5>Same Day/Next Day Delivery</h5>
+            <p>Next day delivery on most orders in Jordan - Same day available</p>
+        </div>
+        <div class="col-md-3">
+            <img src="~/Images/shopping-cart.png" alt="Biggest Selection" class="mb-2" style="width: 40px; height: 40px;">
+            <h5>Biggest Selection</h5>
+            <p>Largest collection of any store in MENA</p>
+        </div>
+        <div class="col-md-3">
+            <img src="~/Images/user-talking-with-speech-bubble.png" alt="Top-notch Support" class="mb-2" style="width: 40px; height: 40px;">
+            <h5>Top-notch Support</h5>
+            <p>We are always happy to help in any way we can</p>
+        </div>
+        <div class="col-md-3">
+            <img src="~/Images/secure-payment.png" alt="Secure Payments" class="mb-2" style="width: 40px; height: 40px;">
+            <h5>Secure Payments</h5>
+            <p>Cash on Delivery available</p>
+        </div>
+    </div>
+</div>
+
+<script>
+   
+    document.addEventListener("DOMContentLoaded", function () {
+        const categoryName = localStorage.getItem('selectedCategory');
+        const brandName = localStorage.getItem('selectedBrand');
+
+        if (categoryName && brandName) {
+            fetchProducts(categoryName, brandName);
+        }
+
+        async function fetchProducts(categoryName, brandName) {
+            try {
+                const response = await fetch(`https://localhost:7298/api/Products/by-category-and-brand?categoryName=${categoryName}&brandName=${brandName}`);
+                document.getElementById('loading-spinner-container').style.display = 'block';
+
+                if (response.ok) {
+                    const products = await response.json();
+                    displayProducts(products);
+                } else {
+                    console.error('Failed to fetch products');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+            } finally {
+                // Hide loading spinner after fetching and products are loaded
+                document.getElementById('loading-spinner-container').style.display = 'none';
+            }
+        }
+
+        function displayProducts(products) {
+            const productContainer = document.getElementById('product-container');
+            productContainer.innerHTML = ''; // Clear any existing products
+
+            products.forEach(product => {
+                const productCard = document.createElement('div');
+                productCard.classList.add('col-md-4', 'mb-4');
+                productCard.innerHTML = `
+                    <div class="card h-100">
+                       <img src="data:image/jpeg;base64,${product.imageData}" class="card-img-top" alt="${product.name}">
+                       <div class="card-body">
+                            <h5 class="card-title" data-product-name="${product.name}">${product.name}</h5>
+                           <p class="card-text">$${product.price}</p>
+                      </div>
+                    </div>
+                `;
+                productCard.querySelector('.card-title').addEventListener('click', function () {
+                    const productName = encodeURIComponent(this.getAttribute('data-product-name'));
+                    window.location.href = `/Home/product?name=${productName}`;
+                    });
+                productContainer.appendChild(productCard);
+            });
+        }
+
+        function encodeBase64(byteArray) {
+            return btoa(String.fromCharCode.apply(null, new Uint8Array(byteArray)));
+        }
+    });
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.js"></script>

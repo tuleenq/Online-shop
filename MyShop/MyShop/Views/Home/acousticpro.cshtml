@@ -1,0 +1,215 @@
+﻿@{
+    ViewData["Title"] = "acousticpro";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    ViewData["Title"] = "Professional Acoustic Guitar Guide";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* General Styles */
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    /* Header Phrase Styles */
+    .header-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .header-phrase h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    /* Main Content Styles */
+    main {
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    section {
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        color: #d32f2f; /* Red */
+        border-bottom: 2px solid #d32f2f; /* Red */
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .content-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .content-card {
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .content-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .content-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .content-card h3 {
+        margin: 15px;
+        color: #333;
+    }
+
+    .content-card p, .content-card ul {
+        margin: 0 15px 15px;
+        color: #555;
+    }
+
+    .content-card ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    /* Footer Phrase Styles */
+    .footer-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Acoustic Guitar Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Phrase -->
+    <div class="header-phrase">
+        <h1>Professional Acoustic Guitar Guide</h1>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Section 1: Selecting a High-End Acoustic Guitar -->
+        <section class="choosing-guitar">
+            <h2>1. Selecting a High-End Acoustic Guitar</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/stars-1128772_1280.jpg" alt="Premium Guitars">
+                    <h3>Premium Materials</h3>
+                    <p>Choose guitars with solid spruce, cedar tops, and rosewood or mahogany backs for superior sound.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/guitar-5837061_1280.jpg" alt="Cutaway Design">
+                    <h3>Cutaway Design</h3>
+                    <p>Consider cutaway bodies for easier access to higher frets during advanced play.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/luthier-5132460_1280.jpg" alt="Tonewood Selection">
+                    <h3>Tonewood Selection</h3>
+                    <p>Invest in guitars with unique tonewoods like koa or maple for a distinct tonal character.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Advanced Playing Techniques -->
+        <section class="advanced-techniques">
+            <h2>2. Advanced Playing Techniques</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Fingerpicking</h3>
+                    <ul>
+                        <li>Master complex fingerpicking patterns for genres like classical and folk.</li>
+                        <li>Experiment with thumb picks for better control.</li>
+                    </ul>
+                </div>
+                <div class="content-card">
+                    <h3>Slide Guitar</h3>
+                    <ul>
+                        <li>Use a glass or metal slide for unique blues tones.</li>
+                        <li>Practice alternate tunings like open G or D for slide playing.</li>
+                    </ul>
+                </div>
+                <div class="content-card">
+                    <h3>Harmonics</h3>
+                    <ul>
+                        <li>Learn natural and artificial harmonics to add texture to your music.</li>
+                        <li>Incorporate harmonics into fingerstyle compositions.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Professional Accessories -->
+        <section class="professional-accessories">
+            <h2>3. Professional Accessories</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>High-End Capo</h3>
+                    <p>Invest in a professional-grade capo for smooth and precise key changes.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Custom Picks</h3>
+                    <p>Experiment with picks made from exotic materials like tortoiseshell or carbon fiber.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Acoustic Preamp</h3>
+                    <p>Enhance your live performances with a high-quality preamp for rich amplified sound.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Recommended Professional Acoustic Guitars -->
+        <section class="recommended-guitars">
+            <h2>4. Recommended Professional Acoustic Guitars</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/guitar-7137186_1280.jpg" alt="Taylor 814ce">
+                    <h3>Taylor 814ce</h3>
+                    <p>Known for its exceptional clarity, playability, and dynamic range.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/guitar-1130593_1280.jpg" alt="Martin D-28">
+                    <h3>Martin D-28</h3>
+                    <p>A legendary choice for professionals seeking rich, balanced tones.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/guitar-player-6231910_1280.jpg" alt="Gibson J-200">
+                    <h3>Gibson J-200</h3>
+                    <p>The iconic "King of the Flat-Tops," ideal for powerful strumming and projection.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Phrase -->
+    <div class="footer-phrase">
+        <p>Elevate Your Acoustic Guitar Experience!</p>
+    </div>
+</body>
+</html>

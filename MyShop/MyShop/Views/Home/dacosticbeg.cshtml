@@ -1,0 +1,211 @@
+﻿@{
+    ViewData["Title"] = "Beginner Guide for Acoustic Drums";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* General Styles */
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    /* Header Phrase Styles */
+    .header-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .header-phrase h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    /* Main Content Styles */
+    main {
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    section {
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        color: #d32f2f; /* Red */
+        border-bottom: 2px solid #d32f2f; /* Red */
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .content-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .content-card {
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .content-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .content-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .content-card h3 {
+        margin: 15px;
+        color: #333;
+    }
+
+    .content-card p, .content-card ul {
+        margin: 0 15px 15px;
+        color: #555;
+    }
+
+    .content-card ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    /* Footer Phrase Styles */
+    .footer-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner Guide for Acoustic Drums</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Phrase -->
+    <div class="header-phrase">
+        <h1>Beginner Guide for Acoustic Drums</h1>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Section 1: Understanding Acoustic Drums -->
+        <section class="understanding-drums">
+            <h2>1. Understanding Acoustic Drums</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/drumkit.jpg" alt="Acoustic Drum Kit">
+                    <h3>Drum Kit Components</h3>
+                    <p>Learn about the different parts of a drum kit: bass drum, snare, toms, cymbals, and hardware.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/drums-1130027_1280.jpg" alt="Hi-Hat Cymbals">
+                    <h3>Understanding Cymbals</h3>
+                    <p>Explore various types of cymbals such as hi-hats, crash, and ride, and their role in creating diverse sounds.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/drum-sticks-933186_1280.jpg" alt="Drumsticks">
+                    <h3>Choosing the Right Drumsticks</h3>
+                    <p>Pick the right drumsticks based on material, weight, and grip for better control and sound.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Basic Drum Techniques -->
+        <section class="basic-techniques">
+            <h2>2. Basic Drum Techniques</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Proper Grip</h3>
+                    <ul>
+                        <li>Learn the proper grip for drumsticks to avoid strain and increase control.</li>
+                        <li>Focus on relaxed wrists and fingers for fluid motion.</li>
+                    </ul>
+                </div>
+                <div class="content-card">
+                    <h3>Basic Drumming Patterns</h3>
+                    <ul>
+                        <li>Start with basic beats like 4/4 time signature to establish rhythm.</li>
+                        <li>Practice hand-foot coordination for consistent timing.</li>
+                    </ul>
+                </div>
+                <div class="content-card">
+                    <h3>Foot Pedal Techniques</h3>
+                    <ul>
+                        <li>Master the bass drum pedal for consistent kick patterns.</li>
+                        <li>Learn to control the hi-hat pedal for dynamic sound changes.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Maintenance and Care -->
+        <section class="maintenance-care">
+            <h2>3. Drum Maintenance and Care</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Changing Drumheads</h3>
+                    <p>Regularly change drumheads to maintain optimal sound quality and performance.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Cleaning Your Drum Kit</h3>
+                    <p>Use appropriate cleaning products to keep your drums looking and sounding great.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Tuning Your Drums</h3>
+                    <p>Learn how to tune your drums to achieve the best sound possible for any style of music.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Beginner Drum Kits -->
+        <section class="beginner-drums">
+            <h2>4. Recommended Beginner Drum Kits</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/drum-2848928_1280.jpg" alt="Beginner Drum Set">
+                    <h3>Basic Drum Kit</h3>
+                    <p>An affordable and simple drum kit for newcomers, offering essential components without unnecessary extras.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/intermediate-drum.jpg" alt="Intermediate Drum Set">
+                    <h3>Intermediate Drum Kit</h3>
+                    <p>A step up with better quality materials, more hardware, and versatile cymbals for intermediate drummers.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/electric-2597045_1280.jpg" alt="Electronic Drum Set">
+                    <h3>Electronic Drum Kit</h3>
+                    <p>An electronic alternative, ideal for practice with adjustable sound levels and quiet play options.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Phrase -->
+    <div class="footer-phrase">
+        <p>Start Your Drumming Journey Today!</p>
+    </div>
+</body>
+</html>

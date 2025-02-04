@@ -1,0 +1,108 @@
+﻿@{
+    ViewData["Title"] = "About";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* Custom styles for vertical alignment */
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 50px 0;
+    }
+
+        .about-section img {
+            margin-top: 10px;
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+    .about-text-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100vh; /* Full viewport height */
+        padding: 0 20px;
+     
+        box-sizing: border-box;
+    }
+
+    .about-text {
+        max-width: 800px;
+        margin-top: 0px;
+    }
+    h1,h3 {
+        margin-bottom: 110px;
+    }
+</style>
+
+<section class="about-section bg-white">
+    <!-- Main Heading -->
+    <h1>About Us</h1>
+
+    <!-- Subheading -->
+    <h3><em>Welcome to Sound Cloud</em></h3>
+
+    <!-- Image -->
+    <img src="~/Images/marching-band-7329270_1280.jpg" alt="About Us Image">
+
+<div class="about-text-container">
+    <div class="about-text">
+        <p>
+            SoundCloud.com is an online musical instruments store and go-to destination for musicians in Jordan and the Middle East. We provide musicians in the Arab region with authentic, high-quality musical instruments and pro audio equipment at competitive prices. We work hard to provide you with an exceptional experience and the best service possible. Our team of musicians is always ready and happy to help you with anything, you can call us now at: <strong>+962787062962</strong>
+        </p>
+        <p>
+            On SoundClud you will find the best brands of electric, acoustic & classical guitars, basses, guitar amps & effects, drums & percussion, keyboards & MIDI controllers, pianos, pro-audio & music recording equipment, DJ products, microphones & headphones, violins & accessories, Ouds & oriental instruments, Ukuleles & folk instruments, harmonicas, and more. Our products are guaranteed to be 100% authentic and brand new.
+        </p>
+        <p>
+            Here at SoundCloud, we make sure to offer our customers with top-notch brands such as: <span style="color: red;">Yamaha</span>,
+            <span style="color: red;">Pearl Drums</span>,
+            <span style="color: red;">Dean</span>,
+            <span style="color: red;">Cordoba</span>,
+            <span style="color: red;">Ampeg</span>,
+            <span style="color: red;">Blackstar</span>,
+            <span style="color: red;">M-Audio</span>,
+            <span style="color: red;">D'Addario</span>,
+            <span style="color: red;">ESP & Rico</span>,
+            <span style="color: red;">Line-6</span>, and
+            <span style="color: red;">more</span>.
+        </p>
+        <p>
+            After placing your order directly on our website, our team will call you to confirm your order. We deliver to your doorstep in Amman and all over Jordan with the option to pay cash on delivery or online.
+        </p>
+    </div>
+</div>
+</section>
+
+<section class="features-section py-5 bg-light">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-3">
+                <img src="~/Images/box.png" alt="Same Day Delivery" class="mb-sm-1" style="width: 40px; height: 40px;">
+                <h5>Same Day/Next Day Delivery</h5>
+                <p>Next day delivery on most orders in Jordan - Same day available</p>
+            </div>
+            <div class="col-md-3">
+                <img src="~/Images/shopping-cart.png" alt="Biggest Selection" class="mb-2" style="width: 40px; height: 40px;">
+                <h5>Biggest Selection</h5>
+                <p>Largest collection of any store in MENA</p>
+            </div>
+            <div class="col-md-3">
+                <img src="~/Images/user-talking-with-speech-bubble.png" alt="Top-notch Support" class="mb-2" style="width: 40px; height: 40px;">
+                <h5>Top-notch Support</h5>
+                <p>We are always happy to help in any way we can</p>
+            </div>
+            <div class="col-md-3">
+                <img src="~/Images/secure-payment.png" alt="Secure Payments" class="mb-2" style="width: 40px; height: 40px;">
+                <h5>Secure Payments</h5>
+                <p>Cash on Delivery available</p>
+            </div>
+        </div>
+    </div>
+   
+</section>

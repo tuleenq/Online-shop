@@ -1,0 +1,208 @@
+﻿@{
+    ViewData["Title"] = "Electronic Drums Beginner Guide";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* General Styles */
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    /* Header Phrase Styles */
+    .header-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .header-phrase h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    /* Main Content Styles */
+    main {
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    section {
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        color: #d32f2f; /* Red */
+        border-bottom: 2px solid #d32f2f; /* Red */
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .content-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .content-card {
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .content-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .content-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .content-card h3 {
+        margin: 15px;
+        color: #333;
+    }
+
+    .content-card p, .content-card ul {
+        margin: 0 15px 15px;
+        color: #555;
+    }
+
+    .content-card ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    /* Footer Phrase Styles */
+    .footer-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Drums Beginner Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Phrase -->
+    <div class="header-phrase">
+        <h1>Electronic Drums Beginner Guide</h1>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Section 1: Choosing Your First Electronic Drum Kit -->
+        <section class="choosing-drum">
+            <h2>1. Choosing Your First Electronic Drum Kit</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/basic-elec.jpg" alt="Basic Electronic Drum Kit">
+                    <h3>Starter Kits</h3>
+                    <p>Perfect for beginners, starter kits are affordable and offer the basic features you need to get started.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/mesh.jpg" alt="Mesh Drum Pads">
+                    <h3>Mesh vs. Rubber Pads</h3>
+                    <p>Understand the difference between mesh heads for a realistic feel and rubber pads for durability and affordability.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/module.jpg" alt="Drum Module">
+                    <h3>Drum Module Features</h3>
+                    <p>Explore the importance of the drum module, which controls your drum sounds and includes built-in practice tools.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Setting Up Your Kit -->
+        <section class="setup">
+            <h2>2. Setting Up Your Kit</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Space and Placement</h3>
+                    <ul>
+                        <li>Choose a quiet, stable location for your drum kit.</li>
+                        <li>Arrange pads and cymbals in a comfortable and ergonomic layout.</li>
+                    </ul>
+                </div>
+                <div class="content-card">
+                    <h3>Cables and Connections</h3>
+                    <ul>
+                        <li>Learn how to connect pads and cymbals to the drum module.</li>
+                        <li>Organize cables to avoid tangling and interference.</li>
+                    </ul>
+                </div>
+                <div class="content-card">
+                    <h3>Volume Control</h3>
+                    <ul>
+                        <li>Use headphones for quiet practice or connect to an amplifier for performances.</li>
+                        <li>Adjust volume levels on the drum module to suit your environment.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Practicing on Electronic Drums -->
+        <section class="practice-tips">
+            <h2>3. Practicing on Electronic Drums</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Built-In Practice Tools</h3>
+                    <p>Utilize features like metronomes, play-along tracks, and training modes to improve your timing and rhythm.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Quiet Practice</h3>
+                    <p>Take advantage of the quiet nature of electronic drums to practice without disturbing others.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Exploring Sounds</h3>
+                    <p>Experiment with the variety of drum kits and sounds available to discover your style and preferences.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Essential Accessories -->
+        <section class="accessories">
+            <h2>4. Essential Accessories</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Drum Sticks</h3>
+                    <p>Start with lightweight, beginner-friendly drum sticks that are easy to control.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Headphones</h3>
+                    <p>Invest in high-quality headphones for clear sound and a better practice experience.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Drum Throne</h3>
+                    <p>A comfortable, adjustable drum throne is essential for maintaining proper posture during practice.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Phrase -->
+    <div class="footer-phrase">
+        <p>Start Your Drumming Journey with Confidence!</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+C:\Users\user\Downloads\MyShop\MyShop.Application\bin\Debug\net8.0\MyShop.Application.deps.json
+C:\Users\user\Downloads\MyShop\MyShop.Application\bin\Debug\net8.0\MyShop.Application.dll
+C:\Users\user\Downloads\MyShop\MyShop.Application\bin\Debug\net8.0\MyShop.Application.pdb
+C:\Users\user\Downloads\MyShop\MyShop.Application\bin\Debug\net8.0\MyShop.Domain.dll
+C:\Users\user\Downloads\MyShop\MyShop.Application\bin\Debug\net8.0\MyShop.Infrastructure.dll
+C:\Users\user\Downloads\MyShop\MyShop.Application\bin\Debug\net8.0\MyShop.Domain.pdb
+C:\Users\user\Downloads\MyShop\MyShop.Application\bin\Debug\net8.0\MyShop.Infrastructure.pdb
+C:\Users\user\Downloads\MyShop\MyShop.Application\obj\Debug\net8.0\MyShop.Application.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\MyShop\MyShop.Application\obj\Debug\net8.0\MyShop.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Downloads\MyShop\MyShop.Application\obj\Debug\net8.0\MyShop.Application.AssemblyInfoInputs.cache
+C:\Users\user\Downloads\MyShop\MyShop.Application\obj\Debug\net8.0\MyShop.Application.AssemblyInfo.cs
+C:\Users\user\Downloads\MyShop\MyShop.Application\obj\Debug\net8.0\MyShop.Application.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\MyShop\MyShop.Application\obj\Debug\net8.0\MyShop.A.D52B9BDA.Up2Date
+C:\Users\user\Downloads\MyShop\MyShop.Application\obj\Debug\net8.0\MyShop.Application.dll
+C:\Users\user\Downloads\MyShop\MyShop.Application\obj\Debug\net8.0\refint\MyShop.Application.dll
+C:\Users\user\Downloads\MyShop\MyShop.Application\obj\Debug\net8.0\MyShop.Application.pdb
+C:\Users\user\Downloads\MyShop\MyShop.Application\obj\Debug\net8.0\ref\MyShop.Application.dll

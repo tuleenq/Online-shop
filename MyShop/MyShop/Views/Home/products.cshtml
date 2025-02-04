@@ -1,0 +1,191 @@
+﻿@{
+    ViewData["Title"] = "products";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var category = ViewBag.Category as string;
+}
+<style>
+    .card-title {
+        transition: transform 0.3s ease, color 0.3s ease;
+        cursor: pointer;
+    }
+
+        .card-title:hover {
+            transform: scale(1.1);
+            color: #dc3545; /* Highlight color */
+        }
+
+    .spinner-container {
+        position: fixed;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+        z-index: 9999;
+    }
+</style>
+
+
+
+<div class="container">
+    <div id="loading-spinner-container" class="spinner-container">
+        <div class="spinner-border text-danger" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    <div class="row" id="product-container">
+        <!-- Product cards will be dynamically added here -->
+    </div>
+</div>
+    <div class="features-section py-4 bg-light">
+
+        <div class="row text-center">
+            <div class="col-md-3">
+                <img src="~/Images/box.png" alt="Same Day Delivery" class="mb-sm-1" style="width: 40px; height: 40px;">
+                <h5>Same Day/Next Day Delivery</h5>
+                <p>Next day delivery on most orders in Jordan - Same day available</p>
+            </div>
+            <div class="col-md-3">
+                <img src="~/Images/shopping-cart.png" alt="Biggest Selection" class="mb-2" style="width: 40px; height: 40px;">
+                <h5>Biggest Selection</h5>
+                <p>Largest collection of any store in MENA</p>
+            </div>
+            <div class="col-md-3">
+                <img src="~/Images/user-talking-with-speech-bubble.png" alt="Top-notch Support" class="mb-2" style="width: 40px; height: 40px;">
+                <h5>Top-notch Support</h5>
+                <p>We are always happy to help in any way we can</p>
+            </div>
+            <div class="col-md-3">
+                <img src="~/Images/secure-payment.png" alt="Secure Payments" class="mb-2" style="width: 40px; height: 40px;">
+                <h5>Secure Payments</h5>
+                <p>Cash on Delivery available</p>
+            </div>
+        </div>
+    </div>
+
+
+   
+
+    <!-- Login/Signup Modal -->
+    <div class="modal fade" id="loginSignupModal" tabindex="-1" aria-labelledby="loginSignupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginSignupModalLabel">Login to My Account</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Login Form -->
+                    <form id="loginForm">
+                        <div class="mb-3">
+                            <label for="loginEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="loginEmail" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="loginPassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="loginPassword" placeholder="Enter your password">
+                        </div>
+                        <button type="submit" class="btn btn-danger w-100">Login</button>
+                        <div class="form-switch-link">
+                            <p>Don't have an account? <a href="#" id="showSignupForm">Signup</a></p>
+                        </div>
+                    </form>
+
+                    <!-- Signup Form (Hidden by Default) -->
+                    <form id="signupForm" style="display: none;">
+                        <div class="mb-3">
+                            <label for="signupEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="signupEmail" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="signupPassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="signupPassword" placeholder="Enter your password">
+                        </div>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="adress" class="form-label">Adress</label>
+                            <input type="text" class="form-control" id="adress" placeholder="Enter Your Adress">
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="text" class="form-control" id="phone" placeholder="Enter Your Phone Number">
+                        </div>
+
+                        <button type="submit" class="btn btn-danger w-100">Signup</button>
+                        <div class="form-switch-link">
+                            <p>Already have an account? <a href="#" id="showLoginForm">Login</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const urlParams = new URLSearchParams(window.location.search);
+        const category = urlParams.get('category');
+
+        if (category) {
+            fetchProducts(category);
+        } else {
+            alert("No category selected! Please try again.");
+        }
+    });
+
+    async function fetchProducts(category) {
+        const apiUrl = `https://localhost:7298/api/Products/by-category/${encodeURIComponent(category)}`;
+        document.getElementById('loading-spinner-container').style.display = 'block';
+        try {
+            const response = await fetch(apiUrl);
+            if (!response.ok) {
+                throw new Error(`Failed to fetch products: ${response.status} ${response.statusText}`);
+            }
+
+            const products = await response.json();
+            const productContainer = document.getElementById('product-container');
+            productContainer.innerHTML = '';
+
+            if (products.length === 0) {
+                productContainer.innerHTML = `<p class="text-center">No products found for this category.</p>`;
+                return;
+            }
+
+            products.forEach((product) => {
+                const productCard = document.createElement('div');
+                productCard.className = 'col-md-4 mb-4';
+
+                productCard.innerHTML = `
+                        <div class="card h-100">
+                            <img src="${product.imageFile}" class="card-img-top" alt="${product.name}">
+                            <div class="card-body text-center">
+                                <h5 class="card-title" data-product-name="${product.name}">${product.name}</h5>
+                                <p class="card-text">$${product.price.toFixed(2)}</p>
+                            </div>
+                        </div>
+                    `;
+
+                // Add click event to navigate to the product view
+                // productCard.querySelector('.card-title').addEventListener('click', function () {
+                //     const productName = encodeURIComponent(this.getAttribute('data-product-name'));
+                //     window.location.href = `/Home/product?name=${productName}`;
+                // });
+
+                productCard.addEventListener('click', function () {
+                    const productName = encodeURIComponent(product.name); // Pass the product name
+                    window.location.href = `/Home/product?name=${productName}`;
+                });
+                productContainer.appendChild(productCard);
+            });
+        } catch (error) {
+            console.error('Error fetching products:', error);
+            const productContainer = document.getElementById('product-container');
+            productContainer.innerHTML = `<p class="text-center text-danger">An error occurred while loading products. Please try again later.</p>`;
+        } finally {
+            // Hide loading spinner after fetching and products are loaded
+            document.getElementById('loading-spinner-container').style.display = 'none';
+        }
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.js"></script>

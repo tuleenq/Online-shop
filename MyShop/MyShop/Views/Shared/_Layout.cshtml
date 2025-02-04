@@ -1,0 +1,841 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SoundWave</title>
+    @* <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> 
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+     <link rel="stylesheet" href="~/WebApplication1.styles.css" asp-append-version="true" /> *@
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Instruments Shop</title>
+
+    <style>
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+
+                body {
+                    margin: 0;
+                    padding: 0;
+                    height: 100vh;
+                }
+
+
+                .container-fluid {
+                    width: 100%;
+                    padding-left: 0 !important;
+                    padding-right: 0 !important;
+                }
+
+                .row {
+                    margin-left: 0 !important;
+                    margin-right: 0 !important;
+                }
+
+        .navbar-nav {
+            display: flex;
+            align-items: center; /* This ensures all items are vertically centered */
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center; /* Ensures that each item is vertically aligned */
+        }
+                .navbar {
+                    background-color: #000;
+                    padding: 1rem;
+                    align-items: center;
+                }
+
+                .navbar-brand {
+                    font-weight: bold;
+                    color: #fff;
+                    align-items: center;
+                }
+
+                .navbar .form-control {
+                    flex-grow: 1;
+                    align-items: center;
+                }
+
+                .navbar .btn-search {
+                    background-color: #c3002f;
+                    color: #fff;
+                }
+
+                .category-section {
+                    
+                    background-color: #f8f9fa;
+                    padding-left: 0 !important;
+                    padding-right: 0 !important;
+                    width : 100%
+                }
+
+                    .category-section h3 {
+                        text-align: center;
+                        margin-bottom: 1.5rem;
+                        padding-left: 0 !important;
+                        padding-right: 0 !important;
+                        width: 100%
+                    }
+
+                .category-item img {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                }
+
+                .category-item {
+                    text-align: center;
+                }
+
+                .membership-section {
+                    background-color: #000;
+                    color: #fff;
+                    text-align: center;
+                    
+                }
+
+                .footer {
+                    background-color: #000;
+                    color: #fff;
+                    padding: 2rem 0;
+                    width: 100%;
+                }
+
+                    .footer .column-title {
+                        font-weight: bold;
+                        margin-bottom: 1rem;
+                    }
+
+                    .footer a {
+                        color: #fff;
+                        text-decoration: none;
+                    }
+
+                        .footer a:hover {
+                            text-decoration: underline;
+                        }
+
+                    .footer .subscribe-input {
+                        flex-grow: 1;
+                    }
+
+                .feature {
+                    text-align: center;
+                    margin-top: 1rem;
+                }
+
+                    .feature img {
+                        height: 40px;
+                    }
+
+                .instrument-name {
+                    transition: transform 0.3s ease, color 0.3s ease;
+                    font-weight: bold;
+                    text-align: center;
+                }
+
+                    /* Hover effect: scale up and change color to red */
+                    .instrument-name:hover {
+                        transform: scale(1.2); /* Makes the text "pop out" */
+                        color: red; /* Changes the text color to red */
+                        cursor: pointer; /* Adds a pointer cursor on hover */
+                    }
+
+        .card {
+            background-color: lightgrey;
+        }
+
+        .card-img-top {
+            object-fit: contain;
+            width: 100%;
+            height: 80%; /* Adjust height automatically */
+            background-color: white;
+        }
+
+        .container {
+            display: flex;
+            padding: 20px;
+            position: relative;
+        }
+
+        .left {
+            flex: 2;
+            padding-right: 20px;
+        }
+
+            .left #product-images img {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+        .right {
+            flex: 1;
+            position: sticky;
+            top: 20px;
+            background: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+
+            .right h1 {
+                font-size: 1.5em;
+            }
+
+            .right p {
+                margin: 10px 0;
+            }
+
+            .right button {
+                width: 100%;
+                padding: 10px;
+                background: #444;
+                color: #fff;
+                border: none;
+                cursor: pointer;
+            }
+
+                .right button:disabled {
+                    background: #ccc;
+                    cursor: not-allowed;
+                }
+
+        .description {
+            padding: 20px;
+            background: #fff;
+            border-top: 1px solid #ddd;
+        }
+
+            .description h2 {
+                margin-top: 0;
+            }
+
+        /* Modal container */
+        .moddal {
+            display: none; /* Hidden by default */
+            position: fixed;
+            top: 0;
+            right: 0; /* Align the modal to the right */
+            width: 400px; /* Fixed width */
+            height: 100%; /* Full height */
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+            z-index: 1000; /* Ensure it's above other content */
+            overflow-y: auto; /* Enable scrolling for long content */
+        }
+
+        /* Modal content */
+        .modal-Content {
+            position: relative;
+            height: 100%; /* Full height */
+            background: #fff; /* Modal background */
+            padding: 20px;
+            border-radius: 10px 0 0 10px; /* Rounded corners on the left */
+            box-shadow: -2px 0 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+            font-family: Arial, sans-serif;
+        }
+
+        /* Close button */
+        .close-btn {
+            position: absolute;
+            top: 15px;
+            left: 15px; /* Align close button on the left of modal content */
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            cursor: pointer;
+        }
+
+        /* Cart item styles */
+        .cart-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+            .cart-item img {
+                width: 60px;
+                height: 60px;
+                object-fit: cover;
+                border-radius: 5px;
+                margin-right: 10px;
+            }
+
+        .item-details {
+            flex-grow: 1;
+        }
+
+        .item-name {
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+            margin: 0;
+        }
+
+        .item-price {
+            font-size: 14px;
+            color: #777;
+            margin: 5px 0;
+        }
+
+        .delete-icon {
+            font-size: 18px;
+            color: red;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        /* Free shipping message */
+        .free-shipping-message {
+            text-align: center;
+            font-size: 14px;
+            color: green;
+            margin: 15px 0;
+        }
+
+        /* Checkout button */
+        .checkout-btn {
+            width: calc(100% - 40px); /* Full width with padding */
+            padding: 12px;
+            background-color: #b30000; /* Darker red background */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+        }
+
+            .checkout-btn:hover {
+                background-color: #800000; /* Even darker red on hover */
+            }
+
+       
+        .moddall {
+            display: block;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1050;
+            width: 100%;
+            max-width: 400px; /* Adjust based on your design */
+            height: auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+     </style>
+   
+</head>
+<body> 
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="/Home/Index" style="display: inline-block; text-align: right;">
+                <div style="position: relative;">
+                    <span style="font-size: 1.5em;">
+                    S<img src="~/Images/audio-waves.png" alt="O" style="width: 0.9em; height: 0.9em; vertical-align: middle;">und<img src="~/Images/sound (2).png" alt="W" style="width: 1.9em; height: 1.9em; vertical-align: middle;">ave
+                    </span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <form class="d-flex ms-auto" id="searchForm">
+                    <input id="searchInput" class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                    <button class="btn btn-search" type="submit">Search</button>
+                </form>
+
+            <ul class="navbar-nav ms-3">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="shopByCategory" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Shop by Category
+                    </a>
+                      <ul class="dropdown-menu" aria-labelledby="shopByCategory" id="categoryDropdown">
+                            <li><a class="dropdown-item" href="#" data-category="Guitars">Guitars</a></li>
+                            <li><a class="dropdown-item" href="#" data-category="Keyboards & Pianos">Keyboards & Pianos</a></li>
+                            <li><a class="dropdown-item" href="#" data-category="Drums & Percussion">Drums & Percussion</a></li>
+                            <li><a class="dropdown-item" href="#" data-category="Pro Audio">Pro Audio</a></li>
+                            <li><a class="dropdown-item" href="#" data-category="Orchestra">Orchestra</a></li>
+                            <li><a class="dropdown-item" href="#" data-category="Accessories">Accessories</a></li>
+                      </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="shopByBrand" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Shop by Brand
+                    </a>
+                        <ul class="dropdown-menu" aria-labelledby="shopByBrand" id="brandDropdown">
+                            <li><a class="dropdown-item" href="#" data-brand="Yamaha">Yamaha</a></li>
+                            <li><a class="dropdown-item" href="#" data-brand="Fender">Fender</a></li>
+                            <li><a class="dropdown-item" href="#" data-brand="Gibson">Gibson</a></li>
+                            <li><a class="dropdown-item" href="#" data-brand="Roland">Roland</a></li>
+                            <li><a class="dropdown-item" href="#" data-brand="Casio">Casio</a></li>
+                            <li><a class="dropdown-item" href="#" data-brand="Other">Other</a></li>
+                    </ul>
+                </li>
+                    <li class="nav-item" id="authNavItem">
+                        <!-- Login/Signup or Username dynamically populated here -->
+                    </li>
+                <li class="nav-item">
+                        <button class="nav-link text-white" onclick="openCartModal()" style="background: none; border: none; padding: 0;">
+                            <img src="~/Images/shopping-cart (1).png" alt="Cart" style="width: 50px; height: 50px;  margin-top: 2px;">
+                    </button>>
+                </li>
+            </ul>
+        </div>
+
+            <div id="shoppingCartModal" class="moddal">
+                <div class="modal-Content">
+                    <span class="close-btn" onclick="closeModal()">&times;</span>
+                    <h2>Your Cart</h2>
+                    <div id="cartItems">
+                        <!-- Cart items will be dynamically loaded here -->
+                    </div>
+                    <div class="free-shipping-message" id="freeShippingMessage" style="display: none;">
+                        You are eligible for free shipping!
+                    </div>
+                    <button id="checkoutBtn" class="checkout-btn" onclick="redirectToPayment()">Checkout</button>
+                </div>
+            </div>
+
+
+
+            <!-- Login/Signup Modal -->
+            <div class="modal fade" id="loginSignupModal" tabindex="-1" aria-labelledby="loginSignupModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="loginSignupModalLabel">Login to My Account</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- Login Form -->
+                            <form id="loginForm">
+                                <div class="mb-3">
+                                    <label for="loginEmail" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="loginEmail" placeholder="Enter your email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="loginPassword" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="loginPassword" placeholder="Enter your password">
+                                </div>
+                                <button type="submit" class="btn btn-danger w-100">Login</button>
+                                <div class="form-switch-link">
+                                    <p>Don't have an account? <a href="#" id="showSignupForm">Signup</a></p>
+                                </div>
+                            </form>
+
+                            <!-- Signup Form (Hidden by Default) -->
+                            <form id="signupForm" style="display: none;">
+                                <div class="mb-3">
+                                    <label for="signupEmail" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="signupEmail" placeholder="Enter your email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="signupPassword" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="signupPassword" placeholder="Enter your password">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter your Name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="adress" class="form-label">Adress</label>
+                                    <input type="text" class="form-control" id="adress" placeholder="Enter Your Adress">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Phone</label>
+                                    <input type="text" class="form-control" id="phone" placeholder="Enter Your Phone Number">
+                                </div>
+
+                                <button type="submit" class="btn btn-danger w-100">Signup</button>
+                                <div class="form-switch-link">
+                                    <p>Already have an account? <a href="#" id="showLoginForm">Login</a></p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </nav>
+</header>
+
+    
+    <div class="container-fluid">
+        <main role="main" class="pb-3" style="min-height:600px">
+            @RenderBody()
+        </main>
+    </div>
+    
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/js/JavaScript.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+   
+</body>
+
+<footer>
+    <div class="footer">
+
+        <div class="row">
+            <div class="col-md-4">
+                <h5 class="column-title">About SoundWave</h5>
+                <p>SoundWave is a professional dedicated online store for musical instruments and pro audio equipment in the MENA region.</p>
+            </div>
+            <div class="col-md-4">
+                <h5 class="column-title">Information</h5>
+                <ul class="list-unstyled">
+                    <li><a href="/Home/About">About Us</a></li>
+                    <li><a href="/Home/Contact">Contact Us</a></li>
+                    <li><a href="/Home/Privacy">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</footer>
+</html>
+<script>
+
+    document.getElementById("searchForm").addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        // Get the user's input from the search box
+        const searchInput = document.getElementById("searchInput").value;
+
+        // Store the search input in local storage
+        localStorage.setItem("searchQuery", searchInput);
+
+        // Redirect to the search view
+        window.location.href = '/Home/Search'; // Update this URL if needed
+    });
+
+    function redirectToPayment() {
+        window.location.href = '/Home/Payment';
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const dropdownItems = document.querySelectorAll('#categoryDropdown .dropdown-item');
+
+        dropdownItems.forEach(item => {
+            item.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                // Save the selected category to localStorage
+                const categoryName = this.getAttribute('data-category');
+                localStorage.setItem('selectedCategory', categoryName);
+
+                // Redirect to the SearchList view
+                window.location.href = '/Home/SearchList';
+            });
+        });
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const brandItems = document.querySelectorAll('#brandDropdown .dropdown-item');
+
+        brandItems.forEach(item => {
+            item.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                // Save the selected brand to localStorage
+                const brandName = this.getAttribute('data-brand');
+                localStorage.setItem('selectedBrand', brandName);
+
+                // Redirect to the SearchList view
+                window.location.href = '/Home/SearchBrand';
+            });
+        });
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const loginForm = document.getElementById("loginForm");
+        const signupForm = document.getElementById("signupForm");
+        const loginSignupModalLabel = document.getElementById("loginSignupModalLabel");
+        const authNavItem = document.querySelector('.navbar-nav .nav-item:nth-last-child(2)'); // Login/Signup nav item
+
+        // Function to update the navbar based on login state
+        function updateNavbar() {
+            const userInfo = JSON.parse(localStorage.getItem("userInfo"));
+
+            if (authNavItem) {
+                if (userInfo && userInfo.user.name) {
+                    // Replace Login/Signup with user dropdown
+                    authNavItem.innerHTML = `
+                        <div class="dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Hey, ${userInfo.user.name}
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="userDropdown">
+                                <li><a class="dropdown-item" href="#" id="logoutButton">Logout</a></li>
+                            </ul>
+                        </div>`;
+
+                    // Add logout functionality dynamically
+                    document.getElementById("logoutButton")?.addEventListener("click", handleLogout);
+                } else {
+                    // Default to Login/Signup
+                    authNavItem.innerHTML = `
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#loginSignupModal">Login / Signup</a>`;
+                }
+            }
+        }
+
+        // Handle logout action
+        function handleLogout() {
+            localStorage.removeItem("userInfo");
+            updateNavbar(); // Update navbar immediately
+            alert("You have been logged out.");
+        }
+       
+
+            document.getElementById("showSignupForm").addEventListener("click", function (e) {
+                e.preventDefault(); // Prevent default link behavior
+                loginForm.style.display = "none";
+                signupForm.style.display = "block";
+                document.getElementById("loginSignupModalLabel").textContent = "Create an Account";
+            });
+
+            document.getElementById("showLoginForm").addEventListener("click", function (e) {
+                e.preventDefault(); // Prevent default link behavior
+                signupForm.style.display = "none";
+                loginForm.style.display = "block";
+                document.getElementById("loginSignupModalLabel").textContent = "Login to My Account";
+            });
+       
+
+
+        // Handle login form submission
+        loginForm?.addEventListener("submit", async function (event) {
+            event.preventDefault();
+
+            const email = document.getElementById("loginEmail").value.trim();
+            const password = document.getElementById("loginPassword").value.trim();
+
+            if (!email || !password) {
+                alert("Please enter both email and password.");
+                return;
+            }
+
+            try {
+                const response = await fetch("https://localhost:7298/api/Authentication/register", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({ email, password }),
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+                    localStorage.setItem("userInfo", JSON.stringify(result));
+                    updateNavbar(); // Update navbar immediately
+                    
+                    bootstrap.Modal.getInstance(document.getElementById("loginSignupModal"))?.hide();
+                } else {
+                    alert("Invalid email or password.");
+                }
+            } catch (error) {
+                console.error("Error during login:", error);
+                alert("An error occurred while logging in.");
+            }
+        });
+
+        // Handle signup form submission
+        document.getElementById("signupForm").addEventListener("submit", async function (event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            // Collect input values
+            const email = document.getElementById("signupEmail").value;
+            const password = document.getElementById("signupPassword").value;
+            const name = document.getElementById("name").value;
+            const address = document.getElementById("adress").value;
+            const phone = document.getElementById("phone").value;
+
+            try {
+                // Send POST request to the API
+                const response = await fetch('https://localhost:7298/api/Authentication/login', { // Update the API endpoint if needed
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        Email: email,
+                        Password: password,
+                        Name: name,
+                        Address: address,
+                        Number: phone
+                    })
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+                    console.log("Signup successful:", result);
+
+                    // Show a success message to the user
+                    
+
+                    // Redirect to the home page or another desired page
+                    document.getElementById("signupForm").style.display = "none";
+                    document.getElementById("loginForm").style.display = "block";
+                } else if (response.status === 400) {
+                    const errorData = await response.json();
+                    console.error("Signup failed:", errorData);
+                    alert("Signup failed. Please check your inputs and try again.");
+                } else {
+                    console.error("Signup failed with status:", response.status);
+                    alert("An unexpected error occurred. Please try again later.");
+                }
+            } catch (error) {
+                console.error("An error occurred:", error);
+                alert("Unable to connect to the server. Please check your connection.");
+            }
+        });
+
+        // Initial navbar setup
+        updateNavbar();
+    });
+    function openCartModal() {
+        const userInfo = JSON.parse(localStorage.getItem("userInfo")); // Get user info from local storage
+        if (userInfo && userInfo.user.id) {
+            fetchCartItems(userInfo.user.id); // Fetch cart items using the user ID
+        } else {
+            alert("Please log in to view your cart.");
+        }
+    }
+
+    // Close the shopping cart modal
+    function closeModal() {
+        document.getElementById("shoppingCartModal").style.display = "none";
+    }
+
+
+
+    // Fetch cart items from the API
+    async function fetchCartItems(userId) {
+        try {
+            const response = await fetch("https://localhost:7298/api/ShoppingCart/view", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    UserId: userId
+                })
+            });
+
+            console.log("Response Status:", response.status);
+
+            // Try to parse JSON even if there's an error
+            let responseBody;
+            try {
+                responseBody = await response.json();
+            } catch (jsonError) {
+                console.error("Error parsing JSON:", jsonError);
+                const text = await response.text();
+                console.log("Response Text:", text);
+                alert("Error: " + text); // Show plain text error message to the user
+                return;
+            }
+
+            if (!response.ok) {
+                throw new Error('Failed to fetch cart items');
+            }
+
+            displayCartItems(responseBody);
+        } catch (error) {
+            console.error("Error fetching cart items:", error);
+            alert("Error fetching cart items.");
+        }
+    }
+
+    // Display cart items in the modal
+    function displayCartItems(cartItems) {
+        const cartItemsContainer = document.getElementById("cartItems");
+        cartItemsContainer.innerHTML = "";
+
+        if (cartItems.length === 0) {
+            cartItemsContainer.innerHTML = "<p>Your cart is empty.</p>";
+        } else {
+            cartItems.forEach(item => {
+                const itemElement = document.createElement("div");
+                itemElement.classList.add("cart-item");
+
+                const imageFormat = item.imageFormat || 'jpeg'; // Fallback to 'jpeg' if format is not provided
+
+                // Check if the imageData exists and handle accordingly
+                const image = item.imageData ? `data:image/${imageFormat};base64,${item.imageData}`
+                    : "/images/default-image.png";
+
+                // Convert ImageData to a base64 string if it exists
+                // const image = item.ImageData ? `data:image/png;base64,${btoa(String.fromCharCode.apply(null, new Uint8Array(item.ImageData)))}`
+                //     : "/images/default-image.png";
+                itemElement.innerHTML = `
+                    <img src="${image}" alt="${item.name}" style="width: 50px; height: 50px;">
+                    <p>${item.name}</p>
+                    <p>Price: $${item.price}</p>
+                    <p>Quantity: ${item.quantity}</p>
+                        <button class="delete-icon" data-product="${item.name}" style="background: none; border: none; color: red; cursor: pointer;">
+                        🗑️
+                    </button>
+                           
+                `;
+
+                const deleteButton = itemElement.querySelector(".delete-icon");
+                deleteButton.addEventListener("click", () => deleteCartItem(item.name));
+
+                cartItemsContainer.appendChild(itemElement);
+            });
+        }
+        document.getElementById("shoppingCartModal").style.display = "block";
+    }
+    async function deleteCartItem(productName) {
+        const userInfo = JSON.parse(localStorage.getItem("userInfo")); // Get user info from local storage
+
+        if (!userInfo || !userInfo.user.id) {
+            alert("Please log in to remove items from your cart.");
+            return;
+        }
+
+        const userId = userInfo.user.id;
+
+        try {
+            const response = await fetch("https://localhost:7298/api/ShoppingCart/delete", {
+                method: "DELETE",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    UserId: userId,
+                    ProductName: productName
+                })
+            });
+
+            if (response.ok) {
+                
+                // Optionally, refresh the cart after deletion
+                fetchCartItems(userId);
+            } else {
+                throw new Error("Failed to delete item from cart");
+            }
+        } catch (error) {
+            console.error("Error deleting item:", error);
+            alert("Error removing item from cart.");
+        }
+    }
+</script>

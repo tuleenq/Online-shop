@@ -1,0 +1,215 @@
+﻿@{
+    ViewData["Title"] = "electricguid";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    ViewData["Title"] = "Beginner Electric Guitar Guide";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* General Styles */
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    /* Header Phrase Styles */
+    .header-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .header-phrase h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    /* Main Content Styles */
+    main {
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    section {
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        color: #d32f2f; /* Red */
+        border-bottom: 2px solid #d32f2f; /* Red */
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .content-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .content-card {
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .content-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .content-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .content-card h3 {
+        margin: 15px;
+        color: #333;
+    }
+
+    .content-card p, .content-card ul {
+        margin: 0 15px 15px;
+        color: #555;
+    }
+
+    .content-card ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    /* Footer Phrase Styles */
+    .footer-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner Electric Guitar Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Phrase -->
+    <div class="header-phrase">
+        <h1>Beginner Electric Guitar Guide</h1>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Section 1: Choosing Your First Guitar -->
+        <section class="choosing-guitar">
+            <h2>1. Choosing Your First Guitar</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/wallet-2292428_1280.jpg" alt="Affordable Guitars">
+                    <h3>Affordable Options</h3>
+                    <p>Look for beginner-friendly models like the <strong>Squier Stratocaster</strong> or <strong>Yamaha Pacifica</strong>. They’re affordable and reliable.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/workshop-4524838_1280.jpg" alt="Comfortable Guitars">
+                    <h3>Comfort is Key</h3>
+                    <p>Choose a guitar with a comfortable body shape and lightweight design, perfect for long practice sessions.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/headphones-4595492_1280.jpg" alt="Starter Packs">
+                    <h3>Starter Packs</h3>
+                    <p>Consider a beginner bundle that includes a guitar, amp, strap, and cable, such as the <strong>Epiphone Player Pack</strong>.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Basic Guitar Components -->
+        <section class="guitar-components">
+            <h2>2. Basic Guitar Components</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Body Types</h3>
+                    <ul>
+                        <li><strong>Solid Body:</strong> Great for most genres, like rock and pop.</li>
+                        <li><strong>Semi-Hollow:</strong> Adds a bit of warmth, good for blues.</li>
+                    </ul>
+                </div>
+                <div class="content-card">
+                    <h3>Pickups</h3>
+                    <ul>
+                        <li><strong>Single-Coil:</strong> Bright and crisp tones, ideal for clean sounds.</li>
+                        <li><strong>Humbuckers:</strong> Thicker, warm tones, great for rock and metal.</li>
+                    </ul>
+                </div>
+                <div class="content-card">
+                    <h3>Strings</h3>
+                    <ul>
+                        <li><strong>Gauge:</strong> Start with light gauge strings (like .009 or .010) for easier playability.</li>
+                        <li><strong>Material:</strong> Nickel-wound strings are a versatile choice.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Practice Essentials -->
+        <section class="practice-essentials">
+            <h2>3. Practice Essentials</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Tuner</h3>
+                    <p>Get a clip-on tuner or use a smartphone app to ensure your guitar is always in tune.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Amplifier</h3>
+                    <p>Start with a small practice amp like the <strong>Fender Mustang LT25</strong> or a portable amp like the <strong>Boss Katana Mini</strong>.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Accessories</h3>
+                    <p>Don’t forget picks, a strap, a guitar cable, and a soft case for easy transport.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Recommended Guitars -->
+        <section class="recommended-guitars">
+            <h2>4. Recommended Electric Guitars for Beginners</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/guitar-5980431_1280.jpg" alt="Squier Stratocaster">
+                    <h3>Squier Stratocaster</h3>
+                    <p>An affordable, versatile guitar with a classic design.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/electric-guitar-1846583_1280.jpg" alt="Yamaha Pacifica">
+                    <h3>Yamaha Pacifica</h3>
+                    <p>Perfect for beginners with excellent playability and tone.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/epiphone-953251_1280.jpg" alt="Epiphone Les Paul Special II">
+                    <h3>Epiphone Les Paul Special II</h3>
+                    <p>A budget-friendly option with warm humbucker tones.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Phrase -->
+    <div class="footer-phrase">
+        <p>Start Your Guitar Journey Today!</p>
+    </div>
+</body>
+</html>

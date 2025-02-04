@@ -1,0 +1,2055 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Downloads\\MyShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\authentication\\commands\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\authentication\\commands\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\controllers\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\controllers\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\product\\query\\searchproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\product\\query\\searchproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\middleware\\requestresponseloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\middleware\\requestresponseloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\filters\\validateparametersattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\filters\\validateparametersattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\middleware\\globalexceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\middleware\\globalexceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A943C52B-03F3-4FD1-9020-FC4E63DA42BC}|..\\Solution1\\product.Tests\\product.Tests.csproj|c:\\users\\user\\downloads\\solution1\\product.tests\\controllers\\product\\testproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\authentication\\commands\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\authentication\\commands\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|c:\\users\\user\\downloads\\myshop\\myshop.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|solutionrelative:myshop.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC78A8F9-BA93-4C5B-BE16-AF56C20B7354}|MyShop.Domain\\MyShop.Domain.csproj|c:\\users\\user\\downloads\\myshop\\myshop.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC78A8F9-BA93-4C5B-BE16-AF56C20B7354}|MyShop.Domain\\MyShop.Domain.csproj|solutionrelative:myshop.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\payment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\shopingcart\\queries\\viewcartquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\shopingcart\\queries\\viewcartquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\myshop.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\myshop.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\myshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\myshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\controllers\\productcontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\controllers\\productcontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\product\\commands\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\product\\commands\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\searchlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\searchlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\searchbrand.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\searchbrand.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\brasspro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\brasspro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\brassbeg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\brassbeg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\stringspro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\stringspro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\stringsbeg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\stringsbeg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\guide.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\guide.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\delepro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\delepro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\dacousticpro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\dacousticpro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\delebeg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\delebeg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\dacosticbeg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\dacosticbeg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\handpro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\handpro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\handbeg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\handbeg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\bassbeg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\bassbeg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\acousticpro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\acousticpro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\acousticpeg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\acousticpeg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\basspro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\basspro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\electricguid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\electricguid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\proelectric.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\proelectric.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\contact\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\contact\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC78A8F9-BA93-4C5B-BE16-AF56C20B7354}|MyShop.Domain\\MyShop.Domain.csproj|c:\\users\\user\\downloads\\myshop\\myshop.domain\\entities\\contactformmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC78A8F9-BA93-4C5B-BE16-AF56C20B7354}|MyShop.Domain\\MyShop.Domain.csproj|solutionrelative:myshop.domain\\entities\\contactformmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\controllers\\apicontrollercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\controllers\\apicontrollercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\shopingcart\\commands\\addtocartcommand .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\shopingcart\\commands\\addtocartcommand .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\payment\\commands\\processpaymentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\payment\\commands\\processpaymentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\helpers\\usershelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\helpers\\usershelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\logs\\log20250122.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\logs\\log20250122.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A943C52B-03F3-4FD1-9020-FC4E63DA42BC}|..\\Solution1\\product.Tests\\product.Tests.csproj|c:\\users\\user\\downloads\\solution1\\product.tests\\controllers\\auth\\testauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A943C52B-03F3-4FD1-9020-FC4E63DA42BC}|..\\Solution1\\product.Tests\\product.Tests.csproj|c:\\users\\user\\downloads\\solution1\\product.tests\\product.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC78A8F9-BA93-4C5B-BE16-AF56C20B7354}|MyShop.Domain\\MyShop.Domain.csproj|c:\\users\\user\\downloads\\myshop\\myshop.domain\\entities\\productreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC78A8F9-BA93-4C5B-BE16-AF56C20B7354}|MyShop.Domain\\MyShop.Domain.csproj|solutionrelative:myshop.domain\\entities\\productreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\product\\query\\updatereviewcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\product\\query\\updatereviewcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC78A8F9-BA93-4C5B-BE16-AF56C20B7354}|MyShop.Domain\\MyShop.Domain.csproj|c:\\users\\user\\downloads\\myshop\\myshop.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC78A8F9-BA93-4C5B-BE16-AF56C20B7354}|MyShop.Domain\\MyShop.Domain.csproj|solutionrelative:myshop.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC78A8F9-BA93-4C5B-BE16-AF56C20B7354}|MyShop.Domain\\MyShop.Domain.csproj|c:\\users\\user\\downloads\\myshop\\myshop.domain\\entities\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC78A8F9-BA93-4C5B-BE16-AF56C20B7354}|MyShop.Domain\\MyShop.Domain.csproj|solutionrelative:myshop.domain\\entities\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\helpers\\tokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\helpers\\tokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\product\\query\\getproductsbycategoryandbrandquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\product\\query\\getproductsbycategoryandbrandquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\product\\commands\\createproductcommand\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\product\\commands\\createproductcommand\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC78A8F9-BA93-4C5B-BE16-AF56C20B7354}|MyShop.Domain\\MyShop.Domain.csproj|c:\\users\\user\\downloads\\myshop\\myshop.domain\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC78A8F9-BA93-4C5B-BE16-AF56C20B7354}|MyShop.Domain\\MyShop.Domain.csproj|solutionrelative:myshop.domain\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC78A8F9-BA93-4C5B-BE16-AF56C20B7354}|MyShop.Domain\\MyShop.Domain.csproj|c:\\users\\user\\downloads\\myshop\\myshop.domain\\entities\\ctegory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC78A8F9-BA93-4C5B-BE16-AF56C20B7354}|MyShop.Domain\\MyShop.Domain.csproj|solutionrelative:myshop.domain\\entities\\ctegory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\brand\\createbrandcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\brand\\createbrandcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\category\\commands\\createcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\category\\commands\\createcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20250117204106_addcattopro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyShop.Infrastructure\\Migrations\\20250117204106_addcattopro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20250117203836_addbrandstoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyShop.Infrastructure\\Migrations\\20250117203836_addbrandstoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\product\\query\\getproductbynamequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\product\\query\\getproductbynamequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\shopingcart\\commands\\removefromcartcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\shopingcart\\commands\\removefromcartcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\product\\query\\getprobycatquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\product\\query\\getprobycatquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|c:\\users\\user\\downloads\\myshop\\myshop.infrastructure\\myshop.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|solutionrelative:myshop.infrastructure\\myshop.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\product\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\product\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\myshop.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\myshop.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\mockdata\\productmd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\mockdata\\productmd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\helpers\\fileuploadoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\helpers\\fileuploadoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\product\\commands\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\product\\commands\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|c:\\users\\user\\downloads\\myshop\\myshop.infrastructure\\migrations\\20241117112239_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|solutionrelative:myshop.infrastructure\\migrations\\20241117112239_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|c:\\users\\user\\downloads\\myshop\\myshop.infrastructure\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|solutionrelative:myshop.infrastructure\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\wwwroot\\lib\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\wwwroot\\lib\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\wwwroot\\lib\\lib\\jquery\\dist\\jquery.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\wwwroot\\lib\\lib\\jquery\\dist\\jquery.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.js.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.js.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\wwwroot\\css\\authentication.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\wwwroot\\css\\authentication.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\users\\commands\\updateusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\users\\commands\\updateusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\users\\queries\\getallusersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\users\\queries\\getallusersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\users\\commands\\deleteusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\users\\commands\\deleteusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\product\\query\\veiwproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\product\\query\\veiwproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\product\\query\\getproductbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\product\\query\\getproductbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\users\\queries\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\users\\queries\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\users\\commands\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\users\\commands\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\category\\queries\\getcategoryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\category\\queries\\getcategoryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|c:\\users\\user\\downloads\\myshop\\myshop.infrastructure\\dependencyinjuction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|solutionrelative:myshop.infrastructure\\dependencyinjuction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC78A8F9-BA93-4C5B-BE16-AF56C20B7354}|MyShop.Domain\\MyShop.Domain.csproj|c:\\users\\user\\downloads\\myshop\\myshop.domain\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC78A8F9-BA93-4C5B-BE16-AF56C20B7354}|MyShop.Domain\\MyShop.Domain.csproj|solutionrelative:myshop.domain\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|c:\\users\\user\\downloads\\myshop\\myshop.application\\helpers\\userhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4013951-240F-40F2-8BA6-5BE75D2E7946}|MyShop.Application\\MyShop.Application.csproj|solutionrelative:myshop.application\\helpers\\userhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|c:\\users\\user\\downloads\\myshop\\myshop\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{86C6147D-1BB7-4C4A-B083-DB87FA1E08D1}|MyShop\\MyShop.csproj|solutionrelative:myshop\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20241117110631_AddCategoryTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyShop.Infrastructure\\Migrations\\20241117110631_AddCategoryTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20241117105852_AddCategoryToProductsRelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyShop.Infrastructure\\Migrations\\20241117105852_AddCategoryToProductsRelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20241117104656_AddCategoryToProductsRelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyShop.Infrastructure\\Migrations\\20241117104656_AddCategoryToProductsRelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20241117103752_FixDuplicateCtegoryIdColumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyShop.Infrastructure\\Migrations\\20241117103752_FixDuplicateCtegoryIdColumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20241117103352_FixDuplicateCtegoryIdColumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyShop.Infrastructure\\Migrations\\20241117103352_FixDuplicateCtegoryIdColumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20241117103232_AddCategoryToProductsRelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyShop.Infrastructure\\Migrations\\20241117103232_AddCategoryToProductsRelationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20241117085943_AddCatTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyShop.Infrastructure\\Migrations\\20241117085943_AddCatTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|c:\\users\\user\\downloads\\myshop\\myshop.infrastructure\\migrations\\20250105155728_nullablecolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|solutionrelative:myshop.infrastructure\\migrations\\20250105155728_nullablecolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|c:\\users\\user\\downloads\\myshop\\myshop.infrastructure\\migrations\\20250105155055_dropcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|solutionrelative:myshop.infrastructure\\migrations\\20250105155055_dropcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|c:\\users\\user\\downloads\\myshop\\myshop.infrastructure\\migrations\\20250108105353_addprokey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|solutionrelative:myshop.infrastructure\\migrations\\20250108105353_addprokey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|c:\\users\\user\\downloads\\myshop\\myshop.infrastructure\\migrations\\20250108082203_addimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|solutionrelative:myshop.infrastructure\\migrations\\20250108082203_addimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|c:\\users\\user\\downloads\\myshop\\myshop.infrastructure\\migrations\\20250112214459_updateshopping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|solutionrelative:myshop.infrastructure\\migrations\\20250112214459_updateshopping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|c:\\users\\user\\downloads\\myshop\\myshop.infrastructure\\migrations\\20250117204333_addcattopro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|solutionrelative:myshop.infrastructure\\migrations\\20250117204333_addcattopro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|c:\\users\\user\\downloads\\myshop\\myshop.infrastructure\\migrations\\20250119014840_revtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|solutionrelative:myshop.infrastructure\\migrations\\20250119014840_revtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|c:\\users\\user\\downloads\\myshop\\myshop.infrastructure\\migrations\\20250118213258_addrevtopro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76CE608E-A79A-415A-A581-805AD97D198A}|MyShop.Infrastructure\\MyShop.Infrastructure.csproj|solutionrelative:myshop.infrastructure\\migrations\\20250118213258_addrevtopro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "MyShop.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "MyShop.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwBkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:32:08.268Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "MyShop\\Controllers\\ShoppingCartController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "MyShop\\Controllers\\ShoppingCartController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T00:32:59.926Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TestProducts.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Solution1\\product.Tests\\Controllers\\product\\TestProducts.cs",
+              "RelativeDocumentMoniker": "..\\Solution1\\product.Tests\\Controllers\\product\\TestProducts.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\Solution1\\product.Tests\\Controllers\\product\\TestProducts.cs",
+              "RelativeToolTip": "..\\Solution1\\product.Tests\\Controllers\\product\\TestProducts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T00:36:53.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "MyShop\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "MyShop\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAA7wD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T14:05:44.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SearchProductsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Product\\Query\\SearchProductsQuery.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Product\\Query\\SearchProductsQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Product\\Query\\SearchProductsQuery.cs",
+              "RelativeToolTip": "MyShop.Application\\Product\\Query\\SearchProductsQuery.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAwwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T22:26:30.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Authentication.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Controllers\\Authentication.cs",
+              "RelativeDocumentMoniker": "MyShop\\Controllers\\Authentication.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Controllers\\Authentication.cs",
+              "RelativeToolTip": "MyShop\\Controllers\\Authentication.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T08:38:11.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Authentication\\Commands\\RegisterCommand.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Authentication\\Commands\\RegisterCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Authentication\\Commands\\RegisterCommand.cs",
+              "RelativeToolTip": "MyShop.Application\\Authentication\\Commands\\RegisterCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T11:03:09.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "search.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\search.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\search.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\search.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\search.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T19:20:59.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GlobalExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Middleware\\GlobalExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "MyShop\\Middleware\\GlobalExceptionHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Middleware\\GlobalExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "MyShop\\Middleware\\GlobalExceptionHandlerMiddleware.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T09:23:17.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ValidateParametersAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Filters\\ValidateParametersAttribute.cs",
+              "RelativeDocumentMoniker": "MyShop\\Filters\\ValidateParametersAttribute.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Filters\\ValidateParametersAttribute.cs",
+              "RelativeToolTip": "MyShop\\Filters\\ValidateParametersAttribute.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T00:40:08.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RequestResponseLoggingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Middleware\\RequestResponseLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "MyShop\\Middleware\\RequestResponseLoggingMiddleware.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Middleware\\RequestResponseLoggingMiddleware.cs",
+              "RelativeToolTip": "MyShop\\Middleware\\RequestResponseLoggingMiddleware.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwFAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T07:52:24.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Authentication\\Commands\\LoginUserCommand.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Authentication\\Commands\\LoginUserCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Authentication\\Commands\\LoginUserCommand.cs",
+              "RelativeToolTip": "MyShop.Application\\Authentication\\Commands\\LoginUserCommand.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAwwBMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T08:40:02.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MyShop.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MyShop.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T00:50:53.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "products.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\products.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\products.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\products.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\products.cshtml",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAK0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T00:00:22.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "payment.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\payment.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\payment.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\payment.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\payment.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAKoCAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T20:28:48.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-29T10:05:39.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAPsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T01:33:44.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANsCAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T01:33:03.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ViewCartQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\ShopingCart\\Queries\\ViewCartQuery.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\ShopingCart\\Queries\\ViewCartQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\ShopingCart\\Queries\\ViewCartQuery.cs",
+              "RelativeToolTip": "MyShop.Application\\ShopingCart\\Queries\\ViewCartQuery.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T19:05:47.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "MyShop\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "MyShop\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T06:34:38.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "MyShop\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "MyShop\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T23:10:16.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "product.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\product.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\product.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\product.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\product.cshtml",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAswAIBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-11T23:21:11.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MyShop.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\MyShop.Application.csproj",
+              "RelativeDocumentMoniker": "MyShop.Application\\MyShop.Application.csproj",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\MyShop.Application.csproj",
+              "RelativeToolTip": "MyShop.Application\\MyShop.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-17T09:18:13.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MyShop.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\MyShop.csproj",
+              "RelativeDocumentMoniker": "MyShop\\MyShop.csproj",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\MyShop.csproj",
+              "RelativeToolTip": "MyShop\\MyShop.csproj",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-01T01:41:00.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\appsettings.json",
+              "RelativeDocumentMoniker": "MyShop\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\appsettings.json",
+              "RelativeToolTip": "MyShop\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAACjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-12T00:47:59.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductController1.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Controllers\\ProductController1.cs",
+              "RelativeDocumentMoniker": "MyShop\\Controllers\\ProductController1.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Controllers\\ProductController1.cs",
+              "RelativeToolTip": "MyShop\\Controllers\\ProductController1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T21:32:17.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DeleteProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Product\\Commands\\DeleteProductCommand.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Product\\Commands\\DeleteProductCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Product\\Commands\\DeleteProductCommand.cs",
+              "RelativeToolTip": "MyShop.Application\\Product\\Commands\\DeleteProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T08:25:44.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "searchlist.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\searchlist.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\searchlist.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\searchlist.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\searchlist.cshtml",
+              "ViewState": "AgIAAHIAAAAAAAAAAIBJwG4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T23:37:44.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SearchBrand.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\SearchBrand.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\SearchBrand.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\SearchBrand.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\SearchBrand.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAIBJwF0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T00:54:41.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Program.cs",
+              "RelativeDocumentMoniker": "MyShop\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Program.cs",
+              "RelativeToolTip": "MyShop\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAIBJwIMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T23:51:19.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "dacosticbeg.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\dacosticbeg.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\dacosticbeg.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\dacosticbeg.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\dacosticbeg.cshtml",
+              "ViewState": "AgIAALYAAAAAAAAAAAAkwMUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T23:45:02.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Guide.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\Guide.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\Guide.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\Guide.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\Guide.cshtml",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAkwPYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-19T13:25:03.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "stringsbeg.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\stringsbeg.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\stringsbeg.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\stringsbeg.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\stringsbeg.cshtml",
+              "ViewState": "AgIAALUAAAAAAAAAAAAkwLwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T22:29:43.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "brassbeg.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\brassbeg.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\brassbeg.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\brassbeg.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\brassbeg.cshtml",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAkwL0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T22:30:14.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "brasspro.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\brasspro.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\brasspro.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\brasspro.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\brasspro.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T22:30:30.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "stringspro.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\stringspro.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\stringspro.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\stringspro.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\stringspro.cshtml",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAkwIAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T22:29:59.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MyShop\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MyShop\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAiwJoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T01:35:12.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "handpro.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\handpro.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\handpro.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\handpro.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\handpro.cshtml",
+              "ViewState": "AgIAALwAAAAAAAAAAAAkwMwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T23:34:14.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "dacousticpro.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\dacousticpro.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\dacousticpro.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\dacousticpro.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\dacousticpro.cshtml",
+              "ViewState": "AgIAALwAAAAAAAAAAAAkwNMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T23:45:20.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "delebeg.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\delebeg.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\delebeg.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\delebeg.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\delebeg.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAIBJwIAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T23:44:28.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "delepro.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\delepro.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\delepro.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\delepro.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\delepro.cshtml",
+              "ViewState": "AgIAALMAAAAAAAAAAAAkwMIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T23:44:43.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "handbeg.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\handbeg.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\handbeg.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\handbeg.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\handbeg.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAIBJwMUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T23:33:59.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "bassbeg.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\bassbeg.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\bassbeg.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\bassbeg.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\bassbeg.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-19T17:44:00.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "acousticpeg.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\acousticpeg.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\acousticpeg.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\acousticpeg.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\acousticpeg.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-19T17:43:27.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "acousticpro.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\acousticpro.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\acousticpro.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\acousticpro.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\acousticpro.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-19T17:43:45.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "basspro.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\basspro.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\basspro.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\basspro.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\basspro.cshtml",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAuwMkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-19T17:44:12.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "electricguid.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\electricguid.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\electricguid.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\electricguid.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\electricguid.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAIBJwIQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-19T16:00:41.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "proelectric.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\proelectric.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\proelectric.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\proelectric.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\proelectric.cshtml",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAuwNsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-19T17:42:18.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-09T23:27:25.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAIBJwFEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T22:57:45.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ContactFormModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Domain\\Entities\\ContactFormModel.cs",
+              "RelativeDocumentMoniker": "MyShop.Domain\\Entities\\ContactFormModel.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Domain\\Entities\\ContactFormModel.cs",
+              "RelativeToolTip": "MyShop.Domain\\Entities\\ContactFormModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T23:09:32.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Contact\\Contact.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Contact\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Contact\\Contact.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Contact\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-25T19:45:36.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAkwGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T20:51:50.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MyShop\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MyShop\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABgAAAAAAAAAAAAiwCwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-15T02:05:12.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ApiControllercs.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Controllers\\ApiControllercs.cs",
+              "RelativeDocumentMoniker": "MyShop\\Controllers\\ApiControllercs.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Controllers\\ApiControllercs.cs",
+              "RelativeToolTip": "MyShop\\Controllers\\ApiControllercs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T06:34:58.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "MyShop\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "MyShop\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T09:09:25.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "MyShop\\Controllers\\BrandController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "MyShop\\Controllers\\BrandController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T20:54:00.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AddToCartCommand .cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\ShopingCart\\Commands\\AddToCartCommand .cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\ShopingCart\\Commands\\AddToCartCommand .cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\ShopingCart\\Commands\\AddToCartCommand .cs",
+              "RelativeToolTip": "MyShop.Application\\ShopingCart\\Commands\\AddToCartCommand .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T19:05:29.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "MyShop\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "MyShop\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T09:09:30.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ProcessPaymentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Payment\\Commands\\ProcessPaymentCommand.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Payment\\Commands\\ProcessPaymentCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Payment\\Commands\\ProcessPaymentCommand.cs",
+              "RelativeToolTip": "MyShop.Application\\Payment\\Commands\\ProcessPaymentCommand.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwDoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T19:05:58.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "UsersHelper.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Helpers\\UsersHelper.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Helpers\\UsersHelper.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Helpers\\UsersHelper.cs",
+              "RelativeToolTip": "MyShop.Application\\Helpers\\UsersHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T21:44:11.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "log20250122.txt",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\logs\\log20250122.txt",
+              "RelativeDocumentMoniker": "MyShop\\logs\\log20250122.txt",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\logs\\log20250122.txt",
+              "RelativeToolTip": "MyShop\\logs\\log20250122.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-22T07:59:12.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "TestAuth.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Solution1\\product.Tests\\Controllers\\Auth\\TestAuth.cs",
+              "RelativeDocumentMoniker": "..\\Solution1\\product.Tests\\Controllers\\Auth\\TestAuth.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\Solution1\\product.Tests\\Controllers\\Auth\\TestAuth.cs",
+              "RelativeToolTip": "..\\Solution1\\product.Tests\\Controllers\\Auth\\TestAuth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwEoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:23:50.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "product.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\Solution1\\product.Tests\\product.Tests.csproj",
+              "RelativeDocumentMoniker": "..\\Solution1\\product.Tests\\product.Tests.csproj",
+              "ToolTip": "C:\\Users\\user\\Downloads\\Solution1\\product.Tests\\product.Tests.csproj",
+              "RelativeToolTip": "..\\Solution1\\product.Tests\\product.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-17T20:31:45.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Domain\\Entities\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "MyShop.Domain\\Entities\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Domain\\Entities\\ShoppingCart.cs",
+              "RelativeToolTip": "MyShop.Domain\\Entities\\ShoppingCart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T21:37:51.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ProductReview.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Domain\\Entities\\ProductReview.cs",
+              "RelativeDocumentMoniker": "MyShop.Domain\\Entities\\ProductReview.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Domain\\Entities\\ProductReview.cs",
+              "RelativeToolTip": "MyShop.Domain\\Entities\\ProductReview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T01:44:15.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 125,
+              "Title": "20250119014840_revtable.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20250119014840_revtable.cs",
+              "RelativeDocumentMoniker": "MyShop.Infrastructure\\Migrations\\20250119014840_revtable.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20250119014840_revtable.cs",
+              "RelativeToolTip": "MyShop.Infrastructure\\Migrations\\20250119014840_revtable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T01:48:40.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "UpdateReviewCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Product\\Query\\UpdateReviewCommand.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Product\\Query\\UpdateReviewCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Product\\Query\\UpdateReviewCommand.cs",
+              "RelativeToolTip": "MyShop.Application\\Product\\Query\\UpdateReviewCommand.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAkwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T21:36:23.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "MyShop.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "MyShop.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA0wA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T07:39:53.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "TokenHelper.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Helpers\\TokenHelper.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Helpers\\TokenHelper.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Helpers\\TokenHelper.cs",
+              "RelativeToolTip": "MyShop.Application\\Helpers\\TokenHelper.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAnwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T07:22:45.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 126,
+              "Title": "20250118213258_addrevtopro.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20250118213258_addrevtopro.cs",
+              "RelativeDocumentMoniker": "MyShop.Infrastructure\\Migrations\\20250118213258_addrevtopro.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20250118213258_addrevtopro.cs",
+              "RelativeToolTip": "MyShop.Infrastructure\\Migrations\\20250118213258_addrevtopro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T21:32:58.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "GetProductsByCategoryAndBrandQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Product\\Query\\GetProductsByCategoryAndBrandQuery.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Product\\Query\\GetProductsByCategoryAndBrandQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Product\\Query\\GetProductsByCategoryAndBrandQuery.cs",
+              "RelativeToolTip": "MyShop.Application\\Product\\Query\\GetProductsByCategoryAndBrandQuery.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAIBZwEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T23:11:24.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "CreateProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Product\\Commands\\CreateProductCommand\\CreateProductCommand.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Product\\Commands\\CreateProductCommand\\CreateProductCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Product\\Commands\\CreateProductCommand\\CreateProductCommand.cs",
+              "RelativeToolTip": "MyShop.Application\\Product\\Commands\\CreateProductCommand\\CreateProductCommand.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAIBZwFwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T03:12:59.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "CreateBrandCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Brand\\CreateBrandCommand.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Brand\\CreateBrandCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Brand\\CreateBrandCommand.cs",
+              "RelativeToolTip": "MyShop.Application\\Brand\\CreateBrandCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T20:48:53.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Ctegory.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Domain\\Entities\\Ctegory.cs",
+              "RelativeDocumentMoniker": "MyShop.Domain\\Entities\\Ctegory.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Domain\\Entities\\Ctegory.cs",
+              "RelativeToolTip": "MyShop.Domain\\Entities\\Ctegory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T08:57:16.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Domain\\Entities\\Brand.cs",
+              "RelativeDocumentMoniker": "MyShop.Domain\\Entities\\Brand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Domain\\Entities\\Brand.cs",
+              "RelativeToolTip": "MyShop.Domain\\Entities\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T20:35:19.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "CreateCategoryCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Category\\commands\\CreateCategoryCommand.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Category\\commands\\CreateCategoryCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Category\\commands\\CreateCategoryCommand.cs",
+              "RelativeToolTip": "MyShop.Application\\Category\\commands\\CreateCategoryCommand.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAEBdwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T09:01:35.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "MyShop.Application\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T09:18:49.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 124,
+              "Title": "20250117204333_addcattopro.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20250117204333_addcattopro.cs",
+              "RelativeDocumentMoniker": "MyShop.Infrastructure\\Migrations\\20250117204333_addcattopro.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20250117204333_addcattopro.cs",
+              "RelativeToolTip": "MyShop.Infrastructure\\Migrations\\20250117204333_addcattopro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T20:43:34.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "20250117204106_addcattopro.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20250117204106_addcattopro.cs",
+              "RelativeDocumentMoniker": "MyShop.Infrastructure\\Migrations\\20250117204106_addcattopro.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20250117204106_addcattopro.cs",
+              "RelativeToolTip": "MyShop.Infrastructure\\Migrations\\20250117204106_addcattopro.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T20:41:06.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "20250117203836_addbrandstoproduct.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20250117203836_addbrandstoproduct.cs",
+              "RelativeDocumentMoniker": "MyShop.Infrastructure\\Migrations\\20250117203836_addbrandstoproduct.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20250117203836_addbrandstoproduct.cs",
+              "RelativeToolTip": "MyShop.Infrastructure\\Migrations\\20250117203836_addbrandstoproduct.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T20:38:36.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "GetProductByNameQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Product\\Query\\GetProductByNameQuery.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Product\\Query\\GetProductByNameQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Product\\Query\\GetProductByNameQuery.cs",
+              "RelativeToolTip": "MyShop.Application\\Product\\Query\\GetProductByNameQuery.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwCUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T06:55:45.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "RemoveFromCartCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\ShopingCart\\Commands\\RemoveFromCartCommand.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\ShopingCart\\Commands\\RemoveFromCartCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\ShopingCart\\Commands\\RemoveFromCartCommand.cs",
+              "RelativeToolTip": "MyShop.Application\\ShopingCart\\Commands\\RemoveFromCartCommand.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAmwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T19:05:37.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "GetProByCatQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Product\\Query\\GetProByCatQuery.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Product\\Query\\GetProByCatQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Product\\Query\\GetProByCatQuery.cs",
+              "RelativeToolTip": "MyShop.Application\\Product\\Query\\GetProByCatQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T10:43:01.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "MyShop.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\MyShop.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "MyShop.Infrastructure\\MyShop.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\MyShop.Infrastructure.csproj",
+              "RelativeToolTip": "MyShop.Infrastructure\\MyShop.Infrastructure.csproj",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwBwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-01T02:34:29.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 123,
+              "Title": "20250112214459_updateshopping.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20250112214459_updateshopping.cs",
+              "RelativeDocumentMoniker": "MyShop.Infrastructure\\Migrations\\20250112214459_updateshopping.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20250112214459_updateshopping.cs",
+              "RelativeToolTip": "MyShop.Infrastructure\\Migrations\\20250112214459_updateshopping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T21:45:00.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "products.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Product\\products.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\Product\\products.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\Product\\products.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\Product\\products.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-09T19:33:00.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "MyShop.http",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\MyShop.http",
+              "RelativeDocumentMoniker": "MyShop\\MyShop.http",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\MyShop.http",
+              "RelativeToolTip": "MyShop\\MyShop.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-08T12:00:36.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "ProductMD.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\MockData\\ProductMD.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\MockData\\ProductMD.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\MockData\\ProductMD.cs",
+              "RelativeToolTip": "MyShop.Application\\MockData\\ProductMD.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvyUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T10:53:29.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 121,
+              "Title": "20250108105353_addprokey.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20250108105353_addprokey.cs",
+              "RelativeDocumentMoniker": "MyShop.Infrastructure\\Migrations\\20250108105353_addprokey.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20250108105353_addprokey.cs",
+              "RelativeToolTip": "MyShop.Infrastructure\\Migrations\\20250108105353_addprokey.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T10:53:53.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "FileUploadOperationFilter.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Helpers\\FileUploadOperationFilter.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Helpers\\FileUploadOperationFilter.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Helpers\\FileUploadOperationFilter.cs",
+              "RelativeToolTip": "MyShop.Application\\Helpers\\FileUploadOperationFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T08:31:57.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "UpdateProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Product\\Commands\\UpdateProductCommand.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Product\\Commands\\UpdateProductCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Product\\Commands\\UpdateProductCommand.cs",
+              "RelativeToolTip": "MyShop.Application\\Product\\Commands\\UpdateProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAACBjwAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T19:04:59.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 122,
+              "Title": "20250108082203_addimage.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20250108082203_addimage.cs",
+              "RelativeDocumentMoniker": "MyShop.Infrastructure\\Migrations\\20250108082203_addimage.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20250108082203_addimage.cs",
+              "RelativeToolTip": "MyShop.Infrastructure\\Migrations\\20250108082203_addimage.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T08:22:03.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "MyShop.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "MyShop.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAACBjwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T11:23:41.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": "20250105155728_nullablecolumn.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20250105155728_nullablecolumn.cs",
+              "RelativeDocumentMoniker": "MyShop.Infrastructure\\Migrations\\20250105155728_nullablecolumn.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20250105155728_nullablecolumn.cs",
+              "RelativeToolTip": "MyShop.Infrastructure\\Migrations\\20250105155728_nullablecolumn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T15:57:28.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 120,
+              "Title": "20250105155055_dropcolumn.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20250105155055_dropcolumn.cs",
+              "RelativeDocumentMoniker": "MyShop.Infrastructure\\Migrations\\20250105155055_dropcolumn.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20250105155055_dropcolumn.cs",
+              "RelativeToolTip": "MyShop.Infrastructure\\Migrations\\20250105155055_dropcolumn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T15:50:55.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "20241117112239_init.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20241117112239_init.cs",
+              "RelativeDocumentMoniker": "MyShop.Infrastructure\\Migrations\\20241117112239_init.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20241117112239_init.cs",
+              "RelativeToolTip": "MyShop.Infrastructure\\Migrations\\20241117112239_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUBAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T11:22:39.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "Authentication.css",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\wwwroot\\css\\Authentication.css",
+              "RelativeDocumentMoniker": "MyShop\\wwwroot\\css\\Authentication.css",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\wwwroot\\css\\Authentication.css",
+              "RelativeToolTip": "MyShop\\wwwroot\\css\\Authentication.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-28T02:13:18.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "MyShop\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "MyShop\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-28T02:13:34.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "MyShop\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeToolTip": "MyShop\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-30T21:12:33.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "bootstrap.bundle.js",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeDocumentMoniker": "MyShop\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeToolTip": "MyShop\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-30T21:14:07.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "bootstrap.esm.js",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+              "RelativeDocumentMoniker": "MyShop\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+              "RelativeToolTip": "MyShop\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-30T21:14:10.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "bootstrap.js.map",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+              "RelativeDocumentMoniker": "MyShop\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+              "RelativeToolTip": "MyShop\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-30T21:14:12.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "jquery.js",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\wwwroot\\lib\\lib\\jquery\\dist\\jquery.js",
+              "RelativeDocumentMoniker": "MyShop\\wwwroot\\lib\\lib\\jquery\\dist\\jquery.js",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\wwwroot\\lib\\lib\\jquery\\dist\\jquery.js",
+              "RelativeToolTip": "MyShop\\wwwroot\\lib\\lib\\jquery\\dist\\jquery.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-30T21:16:23.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "jquery.min.js",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\wwwroot\\lib\\lib\\jquery\\dist\\jquery.min.js",
+              "RelativeDocumentMoniker": "MyShop\\wwwroot\\lib\\lib\\jquery\\dist\\jquery.min.js",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\wwwroot\\lib\\lib\\jquery\\dist\\jquery.min.js",
+              "RelativeToolTip": "MyShop\\wwwroot\\lib\\lib\\jquery\\dist\\jquery.min.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-30T21:16:41.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MyShop\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MyShop\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T01:35:42.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "UpdateUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Users\\commands\\UpdateUserCommand.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Users\\commands\\UpdateUserCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Users\\commands\\UpdateUserCommand.cs",
+              "RelativeToolTip": "MyShop.Application\\Users\\commands\\UpdateUserCommand.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T19:05:06.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "GetAllUsersQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Users\\Queries\\GetAllUsersQuery.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Users\\Queries\\GetAllUsersQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Users\\Queries\\GetAllUsersQuery.cs",
+              "RelativeToolTip": "MyShop.Application\\Users\\Queries\\GetAllUsersQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T19:05:21.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "DeleteUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Users\\commands\\DeleteUserCommand.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Users\\commands\\DeleteUserCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Users\\commands\\DeleteUserCommand.cs",
+              "RelativeToolTip": "MyShop.Application\\Users\\commands\\DeleteUserCommand.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T19:05:10.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "VeiwProductsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Product\\Query\\VeiwProductsQuery.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Product\\Query\\VeiwProductsQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Product\\Query\\VeiwProductsQuery.cs",
+              "RelativeToolTip": "MyShop.Application\\Product\\Query\\VeiwProductsQuery.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswBwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T22:29:13.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "GetUserByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Users\\Queries\\GetUserByIdQuery.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Users\\Queries\\GetUserByIdQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Users\\Queries\\GetUserByIdQuery.cs",
+              "RelativeToolTip": "MyShop.Application\\Users\\Queries\\GetUserByIdQuery.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T19:05:19.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Users\\commands\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Users\\commands\\CreateUserCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Users\\commands\\CreateUserCommand.cs",
+              "RelativeToolTip": "MyShop.Application\\Users\\commands\\CreateUserCommand.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T07:54:02.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "GetProductByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Product\\Query\\GetProductByIdQuery.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Product\\Query\\GetProductByIdQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Product\\Query\\GetProductByIdQuery.cs",
+              "RelativeToolTip": "MyShop.Application\\Product\\Query\\GetProductByIdQuery.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T22:26:32.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "GetCategoryQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Category\\Queries\\GetCategoryQuery.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Category\\Queries\\GetCategoryQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Category\\Queries\\GetCategoryQuery.cs",
+              "RelativeToolTip": "MyShop.Application\\Category\\Queries\\GetCategoryQuery.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T06:43:42.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "MyShop.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAACBjwBIAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T07:17:47.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "DependencyInjuction.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\DependencyInjuction.cs",
+              "RelativeDocumentMoniker": "MyShop.Infrastructure\\DependencyInjuction.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\DependencyInjuction.cs",
+              "RelativeToolTip": "MyShop.Infrastructure\\DependencyInjuction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T11:21:23.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Domain\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "MyShop.Domain\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Domain\\DependencyInjection.cs",
+              "RelativeToolTip": "MyShop.Domain\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T09:17:26.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "MyShop\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\DependencyInjection.cs",
+              "RelativeToolTip": "MyShop\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T09:17:15.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "UserHelper.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Helpers\\UserHelper.cs",
+              "RelativeDocumentMoniker": "MyShop.Application\\Helpers\\UserHelper.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Application\\Helpers\\UserHelper.cs",
+              "RelativeToolTip": "MyShop.Application\\Helpers\\UserHelper.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T07:41:21.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MyShop\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop\\appsettings.Development.json",
+              "RelativeToolTip": "MyShop\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-17T11:21:47.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "20241117110631_AddCategoryTable.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20241117110631_AddCategoryTable.cs",
+              "RelativeDocumentMoniker": "MyShop.Infrastructure\\Migrations\\20241117110631_AddCategoryTable.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20241117110631_AddCategoryTable.cs",
+              "RelativeToolTip": "MyShop.Infrastructure\\Migrations\\20241117110631_AddCategoryTable.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T11:06:32.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "20241117105852_AddCategoryToProductsRelationship.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20241117105852_AddCategoryToProductsRelationship.cs",
+              "RelativeDocumentMoniker": "MyShop.Infrastructure\\Migrations\\20241117105852_AddCategoryToProductsRelationship.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20241117105852_AddCategoryToProductsRelationship.cs",
+              "RelativeToolTip": "MyShop.Infrastructure\\Migrations\\20241117105852_AddCategoryToProductsRelationship.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T10:58:52.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "20241117104656_AddCategoryToProductsRelationship.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20241117104656_AddCategoryToProductsRelationship.cs",
+              "RelativeDocumentMoniker": "MyShop.Infrastructure\\Migrations\\20241117104656_AddCategoryToProductsRelationship.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20241117104656_AddCategoryToProductsRelationship.cs",
+              "RelativeToolTip": "MyShop.Infrastructure\\Migrations\\20241117104656_AddCategoryToProductsRelationship.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T10:46:56.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "20241117103752_FixDuplicateCtegoryIdColumn.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20241117103752_FixDuplicateCtegoryIdColumn.cs",
+              "RelativeDocumentMoniker": "MyShop.Infrastructure\\Migrations\\20241117103752_FixDuplicateCtegoryIdColumn.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20241117103752_FixDuplicateCtegoryIdColumn.cs",
+              "RelativeToolTip": "MyShop.Infrastructure\\Migrations\\20241117103752_FixDuplicateCtegoryIdColumn.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T10:37:52.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "20241117103352_FixDuplicateCtegoryIdColumn.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20241117103352_FixDuplicateCtegoryIdColumn.cs",
+              "RelativeDocumentMoniker": "MyShop.Infrastructure\\Migrations\\20241117103352_FixDuplicateCtegoryIdColumn.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20241117103352_FixDuplicateCtegoryIdColumn.cs",
+              "RelativeToolTip": "MyShop.Infrastructure\\Migrations\\20241117103352_FixDuplicateCtegoryIdColumn.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T10:33:52.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "20241117103232_AddCategoryToProductsRelationship.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20241117103232_AddCategoryToProductsRelationship.cs",
+              "RelativeDocumentMoniker": "MyShop.Infrastructure\\Migrations\\20241117103232_AddCategoryToProductsRelationship.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20241117103232_AddCategoryToProductsRelationship.cs",
+              "RelativeToolTip": "MyShop.Infrastructure\\Migrations\\20241117103232_AddCategoryToProductsRelationship.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T10:32:33.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": "20241117085943_AddCatTable.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20241117085943_AddCatTable.cs",
+              "RelativeDocumentMoniker": "MyShop.Infrastructure\\Migrations\\20241117085943_AddCatTable.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\MyShop\\MyShop.Infrastructure\\Migrations\\20241117085943_AddCatTable.cs",
+              "RelativeToolTip": "MyShop.Infrastructure\\Migrations\\20241117085943_AddCatTable.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T08:59:44.195Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

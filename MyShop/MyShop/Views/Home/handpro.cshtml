@@ -1,0 +1,211 @@
+﻿@{
+    ViewData["Title"] = "Professional Hand Drum Guide";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* General Styles */
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    /* Header Phrase Styles */
+    .header-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .header-phrase h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    /* Main Content Styles */
+    main {
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    section {
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        color: #d32f2f; /* Red */
+        border-bottom: 2px solid #d32f2f; /* Red */
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .content-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .content-card {
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .content-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .content-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .content-card h3 {
+        margin: 15px;
+        color: #333;
+    }
+
+    .content-card p, .content-card ul {
+        margin: 0 15px 15px;
+        color: #555;
+    }
+
+    .content-card ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    /* Footer Phrase Styles */
+    .footer-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Hand Drum Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Phrase -->
+    <div class="header-phrase">
+        <h1>Professional Hand Drum Guide</h1>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Section 1: Selecting the Right Hand Drum -->
+        <section class="choosing-drum">
+            <h2>1. Selecting the Right Hand Drum</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/djembe-2413970_1280.jpg" alt="Djembe Drum">
+                    <h3>Djembe</h3>
+                    <p>A versatile choice for intricate rhythms. Opt for a professional-grade djembe with a hardwood body and premium goat skin head.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/conga-4590194_1280.jpg" alt="Conga Drum">
+                    <h3>Conga</h3>
+                    <p>Ideal for Latin and Afro-Cuban styles. Invest in a matched pair (quinto and tumba) made from quality wood and hardware.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/tape-1582143_1280.jpg" alt="Bongo Drums">
+                    <h3>Bongos</h3>
+                    <p>Compact and precise, professional bongos should have robust tuning mechanisms and natural drumheads.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Advanced Playing Techniques -->
+        <section class="advanced-techniques">
+            <h2>2. Advanced Playing Techniques</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Complex Rhythms</h3>
+                    <ul>
+                        <li>Master polyrhythms and syncopation for dynamic performances.</li>
+                        <li>Explore traditional rhythms from various cultures.</li>
+                    </ul>
+                </div>
+                <div class="content-card">
+                    <h3>Sound Variation</h3>
+                    <ul>
+                        <li>Experiment with hand placement and striking angles to alter tones.</li>
+                        <li>Incorporate finger rolls and slaps for expressive dynamics.</li>
+                    </ul>
+                </div>
+                <div class="content-card">
+                    <h3>Ensemble Techniques</h3>
+                    <ul>
+                        <li>Learn to blend with other instruments and percussionists.</li>
+                        <li>Focus on maintaining consistent timing and volume balance.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Accessories for Professionals -->
+        <section class="accessories">
+            <h2>3. Accessories for Professionals</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>High-Quality Cases</h3>
+                    <p>Protect your investment with durable, padded cases designed for your drum type.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Drum Tuning Tools</h3>
+                    <p>Maintain optimal sound with tuning wrenches and tension adjusters.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Microphones</h3>
+                    <p>Use professional drum mics for live performances and recordings.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Recommended Professional Drums -->
+        <section class="recommended-drums">
+            <h2>4. Recommended Professional Drums</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/prodjemba.jpg" alt="Professional Djembe">
+                    <h3>Professional Djembe</h3>
+                    <p>Handcrafted with premium materials for exceptional tonal range and durability.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/highconga.jpg" alt="High-End Congas">
+                    <h3>High-End Congas</h3>
+                    <p>Designed for experts, these drums deliver deep, resonant bass and crisp highs.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/prembonga.jpg" alt="Premium Bongos">
+                    <h3>Premium Bongos</h3>
+                    <p>Crafted for precise articulation, ideal for studio recordings and live performances.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Phrase -->
+    <div class="footer-phrase">
+        <p>Elevate Your Hand Drumming Skills Today!</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,211 @@
+﻿@{
+    ViewData["Title"] = "Professional Guide for Acoustic Drums";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* General Styles */
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    /* Header Phrase Styles */
+    .header-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .header-phrase h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    /* Main Content Styles */
+    main {
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    section {
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        color: #d32f2f; /* Red */
+        border-bottom: 2px solid #d32f2f; /* Red */
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .content-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .content-card {
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .content-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .content-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .content-card h3 {
+        margin: 15px;
+        color: #333;
+    }
+
+    .content-card p, .content-card ul {
+        margin: 0 15px 15px;
+        color: #555;
+    }
+
+    .content-card ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    /* Footer Phrase Styles */
+    .footer-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Guide for Acoustic Drums</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Phrase -->
+    <div class="header-phrase">
+        <h1>Professional Guide for Acoustic Drums</h1>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Section 1: Advanced Drum Kit Setup -->
+        <section class="advanced-setup">
+            <h2>1. Advanced Drum Kit Setup</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/pro-drum.jpg" alt="Professional Drum Kit">
+                    <h3>Optimized Kit Configuration</h3>
+                    <p>Learn how to configure your drum kit for peak performance, focusing on the positioning of toms, cymbals, and the snare drum for maximum comfort and sound quality.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/pads.jpg" alt="High-Quality Drum Pads">
+                    <h3>Professional Drum Pads</h3>
+                    <p>Upgrade your kit with high-quality drum pads for enhanced responsiveness and durability, allowing for precise and controlled playing.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/prem-crym.jpg" alt="Premium Cymbals">
+                    <h3>Premium Cymbals</h3>
+                    <p>Explore the top-tier cymbals for professional drummers. These cymbals offer distinct tonal ranges, ideal for studio recordings and live performances.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Mastering Advanced Drumming Techniques -->
+        <section class="advanced-techniques">
+            <h2>2. Mastering Advanced Drumming Techniques</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Complex Rhythmic Structures</h3>
+                    <ul>
+                        <li>Master complex time signatures and polyrhythms.</li>
+                        <li>Integrate advanced hand and foot coordination for seamless rhythm execution.</li>
+                    </ul>
+                </div>
+                <div class="content-card">
+                    <h3>Speed and Precision</h3>
+                    <ul>
+                        <li>Develop control over fast single and double strokes for high-speed drumming.</li>
+                        <li>Improve accuracy with ghost notes and subtle dynamic control.</li>
+                    </ul>
+                </div>
+                <div class="content-card">
+                    <h3>Dynamic Expressiveness</h3>
+                    <ul>
+                        <li>Utilize dynamics effectively in various styles from jazz to metal.</li>
+                        <li>Explore advanced techniques like rimshots, buzz rolls, and polyrhythmic phrasing.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Tuning and Drum Maintenance -->
+        <section class="drum-tuning-maintenance">
+            <h2>3. Drum Tuning and Maintenance</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Advanced Tuning Techniques</h3>
+                    <p>Perfect the art of tuning your drums to achieve a rich, resonant sound tailored to your specific playing style.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Drumhead Selection</h3>
+                    <p>Understand the different types of drumheads and their impact on tone, response, and durability.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Regular Maintenance</h3>
+                    <p>Ensure your drum kit remains in top condition with regular cleaning, maintenance, and drumhead replacement schedules.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Recommended Professional Drum Kits -->
+        <section class="recommended-pro-drums">
+            <h2>4. Recommended Professional Drum Kits</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/prof-kit.jpg" alt="Professional Acoustic Drum Kit">
+                    <h3>High-End Acoustic Drum Kit</h3>
+                    <p>A handcrafted, premium acoustic kit designed for professional drummers who demand impeccable sound quality and precision.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/custom-snar.jpg" alt="Custom Snare Drum">
+                    <h3>Custom Snare Drum</h3>
+                    <p>Upgrade your snare with a custom-made drum for unique tonal characteristics, designed for elite performances.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/vintage.jpeg" alt="Vintage Drum Kit">
+                    <h3>Vintage Drum Set</h3>
+                    <p>A sought-after vintage drum set, perfect for drummers looking for warm, vintage tones in both studio and live settings.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Phrase -->
+    <div class="footer-phrase">
+        <p>Perfect Your Drumming Skills with the Best Equipment!</p>
+    </div>
+</body>
+</html>

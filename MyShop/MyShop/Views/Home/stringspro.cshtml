@@ -1,0 +1,207 @@
+﻿@{
+    ViewData["Title"] = "Professional Guide to Orchestra Strings";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* General Styles */
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    /* Header Phrase Styles */
+    .header-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .header-phrase h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    /* Main Content Styles */
+    main {
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    section {
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        color: #d32f2f; /* Red */
+        border-bottom: 2px solid #d32f2f; /* Red */
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .content-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .content-card {
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .content-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .content-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .content-card h3 {
+        margin: 15px;
+        color: #333;
+    }
+
+    .content-card p, .content-card ul {
+        margin: 0 15px 15px;
+        color: #555;
+    }
+
+    .content-card ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    /* Footer Phrase Styles */
+    .footer-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Guide to Orchestra Strings</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Phrase -->
+    <div class="header-phrase">
+        <h1>Professional Guide to Orchestra Strings</h1>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Section 1: Mastering the Instruments -->
+        <section class="instrument-guide">
+            <h2>1. Mastering the Instruments</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/violin-6708567_1280.jpg" alt="Violin">
+                    <h3>Violin</h3>
+                    <p>Refine your skills with advanced techniques like vibrato, harmonics, and intricate bowing patterns.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/instrument-3208416_1280.jpg" alt="Viola">
+                    <h3>Viola</h3>
+                    <p>Master the art of blending and leading with the viola, focusing on its rich midrange tones.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/cello-521172_1280.jpg"Cello">
+                    <h3>Cello</h3>
+                    <p>Develop advanced techniques such as thumb position and flawless legato phrasing on the cello.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/Double_Bass__In2.jpg" alt="Double Bass">
+                    <h3>Double Bass</h3>
+                    <p>Excel in orchestral and solo performances with advanced bowing techniques and fingerboard mastery.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Advanced Techniques -->
+        <section class="advanced-techniques">
+            <h2>2. Advanced Techniques</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Bowing Artistry</h3>
+                    <p>Master advanced bowing styles such as spiccato, sautillé, and ricochet for expressive performance.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Left-Hand Fluency</h3>
+                    <p>Enhance dexterity with finger independence exercises and rapid shifting techniques.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Dynamic Control</h3>
+                    <p>Achieve nuanced dynamics from pianissimo to fortissimo, adapting to the demands of any composition.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Instrument Care and Tuning -->
+        <section class="maintenance-guide">
+            <h2>3. Instrument Care and Tuning</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>String Selection</h3>
+                    <p>Choose professional-grade strings tailored to your instrument and preferred tonal qualities.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Tuning Precision</h3>
+                    <p>Utilize fine tuners and advanced tuning techniques to ensure pitch-perfect performance.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Maintaining Excellence</h3>
+                    <p>Keep your instrument in peak condition with proper cleaning, bow rehairing, and climate control.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Recommended Professional Equipment -->
+        <section class="recommended-equipment">
+            <h2>4. Recommended Professional Equipment</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/pro-violin.jpg" alt="Professional Violin">
+                    <h3>Professional Violin</h3>
+                    <p>A handcrafted violin with unmatched tonal richness and dynamic range.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/prem-cello.jpg" alt="Premium Cello">
+                    <h3>Premium Cello</h3>
+                    <p>A cello designed for concert-level performance, offering unparalleled sound clarity.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/bow.jpg" alt="Advanced Bow">
+                    <h3>Advanced Bow</h3>
+                    <p>An expertly balanced bow that enhances responsiveness and tonal expression.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Phrase -->
+    <div class="footer-phrase">
+        <p>Elevate Your Orchestral Mastery with Professional Strings!</p>
+    </div>
+</body>
+</html>

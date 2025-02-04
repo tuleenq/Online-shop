@@ -1,0 +1,173 @@
+﻿@{
+    ViewData["Title"] = "products";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    
+}
+
+@model string
+
+
+
+<div class="container">
+    <div class="row" id="product-container">
+        <!-- Product cards will be dynamically added here -->
+    </div>
+</div>
+    <div class="features-section py-4 bg-light">
+
+        <div class="row text-center">
+            <div class="col-md-3">
+                <img src="~/Images/box.png" alt="Same Day Delivery" class="mb-sm-1" style="width: 40px; height: 40px;">
+                <h5>Same Day/Next Day Delivery</h5>
+                <p>Next day delivery on most orders in Jordan - Same day available</p>
+            </div>
+            <div class="col-md-3">
+                <img src="~/Images/shopping-cart.png" alt="Biggest Selection" class="mb-2" style="width: 40px; height: 40px;">
+                <h5>Biggest Selection</h5>
+                <p>Largest collection of any store in MENA</p>
+            </div>
+            <div class="col-md-3">
+                <img src="~/Images/user-talking-with-speech-bubble.png" alt="Top-notch Support" class="mb-2" style="width: 40px; height: 40px;">
+                <h5>Top-notch Support</h5>
+                <p>We are always happy to help in any way we can</p>
+            </div>
+            <div class="col-md-3">
+                <img src="~/Images/secure-payment.png" alt="Secure Payments" class="mb-2" style="width: 40px; height: 40px;">
+                <h5>Secure Payments</h5>
+                <p>Cash on Delivery available</p>
+            </div>
+        </div>
+    </div>
+
+
+   
+
+    <!-- Login/Signup Modal -->
+    <div class="modal fade" id="loginSignupModal" tabindex="-1" aria-labelledby="loginSignupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginSignupModalLabel">Login to My Account</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Login Form -->
+                    <form id="loginForm">
+                        <div class="mb-3">
+                            <label for="loginEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="loginEmail" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="loginPassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="loginPassword" placeholder="Enter your password">
+                        </div>
+                        <button type="submit" class="btn btn-danger w-100">Login</button>
+                        <div class="form-switch-link">
+                            <p>Don't have an account? <a href="#" id="showSignupForm">Signup</a></p>
+                        </div>
+                    </form>
+
+                    <!-- Signup Form (Hidden by Default) -->
+                    <form id="signupForm" style="display: none;">
+                        <div class="mb-3">
+                            <label for="signupEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="signupEmail" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="signupPassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="signupPassword" placeholder="Enter your password">
+                        </div>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="adress" class="form-label">Adress</label>
+                            <input type="text" class="form-control" id="adress" placeholder="Enter Your Adress">
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="text" class="form-control" id="phone" placeholder="Enter Your Phone Number">
+                        </div>
+
+                        <button type="submit" class="btn btn-danger w-100">Signup</button>
+                        <div class="form-switch-link">
+                            <p>Already have an account? <a href="#" id="showLoginForm">Login</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Debugger: Pause code execution here to inspect the variables
+        debugger;
+
+        // Extract the category from the query string
+        const urlParams = new URLSearchParams(window.location.search);
+        const category = urlParams.get('category'); // Get the category
+
+        // Debugger: Pause code execution here to inspect the value of the category variable
+        debugger;
+
+        // Debugging: Check the category value
+        console.log("Category from URL:", category);  // Should log 'Guitars' or whatever is passed
+
+        if (category) {
+            fetchProducts(category);
+        } else {
+            console.log("No category selected");
+            alert("No category selected! Please try again.");
+        }
+    });
+
+    async function fetchProducts(category) {
+        // Debugger: Pause execution before making the API call to inspect the URL
+        debugger;
+
+        const encodedCategory = category;  
+
+        // Debugging: Check the final URL being formed
+        const apiUrl = `https://localhost:7298/api/Products/by-category/${encodedCategory}`;
+        console.log("API URL being called:", apiUrl);  // Check if the URL looks correct
+
+        try {
+            const response = await fetch(apiUrl);
+
+            if (!response.ok) {
+                throw new Error(`Failed to fetch products: ${response.status} ${response.statusText}`);
+            }
+
+            const products = await response.json();
+            const productContainer = document.getElementById('product-container');
+            productContainer.innerHTML = '';
+
+            if (products.length === 0) {
+                productContainer.innerHTML = `<p class="text-center">No products found for this category.</p>`;
+                return;
+            }
+
+            products.forEach((product) => {
+                const productCard = document.createElement('div');
+                productCard.className = 'col-md-4 mb-4';
+
+                productCard.innerHTML = `
+                        <div class="card h-100">
+                        <img src="${product.imageFile}" class="card-img-top" alt="${product.name}">
+                        <div class="card-body text-center">
+                        <h5 class="card-title">${product.name}</h5>
+                       <p class="card-text">$${product.price.toFixed(2)}</p>
+                     </div>
+                     </div>
+                             `;
+
+                productContainer.appendChild(productCard);
+            });
+        } catch (error) {
+            console.error('Error fetching products:', error);
+            const productContainer = document.getElementById('product-container');
+            productContainer.innerHTML = `<p class="text-center text-danger">An error occurred while loading products. Please try again later.</p>`;
+        }
+    }
+</script>

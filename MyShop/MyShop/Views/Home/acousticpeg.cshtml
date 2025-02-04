@@ -1,0 +1,215 @@
+﻿@{
+    ViewData["Title"] = "acousticpeg";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    ViewData["Title"] = "Beginner Acoustic Guitar Guide";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* General Styles */
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    /* Header Phrase Styles */
+    .header-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .header-phrase h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    /* Main Content Styles */
+    main {
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    section {
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        color: #d32f2f; /* Red */
+        border-bottom: 2px solid #d32f2f; /* Red */
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .content-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .content-card {
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .content-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .content-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .content-card h3 {
+        margin: 15px;
+        color: #333;
+    }
+
+    .content-card p, .content-card ul {
+        margin: 0 15px 15px;
+        color: #555;
+    }
+
+    .content-card ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    /* Footer Phrase Styles */
+    .footer-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner Acoustic Guitar Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Phrase -->
+    <div class="header-phrase">
+        <h1>Beginner Acoustic Guitar Guide</h1>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Section 1: Choosing Your First Acoustic Guitar -->
+        <section class="choosing-guitar">
+            <h2>1. Choosing Your First Acoustic Guitar</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/wallet-2292428_1280.jpg" alt="Affordable Guitars">
+                    <h3>Affordable Options</h3>
+                    <p>Look for reliable beginner models like <strong>Yamaha FG800</strong> or <strong>Fender FA-115</strong>.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/guitar-5836611_1280.jpg" alt="Body Shapes">
+                    <h3>Body Shapes</h3>
+                    <p>Choose a dreadnought for a full sound or a concert body for smaller hands.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/floor-1256804_1280.jpg" alt="Guitar Materials">
+                    <h3>Guitar Materials</h3>
+                    <p>Opt for guitars with solid wood tops for better tone as you improve.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Learning the Basics -->
+        <section class="learning-basics">
+            <h2>2. Learning the Basics</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Basic Chords</h3>
+                    <ul>
+                        <li>Start with easy chords like G, C, D, and E minor.</li>
+                        <li>Practice switching between chords smoothly.</li>
+                    </ul>
+                </div>
+                <div class="content-card">
+                    <h3>Strumming Patterns</h3>
+                    <ul>
+                        <li>Learn simple down-up strumming patterns.</li>
+                        <li>Focus on keeping a steady rhythm.</li>
+                    </ul>
+                </div>
+                <div class="content-card">
+                    <h3>Tuning Your Guitar</h3>
+                    <ul>
+                        <li>Use a clip-on tuner for quick and accurate tuning.</li>
+                        <li>Learn standard tuning (EADGBE).</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Essential Accessories for Beginners -->
+        <section class="practice-essentials">
+            <h2>3. Essential Accessories for Beginners</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Capo</h3>
+                    <p>A capo lets you easily play songs in different keys.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Guitar Picks</h3>
+                    <p>Experiment with different pick thicknesses to find what works best.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Guitar Stand</h3>
+                    <p>A stand keeps your guitar safe and accessible.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Recommended Beginner Acoustic Guitars -->
+        <section class="recommended-guitars">
+            <h2>4. Recommended Beginner Acoustic Guitars</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/instrument-6756408_1280.jpg" alt="Yamaha FG800">
+                    <h3>Yamaha FG800</h3>
+                    <p>Known for its excellent sound quality and affordable price.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/guitar-490310_1280.jpg" alt="Fender FA-115">
+                    <h3>Fender FA-115</h3>
+                    <p>A great entry-level guitar with a balanced tone.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/guitar-756326_1280.jpg" alt="Epiphone Dove Pro">
+                    <h3>Epiphone Dove Pro</h3>
+                    <p>Offers a classic look with great playability and sound.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Phrase -->
+    <div class="footer-phrase">
+        <p>Start Your Acoustic Guitar Journey Today!</p>
+    </div>
+</body>
+</html>

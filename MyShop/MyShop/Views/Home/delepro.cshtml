@@ -1,0 +1,208 @@
+﻿@{
+    ViewData["Title"] = "Professional Guide for Electronic Drums";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* General Styles */
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    /* Header Phrase Styles */
+    .header-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .header-phrase h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    /* Main Content Styles */
+    main {
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    section {
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        color: #d32f2f; /* Red */
+        border-bottom: 2px solid #d32f2f; /* Red */
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .content-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .content-card {
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .content-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .content-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .content-card h3 {
+        margin: 15px;
+        color: #333;
+    }
+
+    .content-card p, .content-card ul {
+        margin: 0 15px 15px;
+        color: #555;
+    }
+
+    .content-card ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    /* Footer Phrase Styles */
+    .footer-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Guide for Electronic Drums</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Phrase -->
+    <div class="header-phrase">
+        <h1>Professional Guide for Electronic Drums</h1>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Section 1: Setting Up Your Electronic Drum Kit -->
+        <section class="setup-guide">
+            <h2>1. Setting Up Your Electronic Drum Kit</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/electronic-drum-kit.jpg" alt="Electronic Drum Kit Setup">
+                    <h3>Optimizing Your Kit</h3>
+                    <p>Learn how to assemble and position your electronic drum kit for maximum comfort and performance.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/ele-module.jpg" alt="Drum Module">
+                    <h3>Understanding the Drum Module</h3>
+                    <p>A comprehensive guide to navigating your drum module settings, including sound selection, recording, and custom kits.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/trigger.jpg" alt="Trigger Pads">
+                    <h3>Trigger Pad Sensitivity</h3>
+                    <p>Adjust your trigger pad sensitivity and response for a more dynamic and expressive drumming experience.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Advanced Playing Techniques -->
+        <section class="advanced-techniques">
+            <h2>2. Advanced Playing Techniques</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Layering Sounds</h3>
+                    <p>Combine multiple sounds on a single pad for creative layering, perfect for unique live performances and recordings.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Using Built-in Effects</h3>
+                    <ul>
+                        <li>Explore reverb, delay, and other effects to enhance your playing.</li>
+                        <li>Customize effect parameters for personalized sound design.</li>
+                    </ul>
+                </div>
+                <div class="content-card">
+                    <h3>Dynamic Expression</h3>
+                    <ul>
+                        <li>Master velocity sensitivity to add nuance to your drumming.</li>
+                        <li>Incorporate ghost notes, rimshots, and hi-hat pedal dynamics for realism.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Maintaining Your Electronic Drum Kit -->
+        <section class="maintenance-guide">
+            <h2>3. Maintaining Your Electronic Drum Kit</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Cleaning and Care</h3>
+                    <p>Keep your drum pads and module clean to ensure longevity and consistent performance.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Firmware Updates</h3>
+                    <p>Regularly update your drum module firmware to access the latest features and improvements.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Pad Replacement</h3>
+                    <p>Learn when and how to replace worn-out drum pads to maintain optimal responsiveness.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Recommended Electronic Drum Kits -->
+        <section class="recommended-kits">
+            <h2>4. Recommended Electronic Drum Kits</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/high-electronic.jpeg" alt="High-End Electronic Kit">
+                    <h3>High-End Electronic Kit</h3>
+                    <p>A flagship model with advanced features, exceptional sound libraries, and unparalleled playability.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/compact-elec.jpg" alt="Compact Electronic Drum Kit">
+                    <h3>Compact Kit</h3>
+                    <p>An ideal choice for drummers with limited space, offering portability without sacrificing quality.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/hybrid_drum_kit.jpg" alt="Hybrid Drum Kit">
+                    <h3>Hybrid Drum Kit</h3>
+                    <p>A versatile option blending acoustic and electronic elements for a unique drumming experience.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Phrase -->
+    <div class="footer-phrase">
+        <p>Elevate Your Drumming Experience with Electronic Precision!</p>
+    </div>
+</body>
+</html>

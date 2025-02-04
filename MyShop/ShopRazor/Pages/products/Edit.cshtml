@@ -1,0 +1,55 @@
+﻿@page
+@model ShopRazor.Pages.products.EditModel
+
+<form action="/" method="post">
+
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class=" text-primary">Edit Product</h2>
+            <hr />
+        </div>
+
+    </div>
+
+    <div class=" mb-3 row p-1">
+        <label asp-for="Poducts.Name" class="p-0"></label>
+        <input asp-for="Poducts.Name" class=" from-controller"/>
+      
+    </div>
+    <div class=" mb-3 row p-1">
+        <label asp-for="Poducts.Id" class="p-0"></label>
+        <input asp-for="Poducts.Id" class=" from-controller"/>
+    
+    </div>
+    <div class=" mb-3 row p-1">
+        <label asp-for="Poducts.Price" class="p-0"></label>
+        <input asp-for="Poducts.Price" class=" from-controller"/>
+  
+    </div>
+    <div class=" mb-3 row p-1">
+        <label asp-for="Poducts.Description" class="p-0">Product Description</label>
+        <input asp-for="Poducts.Description" class=" from-controller"/>
+        
+    </div>
+    <div class=" mb-3 row p-1">
+        <label asp-for="Poducts.StockQuantity" class="p-0"></label>
+        <input asp-for="Poducts.StockQuantity" class=" from-controller"/>
+        
+    </div>
+    <div class=" mb-3 row p-1">
+        <label asp-for="Poducts.IsPaid" class="p-0"></label>
+        <input asp-for="Poducts.IsPaid" class=" from-controller"/>
+      
+    </div>
+    <div class=" row">
+        <div class="col-6 col-md-3 ">
+            <button  type="submit" class="btn btn-primary from-control">Update</button>
+        </div>
+        <div class="col-6 col-md-3">
+            <a asp-page="/products/index"  class="btn btnoutline-secodary border from-control">
+                Back To List
+            </a>
+        </div>
+    </div>
+
+</form>

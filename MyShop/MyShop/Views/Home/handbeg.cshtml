@@ -1,0 +1,211 @@
+﻿@{
+    ViewData["Title"] = "Beginner Hand Drum Guide";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* General Styles */
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    /* Header Phrase Styles */
+    .header-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .header-phrase h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    /* Main Content Styles */
+    main {
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    section {
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        color: #d32f2f; /* Red */
+        border-bottom: 2px solid #d32f2f; /* Red */
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .content-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .content-card {
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .content-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .content-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .content-card h3 {
+        margin: 15px;
+        color: #333;
+    }
+
+    .content-card p, .content-card ul {
+        margin: 0 15px 15px;
+        color: #555;
+    }
+
+    .content-card ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    /* Footer Phrase Styles */
+    .footer-phrase {
+        background-color: #333; /* Black */
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner Hand Drum Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Phrase -->
+    <div class="header-phrase">
+        <h1>Beginner Hand Drum Guide</h1>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Section 1: Choosing Your First Hand Drum -->
+        <section class="choosing-drum">
+            <h2>1. Choosing Your First Hand Drum</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/djembe-2413970_1280.jpg" alt="Djembe Drum">
+                    <h3>Djembe</h3>
+                    <p>Great for beginners, the djembe is versatile and easy to play. Look for one with a sturdy wood body and natural drumhead.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/conga-4590194_1280.jpg" alt="Conga Drum">
+                    <h3>Conga</h3>
+                    <p>A bit larger, congas are ideal for Latin and Afro-Cuban rhythms. Start with a single conga drum before expanding to a set.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/tape-1582143_1280.jpg" alt="Bongo Drums">
+                    <h3>Bongos</h3>
+                    <p>Compact and lightweight, bongos are perfect for small hands and learning simple rhythms.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Basic Playing Techniques -->
+        <section class="basic-techniques">
+            <h2>2. Basic Playing Techniques</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Hand Positions</h3>
+                    <ul>
+                        <li>Use the pads of your fingers for softer tones.</li>
+                        <li>Strike with the palm for deeper, resonant sounds.</li>
+                    </ul>
+                </div>
+                <div class="content-card">
+                    <h3>Basic Rhythms</h3>
+                    <ul>
+                        <li>Start with simple beats like "dum-dum-ta-ta" to build confidence.</li>
+                        <li>Practice steady timing with a metronome.</li>
+                    </ul>
+                </div>
+                <div class="content-card">
+                    <h3>Posture</h3>
+                    <ul>
+                        <li>Sit comfortably with the drum between your knees or on a stand.</li>
+                        <li>Keep your back straight to avoid strain.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Accessories for Beginners -->
+        <section class="accessories">
+            <h2>3. Accessories for Beginners</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Drum Bag</h3>
+                    <p>Invest in a padded bag to protect your drum during transport.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Hand Cream</h3>
+                    <p>Keep your hands moisturized to prevent discomfort during long practice sessions.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Practice Pad</h3>
+                    <p>A rubber practice pad can help you work on rhythms quietly.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Recommended Starter Drums -->
+        <section class="recommended-drums">
+            <h2>4. Recommended Starter Drums</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <img src="~/Images/african-1060423_1280.jpg" alt="Rope-Tuned Djembe">
+                    <h3>Rope-Tuned Djembe</h3>
+                    <p>Lightweight and portable, this drum is ideal for beginners exploring world rhythms.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/africa-2941133_1280.jpg" alt="Beginner Bongo Set">
+                    <h3>Beginner Bongo Set</h3>
+                    <p>An affordable and compact option for learning basic hand percussion techniques.</p>
+                </div>
+                <div class="content-card">
+                    <img src="~/Images/compact.jpg" alt="Compact Conga">
+                    <h3>Compact Conga</h3>
+                    <p>Perfect for smaller spaces, this drum offers great sound without being bulky.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Phrase -->
+    <div class="footer-phrase">
+        <p>Start Your Hand Drumming Journey Today!</p>
+    </div>
+</body>
+</html>
