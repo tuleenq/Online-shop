@@ -1,0 +1,1383 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Downloads\\ATS CV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\resourses\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\resourses\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\sevices\\devservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\sevices\\devservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\sevices\\myhostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\sevices\\myhostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\views\\cv\\editresume.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\views\\cv\\editresume.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF8DB92-B106-4667-AEC5-DAD21F412C53}|ATS.Infrastructure\\ATS.Infrastructure.csproj|c:\\users\\user\\downloads\\ats cv\\ats.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF8DB92-B106-4667-AEC5-DAD21F412C53}|ATS.Infrastructure\\ATS.Infrastructure.csproj|solutionrelative:ats.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{517C3592-621F-4B2B-A2D1-0ABBC53FF002}|ATS.Domain\\ATS.Domain.csproj|c:\\users\\user\\downloads\\ats cv\\ats.domain\\entities\\resume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{517C3592-621F-4B2B-A2D1-0ABBC53FF002}|ATS.Domain\\ATS.Domain.csproj|solutionrelative:ats.domain\\entities\\resume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{517C3592-621F-4B2B-A2D1-0ABBC53FF002}|ATS.Domain\\ATS.Domain.csproj|c:\\users\\user\\downloads\\ats cv\\ats.domain\\entities\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{517C3592-621F-4B2B-A2D1-0ABBC53FF002}|ATS.Domain\\ATS.Domain.csproj|solutionrelative:ats.domain\\entities\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\middleware\\validationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\middleware\\validationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\middleware\\authusermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\middleware\\authusermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\controllers\\resumecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\controllers\\resumecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\controllers\\cvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\controllers\\cvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|c:\\users\\user\\downloads\\ats cv\\ats.application\\authentication\\commands\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|solutionrelative:ats.application\\authentication\\commands\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\views\\cv\\craete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\views\\cv\\craete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\views\\cv\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\views\\cv\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\controllers\\apicontrollercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\controllers\\apicontrollercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\libwkhtmltox.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\libwkhtmltox.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|c:\\users\\user\\downloads\\ats cv\\ats.application\\resume\\queries\\getinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|solutionrelative:ats.application\\resume\\queries\\getinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|c:\\users\\user\\downloads\\ats cv\\ats.application\\resume\\commands\\createresumecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|solutionrelative:ats.application\\resume\\commands\\createresumecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\ats cv.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\ats cv.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|c:\\users\\user\\downloads\\ats cv\\ats.application\\ats.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|solutionrelative:ats.application\\ats.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{517C3592-621F-4B2B-A2D1-0ABBC53FF002}|ATS.Domain\\ATS.Domain.csproj|c:\\users\\user\\downloads\\ats cv\\ats.domain\\entities\\template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{517C3592-621F-4B2B-A2D1-0ABBC53FF002}|ATS.Domain\\ATS.Domain.csproj|solutionrelative:ats.domain\\entities\\template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{517C3592-621F-4B2B-A2D1-0ABBC53FF002}|ATS.Domain\\ATS.Domain.csproj|c:\\users\\user\\downloads\\ats cv\\ats.domain\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{517C3592-621F-4B2B-A2D1-0ABBC53FF002}|ATS.Domain\\ATS.Domain.csproj|solutionrelative:ats.domain\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{517C3592-621F-4B2B-A2D1-0ABBC53FF002}|ATS.Domain\\ATS.Domain.csproj|c:\\users\\user\\downloads\\ats cv\\ats.domain\\entities\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{517C3592-621F-4B2B-A2D1-0ABBC53FF002}|ATS.Domain\\ATS.Domain.csproj|solutionrelative:ats.domain\\entities\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{517C3592-621F-4B2B-A2D1-0ABBC53FF002}|ATS.Domain\\ATS.Domain.csproj|c:\\users\\user\\downloads\\ats cv\\ats.domain\\entities\\editmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{517C3592-621F-4B2B-A2D1-0ABBC53FF002}|ATS.Domain\\ATS.Domain.csproj|solutionrelative:ats.domain\\entities\\editmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF8DB92-B106-4667-AEC5-DAD21F412C53}|ATS.Infrastructure\\ATS.Infrastructure.csproj|c:\\users\\user\\downloads\\ats cv\\ats.infrastructure\\dependencyinjuction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF8DB92-B106-4667-AEC5-DAD21F412C53}|ATS.Infrastructure\\ATS.Infrastructure.csproj|solutionrelative:ats.infrastructure\\dependencyinjuction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF8DB92-B106-4667-AEC5-DAD21F412C53}|ATS.Infrastructure\\ATS.Infrastructure.csproj|c:\\users\\user\\downloads\\ats cv\\ats.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF8DB92-B106-4667-AEC5-DAD21F412C53}|ATS.Infrastructure\\ATS.Infrastructure.csproj|solutionrelative:ats.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{517C3592-621F-4B2B-A2D1-0ABBC53FF002}|ATS.Domain\\ATS.Domain.csproj|c:\\users\\user\\downloads\\ats cv\\ats.domain\\entities\\resumeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{517C3592-621F-4B2B-A2D1-0ABBC53FF002}|ATS.Domain\\ATS.Domain.csproj|solutionrelative:ats.domain\\entities\\resumeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|c:\\users\\user\\downloads\\ats cv\\ats.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|solutionrelative:ats.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|c:\\users\\user\\downloads\\ats cv\\ats.application\\templates\\commands\\createtemplatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|solutionrelative:ats.application\\templates\\commands\\createtemplatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|c:\\users\\user\\downloads\\ats cv\\ats.application\\resume\\queries\\getbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|solutionrelative:ats.application\\resume\\queries\\getbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|c:\\users\\user\\downloads\\ats cv\\ats.application\\resume\\commands\\editresumecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|solutionrelative:ats.application\\resume\\commands\\editresumecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|c:\\users\\user\\downloads\\ats cv\\ats.application\\resume\\commands\\deleteresumecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|solutionrelative:ats.application\\resume\\commands\\deleteresumecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|c:\\users\\user\\downloads\\ats cv\\ats.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|solutionrelative:ats.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|c:\\users\\user\\downloads\\ats cv\\ats.application\\helpers\\userhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|solutionrelative:ats.application\\helpers\\userhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|c:\\users\\user\\downloads\\ats cv\\ats.application\\helpers\\tokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|solutionrelative:ats.application\\helpers\\tokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|c:\\users\\user\\downloads\\ats cv\\ats.application\\countrys\\queries\\getcountrquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|solutionrelative:ats.application\\countrys\\queries\\getcountrquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|c:\\users\\user\\downloads\\ats cv\\ats.application\\countrys\\commands\\deletecountrycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|solutionrelative:ats.application\\countrys\\commands\\deletecountrycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|c:\\users\\user\\downloads\\ats cv\\ats.application\\countrys\\commands\\createcountrycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|solutionrelative:ats.application\\countrys\\commands\\createcountrycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|c:\\users\\user\\downloads\\ats cv\\ats.application\\cityy\\query\\getcitycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|solutionrelative:ats.application\\cityy\\query\\getcitycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|c:\\users\\user\\downloads\\ats cv\\ats.application\\cityy\\commands\\creatcitycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|solutionrelative:ats.application\\cityy\\commands\\creatcitycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|c:\\users\\user\\downloads\\ats cv\\ats.application\\authentication\\commands\\signincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA5712DD-2CBC-4DAC-A905-CCA868395432}|ATS.Application\\ATS.Application.csproj|solutionrelative:ats.application\\authentication\\commands\\signincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\sevices\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\sevices\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\controllers\\templatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\controllers\\templatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\views\\authentication\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\views\\authentication\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\views\\cv\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\views\\cv\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\views\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\views\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\appsettings.staging.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\appsettings.staging.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF8DB92-B106-4667-AEC5-DAD21F412C53}|ATS.Infrastructure\\ATS.Infrastructure.csproj|c:\\users\\user\\downloads\\ats cv\\ats.infrastructure\\migrations\\20241201031104_addtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF8DB92-B106-4667-AEC5-DAD21F412C53}|ATS.Infrastructure\\ATS.Infrastructure.csproj|solutionrelative:ats.infrastructure\\migrations\\20241201031104_addtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\views\\shared\\_authenticationlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\views\\shared\\_authenticationlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241209081914_newtabels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ATS.Infrastructure\\Migrations\\20241209081914_newtabels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF8DB92-B106-4667-AEC5-DAD21F412C53}|ATS.Infrastructure\\ATS.Infrastructure.csproj|c:\\users\\user\\downloads\\ats cv\\ats.infrastructure\\migrations\\20241201081240_addusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF8DB92-B106-4667-AEC5-DAD21F412C53}|ATS.Infrastructure\\ATS.Infrastructure.csproj|solutionrelative:ats.infrastructure\\migrations\\20241201081240_addusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241209080006_newtabels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ATS.Infrastructure\\Migrations\\20241209080006_newtabels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241209075634_newtabels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ATS.Infrastructure\\Migrations\\20241209075634_newtabels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241209075445_addcountryable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ATS.Infrastructure\\Migrations\\20241209075445_addcountryable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241209074031_newtabels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ATS.Infrastructure\\Migrations\\20241209074031_newtabels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\wwwroot\\css\\authentication.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\wwwroot\\css\\authentication.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\wwwroot\\js\\javascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\wwwroot\\js\\javascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|c:\\users\\user\\downloads\\ats cv\\ats cv\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28D468D0-69FC-4366-BE47-5C69FBC8851B}|ATS CV\\ATS CV.csproj|solutionrelative:ats cv\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF8DB92-B106-4667-AEC5-DAD21F412C53}|ATS.Infrastructure\\ATS.Infrastructure.csproj|c:\\users\\user\\downloads\\ats cv\\ats.infrastructure\\ats.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ACF8DB92-B106-4667-AEC5-DAD21F412C53}|ATS.Infrastructure\\ATS.Infrastructure.csproj|solutionrelative:ats.infrastructure\\ats.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{517C3592-621F-4B2B-A2D1-0ABBC53FF002}|ATS.Domain\\ATS.Domain.csproj|c:\\users\\user\\downloads\\ats cv\\ats.domain\\ats.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{517C3592-621F-4B2B-A2D1-0ABBC53FF002}|ATS.Domain\\ATS.Domain.csproj|solutionrelative:ats.domain\\ats.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{517C3592-621F-4B2B-A2D1-0ABBC53FF002}|ATS.Domain\\ATS.Domain.csproj|c:\\users\\user\\downloads\\ats cv\\ats.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{517C3592-621F-4B2B-A2D1-0ABBC53FF002}|ATS.Domain\\ATS.Domain.csproj|solutionrelative:ats.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF8DB92-B106-4667-AEC5-DAD21F412C53}|ATS.Infrastructure\\ATS.Infrastructure.csproj|c:\\users\\user\\downloads\\ats cv\\ats.infrastructure\\migrations\\20241209082008_newtabels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF8DB92-B106-4667-AEC5-DAD21F412C53}|ATS.Infrastructure\\ATS.Infrastructure.csproj|solutionrelative:ats.infrastructure\\migrations\\20241209082008_newtabels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF8DB92-B106-4667-AEC5-DAD21F412C53}|ATS.Infrastructure\\ATS.Infrastructure.csproj|c:\\users\\user\\downloads\\ats cv\\ats.infrastructure\\migrations\\20241214012427_addcitytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF8DB92-B106-4667-AEC5-DAD21F412C53}|ATS.Infrastructure\\ATS.Infrastructure.csproj|solutionrelative:ats.infrastructure\\migrations\\20241214012427_addcitytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF8DB92-B106-4667-AEC5-DAD21F412C53}|ATS.Infrastructure\\ATS.Infrastructure.csproj|c:\\users\\user\\downloads\\ats cv\\ats.infrastructure\\migrations\\20241217093933_adddatecolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF8DB92-B106-4667-AEC5-DAD21F412C53}|ATS.Infrastructure\\ATS.Infrastructure.csproj|solutionrelative:ats.infrastructure\\migrations\\20241217093933_adddatecolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF8DB92-B106-4667-AEC5-DAD21F412C53}|ATS.Infrastructure\\ATS.Infrastructure.csproj|c:\\users\\user\\downloads\\ats cv\\ats.infrastructure\\migrations\\20241230095732_devo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF8DB92-B106-4667-AEC5-DAD21F412C53}|ATS.Infrastructure\\ATS.Infrastructure.csproj|solutionrelative:ats.infrastructure\\migrations\\20241230095732_devo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACF8DB92-B106-4667-AEC5-DAD21F412C53}|ATS.Infrastructure\\ATS.Infrastructure.csproj|c:\\users\\user\\downloads\\ats cv\\ats.infrastructure\\migrations\\20241230095352_pro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACF8DB92-B106-4667-AEC5-DAD21F412C53}|ATS.Infrastructure\\ATS.Infrastructure.csproj|solutionrelative:ats.infrastructure\\migrations\\20241230095352_pro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ATS CV\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ATS CV\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T21:07:43.217Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DEVService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Sevices\\DEVService.cs",
+              "RelativeDocumentMoniker": "ATS CV\\Sevices\\DEVService.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Sevices\\DEVService.cs",
+              "RelativeToolTip": "ATS CV\\Sevices\\DEVService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T11:03:13.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "City.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Domain\\Entities\\City.cs",
+              "RelativeDocumentMoniker": "ATS.Domain\\Entities\\City.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Domain\\Entities\\City.cs",
+              "RelativeToolTip": "ATS.Domain\\Entities\\City.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T22:43:13.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Resume.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Domain\\Entities\\Resume.cs",
+              "RelativeDocumentMoniker": "ATS.Domain\\Entities\\Resume.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Domain\\Entities\\Resume.cs",
+              "RelativeToolTip": "ATS.Domain\\Entities\\Resume.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T02:24:15.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ATS.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ATS.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T02:29:25.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditResume.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\CV\\EditResume.cshtml",
+              "RelativeDocumentMoniker": "ATS CV\\Views\\CV\\EditResume.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\CV\\EditResume.cshtml",
+              "RelativeToolTip": "ATS CV\\Views\\CV\\EditResume.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-16T10:25:43.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Resource.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Resourses\\Resource.cs",
+              "RelativeDocumentMoniker": "ATS CV\\Resourses\\Resource.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Resourses\\Resource.cs",
+              "RelativeToolTip": "ATS CV\\Resourses\\Resource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T09:59:36.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyHostedService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Sevices\\MyHostedService.cs",
+              "RelativeDocumentMoniker": "ATS CV\\Sevices\\MyHostedService.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Sevices\\MyHostedService.cs",
+              "RelativeToolTip": "ATS CV\\Sevices\\MyHostedService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T10:50:50.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ValidationMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\MiddleWare\\ValidationMiddleware.cs",
+              "RelativeDocumentMoniker": "ATS CV\\MiddleWare\\ValidationMiddleware.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\MiddleWare\\ValidationMiddleware.cs",
+              "RelativeToolTip": "ATS CV\\MiddleWare\\ValidationMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T00:36:09.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthUserMiddleWare.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\MiddleWare\\AuthUserMiddleWare.cs",
+              "RelativeDocumentMoniker": "ATS CV\\MiddleWare\\AuthUserMiddleWare.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\MiddleWare\\AuthUserMiddleWare.cs",
+              "RelativeToolTip": "ATS CV\\MiddleWare\\AuthUserMiddleWare.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T10:52:44.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ResumeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Controllers\\ResumeController.cs",
+              "RelativeDocumentMoniker": "ATS CV\\Controllers\\ResumeController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Controllers\\ResumeController.cs",
+              "RelativeToolTip": "ATS CV\\Controllers\\ResumeController.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAgwJMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T03:29:57.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CvController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Controllers\\CvController.cs",
+              "RelativeDocumentMoniker": "ATS CV\\Controllers\\CvController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Controllers\\CvController.cs",
+              "RelativeToolTip": "ATS CV\\Controllers\\CvController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T03:04:42.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "ATS CV\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "ATS CV\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwFUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T08:34:21.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegisterUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Authentication\\commands\\RegisterUserCommand.cs",
+              "RelativeDocumentMoniker": "ATS.Application\\Authentication\\commands\\RegisterUserCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Authentication\\commands\\RegisterUserCommand.cs",
+              "RelativeToolTip": "ATS.Application\\Authentication\\commands\\RegisterUserCommand.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAADEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T07:46:08.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ATS CV\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\appsettings.Development.json",
+              "RelativeToolTip": "ATS CV\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-30T09:33:16.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Program.cs",
+              "RelativeDocumentMoniker": "ATS CV\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Program.cs",
+              "RelativeToolTip": "ATS CV\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T02:49:26.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ATS CV\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ATS CV\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-17T07:07:59.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\appsettings.json",
+              "RelativeDocumentMoniker": "ATS CV\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\appsettings.json",
+              "RelativeToolTip": "ATS CV\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-01T02:45:58.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "craete.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\CV\\craete.cshtml",
+              "RelativeDocumentMoniker": "ATS CV\\Views\\CV\\craete.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\CV\\craete.cshtml",
+              "RelativeToolTip": "ATS CV\\Views\\CV\\craete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T03:01:36.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GetAll.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\CV\\GetAll.cshtml",
+              "RelativeDocumentMoniker": "ATS CV\\Views\\CV\\GetAll.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\CV\\GetAll.cshtml",
+              "RelativeToolTip": "ATS CV\\Views\\CV\\GetAll.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T10:00:20.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApiControllercs.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Controllers\\ApiControllercs.cs",
+              "RelativeDocumentMoniker": "ATS CV\\Controllers\\ApiControllercs.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Controllers\\ApiControllercs.cs",
+              "RelativeToolTip": "ATS CV\\Controllers\\ApiControllercs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T03:41:07.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "libwkhtmltox.dll",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\libwkhtmltox.dll",
+              "RelativeDocumentMoniker": "ATS CV\\libwkhtmltox.dll",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\libwkhtmltox.dll",
+              "RelativeToolTip": "ATS CV\\libwkhtmltox.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-02-01T01:02:50.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CityController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Controllers\\CityController.cs",
+              "RelativeDocumentMoniker": "ATS CV\\Controllers\\CityController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Controllers\\CityController.cs",
+              "RelativeToolTip": "ATS CV\\Controllers\\CityController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T01:40:49.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "ATS CV\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "ATS CV\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T21:08:19.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "ATS CV\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "ATS CV\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T23:23:01.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "getinfo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Resume\\Queries\\getinfo.cs",
+              "RelativeDocumentMoniker": "ATS.Application\\Resume\\Queries\\getinfo.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Resume\\Queries\\getinfo.cs",
+              "RelativeToolTip": "ATS.Application\\Resume\\Queries\\getinfo.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwCYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T03:34:12.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CreateResumeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Resume\\Commands\\CreateResumeCommand.cs",
+              "RelativeDocumentMoniker": "ATS.Application\\Resume\\Commands\\CreateResumeCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Resume\\Commands\\CreateResumeCommand.cs",
+              "RelativeToolTip": "ATS.Application\\Resume\\Commands\\CreateResumeCommand.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwFIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T03:15:28.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ATS CV\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ATS CV\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T21:05:13.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ATS.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\ATS.Application.csproj",
+              "RelativeDocumentMoniker": "ATS.Application\\ATS.Application.csproj",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\ATS.Application.csproj",
+              "RelativeToolTip": "ATS.Application\\ATS.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-01T01:40:45.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ATS CV.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\ATS CV.csproj",
+              "RelativeDocumentMoniker": "ATS CV\\ATS CV.csproj",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\ATS CV.csproj",
+              "RelativeToolTip": "ATS CV\\ATS CV.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-01T01:40:40.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DependencyInjuction.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\DependencyInjuction.cs",
+              "RelativeDocumentMoniker": "ATS.Infrastructure\\DependencyInjuction.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\DependencyInjuction.cs",
+              "RelativeToolTip": "ATS.Infrastructure\\DependencyInjuction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T08:08:21.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "ATS.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "ATS.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T01:37:03.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EditModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Domain\\Entities\\EditModel.cs",
+              "RelativeDocumentMoniker": "ATS.Domain\\Entities\\EditModel.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Domain\\Entities\\EditModel.cs",
+              "RelativeToolTip": "ATS.Domain\\Entities\\EditModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T21:32:47.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Domain\\Entities\\Country.cs",
+              "RelativeDocumentMoniker": "ATS.Domain\\Entities\\Country.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Domain\\Entities\\Country.cs",
+              "RelativeToolTip": "ATS.Domain\\Entities\\Country.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAIBJwAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T06:40:09.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Domain\\Entities\\Users.cs",
+              "RelativeDocumentMoniker": "ATS.Domain\\Entities\\Users.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Domain\\Entities\\Users.cs",
+              "RelativeToolTip": "ATS.Domain\\Entities\\Users.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T07:26:04.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Template.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Domain\\Entities\\Template.cs",
+              "RelativeDocumentMoniker": "ATS.Domain\\Entities\\Template.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Domain\\Entities\\Template.cs",
+              "RelativeToolTip": "ATS.Domain\\Entities\\Template.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T02:23:33.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ResumeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Domain\\Entities\\ResumeViewModel.cs",
+              "RelativeDocumentMoniker": "ATS.Domain\\Entities\\ResumeViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Domain\\Entities\\ResumeViewModel.cs",
+              "RelativeToolTip": "ATS.Domain\\Entities\\ResumeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T19:46:49.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Dependencyinjection.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Dependencyinjection.cs",
+              "RelativeDocumentMoniker": "ATS.Application\\Dependencyinjection.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Dependencyinjection.cs",
+              "RelativeToolTip": "ATS.Application\\Dependencyinjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T01:36:28.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CreateTemplateCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Templates\\Commands\\CreateTemplateCommand.cs",
+              "RelativeDocumentMoniker": "ATS.Application\\Templates\\Commands\\CreateTemplateCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Templates\\Commands\\CreateTemplateCommand.cs",
+              "RelativeToolTip": "ATS.Application\\Templates\\Commands\\CreateTemplateCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T09:43:03.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GetById.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Resume\\Queries\\GetById.cs",
+              "RelativeDocumentMoniker": "ATS.Application\\Resume\\Queries\\GetById.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Resume\\Queries\\GetById.cs",
+              "RelativeToolTip": "ATS.Application\\Resume\\Queries\\GetById.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T10:37:30.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "EditResumeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Resume\\Commands\\EditResumeCommand.cs",
+              "RelativeDocumentMoniker": "ATS.Application\\Resume\\Commands\\EditResumeCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Resume\\Commands\\EditResumeCommand.cs",
+              "RelativeToolTip": "ATS.Application\\Resume\\Commands\\EditResumeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T23:30:13.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DeleteResumeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Resume\\Commands\\DeleteResumeCommand.cs",
+              "RelativeDocumentMoniker": "ATS.Application\\Resume\\Commands\\DeleteResumeCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Resume\\Commands\\DeleteResumeCommand.cs",
+              "RelativeToolTip": "ATS.Application\\Resume\\Commands\\DeleteResumeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T09:11:27.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "ATS.Application\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "ATS.Application\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwBEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T08:58:25.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UserHelper.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Helpers\\UserHelper.cs",
+              "RelativeDocumentMoniker": "ATS.Application\\Helpers\\UserHelper.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Helpers\\UserHelper.cs",
+              "RelativeToolTip": "ATS.Application\\Helpers\\UserHelper.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T07:36:54.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "TokenHelper.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Helpers\\TokenHelper.cs",
+              "RelativeDocumentMoniker": "ATS.Application\\Helpers\\TokenHelper.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Helpers\\TokenHelper.cs",
+              "RelativeToolTip": "ATS.Application\\Helpers\\TokenHelper.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwHMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T07:34:15.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "GetCountrQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Countrys\\Queries\\GetCountrQuery.cs",
+              "RelativeDocumentMoniker": "ATS.Application\\Countrys\\Queries\\GetCountrQuery.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Countrys\\Queries\\GetCountrQuery.cs",
+              "RelativeToolTip": "ATS.Application\\Countrys\\Queries\\GetCountrQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T08:49:58.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "DeleteCountryCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Countrys\\Commands\\DeleteCountryCommand.cs",
+              "RelativeDocumentMoniker": "ATS.Application\\Countrys\\Commands\\DeleteCountryCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Countrys\\Commands\\DeleteCountryCommand.cs",
+              "RelativeToolTip": "ATS.Application\\Countrys\\Commands\\DeleteCountryCommand.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwC0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T09:25:16.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CreateCountryCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Countrys\\Commands\\CreateCountryCommand.cs",
+              "RelativeDocumentMoniker": "ATS.Application\\Countrys\\Commands\\CreateCountryCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Countrys\\Commands\\CreateCountryCommand.cs",
+              "RelativeToolTip": "ATS.Application\\Countrys\\Commands\\CreateCountryCommand.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T08:44:40.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "GetCityCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Cityy\\Query\\GetCityCommand.cs",
+              "RelativeDocumentMoniker": "ATS.Application\\Cityy\\Query\\GetCityCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Cityy\\Query\\GetCityCommand.cs",
+              "RelativeToolTip": "ATS.Application\\Cityy\\Query\\GetCityCommand.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T01:36:21.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CreatCityCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Cityy\\Commands\\CreatCityCommand.cs",
+              "RelativeDocumentMoniker": "ATS.Application\\Cityy\\Commands\\CreatCityCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Cityy\\Commands\\CreatCityCommand.cs",
+              "RelativeToolTip": "ATS.Application\\Cityy\\Commands\\CreatCityCommand.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T01:29:55.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "SignInCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Authentication\\commands\\SignInCommand.cs",
+              "RelativeDocumentMoniker": "ATS.Application\\Authentication\\commands\\SignInCommand.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Application\\Authentication\\commands\\SignInCommand.cs",
+              "RelativeToolTip": "ATS.Application\\Authentication\\commands\\SignInCommand.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAIwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T07:30:10.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Sevices\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "ATS CV\\Sevices\\GlobalExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Sevices\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "ATS CV\\Sevices\\GlobalExceptionHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T12:42:00.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "TemplateController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Controllers\\TemplateController.cs",
+              "RelativeDocumentMoniker": "ATS CV\\Controllers\\TemplateController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Controllers\\TemplateController.cs",
+              "RelativeToolTip": "ATS CV\\Controllers\\TemplateController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T09:53:39.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ATS CV\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ATS CV\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T01:48:30.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CountryController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Controllers\\CountryController.cs",
+              "RelativeDocumentMoniker": "ATS CV\\Controllers\\CountryController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Controllers\\CountryController.cs",
+              "RelativeToolTip": "ATS CV\\Controllers\\CountryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T08:56:05.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "ATS CV\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "ATS CV\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T21:09:33.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\CV\\Index.cshtml",
+              "RelativeDocumentMoniker": "ATS CV\\Views\\CV\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\CV\\Index.cshtml",
+              "RelativeToolTip": "ATS CV\\Views\\CV\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T22:16:44.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Signup.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\Authentication\\Signup.cshtml",
+              "RelativeDocumentMoniker": "ATS CV\\Views\\Authentication\\Signup.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\Authentication\\Signup.cshtml",
+              "RelativeToolTip": "ATS CV\\Views\\Authentication\\Signup.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T10:37:02.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\Authentication\\Login.cshtml",
+              "RelativeDocumentMoniker": "ATS CV\\Views\\Authentication\\Login.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\Authentication\\Login.cshtml",
+              "RelativeToolTip": "ATS CV\\Views\\Authentication\\Login.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAEBVwAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T10:35:44.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "ATS CV\\appsettings.Production.json",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\appsettings.Production.json",
+              "RelativeToolTip": "ATS CV\\appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-30T09:33:07.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "appsettings.Staging.json",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\appsettings.Staging.json",
+              "RelativeDocumentMoniker": "ATS CV\\appsettings.Staging.json",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\appsettings.Staging.json",
+              "RelativeToolTip": "ATS CV\\appsettings.Staging.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-31T08:35:08.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "20241230095732_devo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241230095732_devo.cs",
+              "RelativeDocumentMoniker": "ATS.Infrastructure\\Migrations\\20241230095732_devo.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241230095732_devo.cs",
+              "RelativeToolTip": "ATS.Infrastructure\\Migrations\\20241230095732_devo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T09:57:33.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "20241230095352_pro.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241230095352_pro.cs",
+              "RelativeDocumentMoniker": "ATS.Infrastructure\\Migrations\\20241230095352_pro.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241230095352_pro.cs",
+              "RelativeToolTip": "ATS.Infrastructure\\Migrations\\20241230095352_pro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T09:53:52.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ATS CV\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ATS CV\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T21:11:08.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ATS CV\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ATS CV\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T21:10:40.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "ATS CV\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\DependencyInjection.cs",
+              "RelativeToolTip": "ATS CV\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T03:31:55.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "20241201031104_addtables.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241201031104_addtables.cs",
+              "RelativeDocumentMoniker": "ATS.Infrastructure\\Migrations\\20241201031104_addtables.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241201031104_addtables.cs",
+              "RelativeToolTip": "ATS.Infrastructure\\Migrations\\20241201031104_addtables.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAUwKUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T03:11:05.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "20241217093933_adddatecolumn.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241217093933_adddatecolumn.cs",
+              "RelativeDocumentMoniker": "ATS.Infrastructure\\Migrations\\20241217093933_adddatecolumn.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241217093933_adddatecolumn.cs",
+              "RelativeToolTip": "ATS.Infrastructure\\Migrations\\20241217093933_adddatecolumn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T09:39:33.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "_AuthenticationLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\Shared\\_AuthenticationLayout.cshtml",
+              "RelativeDocumentMoniker": "ATS CV\\Views\\Shared\\_AuthenticationLayout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\Shared\\_AuthenticationLayout.cshtml",
+              "RelativeToolTip": "ATS CV\\Views\\Shared\\_AuthenticationLayout.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAGBnwBgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T23:59:51.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "20241214012427_addcitytable.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241214012427_addcitytable.cs",
+              "RelativeDocumentMoniker": "ATS.Infrastructure\\Migrations\\20241214012427_addcitytable.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241214012427_addcitytable.cs",
+              "RelativeToolTip": "ATS.Infrastructure\\Migrations\\20241214012427_addcitytable.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T01:24:27.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "20241209081914_newtabels.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241209081914_newtabels.cs",
+              "RelativeDocumentMoniker": "ATS.Infrastructure\\Migrations\\20241209081914_newtabels.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241209081914_newtabels.cs",
+              "RelativeToolTip": "ATS.Infrastructure\\Migrations\\20241209081914_newtabels.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T08:19:14.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "20241209082008_newtabels.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241209082008_newtabels.cs",
+              "RelativeDocumentMoniker": "ATS.Infrastructure\\Migrations\\20241209082008_newtabels.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241209082008_newtabels.cs",
+              "RelativeToolTip": "ATS.Infrastructure\\Migrations\\20241209082008_newtabels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T08:20:08.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "20241201081240_addusers.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241201081240_addusers.cs",
+              "RelativeDocumentMoniker": "ATS.Infrastructure\\Migrations\\20241201081240_addusers.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241201081240_addusers.cs",
+              "RelativeToolTip": "ATS.Infrastructure\\Migrations\\20241201081240_addusers.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T08:12:40.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "20241209080006_newtabels.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241209080006_newtabels.cs",
+              "RelativeDocumentMoniker": "ATS.Infrastructure\\Migrations\\20241209080006_newtabels.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241209080006_newtabels.cs",
+              "RelativeToolTip": "ATS.Infrastructure\\Migrations\\20241209080006_newtabels.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T08:00:06.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "20241209075634_newtabels.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241209075634_newtabels.cs",
+              "RelativeDocumentMoniker": "ATS.Infrastructure\\Migrations\\20241209075634_newtabels.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241209075634_newtabels.cs",
+              "RelativeToolTip": "ATS.Infrastructure\\Migrations\\20241209075634_newtabels.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T07:56:34.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "20241209075445_addcountryable.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241209075445_addcountryable.cs",
+              "RelativeDocumentMoniker": "ATS.Infrastructure\\Migrations\\20241209075445_addcountryable.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241209075445_addcountryable.cs",
+              "RelativeToolTip": "ATS.Infrastructure\\Migrations\\20241209075445_addcountryable.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T07:54:45.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "20241209074031_newtabels.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241209074031_newtabels.cs",
+              "RelativeDocumentMoniker": "ATS.Infrastructure\\Migrations\\20241209074031_newtabels.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\Migrations\\20241209074031_newtabels.cs",
+              "RelativeToolTip": "ATS.Infrastructure\\Migrations\\20241209074031_newtabels.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T07:40:31.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeToolTip": "ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-06T23:43:12.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Authentication.css",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\css\\Authentication.css",
+              "RelativeDocumentMoniker": "ATS CV\\wwwroot\\css\\Authentication.css",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\css\\Authentication.css",
+              "RelativeToolTip": "ATS CV\\wwwroot\\css\\Authentication.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-05T00:18:11.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ATS CV\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ATS CV\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-05T00:08:22.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "JavaScript.js",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\js\\JavaScript.js",
+              "RelativeDocumentMoniker": "ATS CV\\wwwroot\\js\\JavaScript.js",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\js\\JavaScript.js",
+              "RelativeToolTip": "ATS CV\\wwwroot\\js\\JavaScript.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-05T00:12:13.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "ATS CV\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "ATS CV\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T21:06:03.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "ATS.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\ATS.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "ATS.Infrastructure\\ATS.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Infrastructure\\ATS.Infrastructure.csproj",
+              "RelativeToolTip": "ATS.Infrastructure\\ATS.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-01T02:31:45.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "ATS.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Domain\\ATS.Domain.csproj",
+              "RelativeDocumentMoniker": "ATS.Domain\\ATS.Domain.csproj",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Domain\\ATS.Domain.csproj",
+              "RelativeToolTip": "ATS.Domain\\ATS.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-01T01:37:30.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "ATS.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\ATS CV\\ATS.Domain\\Class1.cs",
+              "RelativeToolTip": "ATS.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T01:36:02.796Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

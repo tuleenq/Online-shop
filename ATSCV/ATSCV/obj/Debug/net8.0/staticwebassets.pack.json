@@ -1,0 +1,317 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\Images\\ATS.png",
+      "PackagePath": "staticwebassets\\Images\\ATS.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\Images\\box.png",
+      "PackagePath": "staticwebassets\\Images\\box.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\Images\\creat.jpeg",
+      "PackagePath": "staticwebassets\\Images\\creat.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\Images\\ctemplet.jpg",
+      "PackagePath": "staticwebassets\\Images\\ctemplet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\Images\\login.jpg",
+      "PackagePath": "staticwebassets\\Images\\login.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\Images\\modern.jpeg",
+      "PackagePath": "staticwebassets\\Images\\modern.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\Images\\mtempl.jpg",
+      "PackagePath": "staticwebassets\\Images\\mtempl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\Images\\pro.avif",
+      "PackagePath": "staticwebassets\\Images\\pro.avif"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\Images\\prof.jpeg",
+      "PackagePath": "staticwebassets\\Images\\prof.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\Images\\ptemplet.jpg",
+      "PackagePath": "staticwebassets\\Images\\ptemplet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\Images\\secure-payment.png",
+      "PackagePath": "staticwebassets\\Images\\secure-payment.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\Images\\shopping-cart.png",
+      "PackagePath": "staticwebassets\\Images\\shopping-cart.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\Images\\user-talking-with-speech-bubble.png",
+      "PackagePath": "staticwebassets\\Images\\user-talking-with-speech-bubble.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\css\\Authentication.css",
+      "PackagePath": "staticwebassets\\css\\Authentication.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\js\\JavaScript.js",
+      "PackagePath": "staticwebassets\\js\\JavaScript.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Downloads\\ATS CV\\ATS CV\\wwwroot\\lib\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ATS CV.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ATS CV.props",
+      "PackagePath": "build\\ATS CV.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ATS CV.props",
+      "PackagePath": "buildMultiTargeting\\ATS CV.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ATS CV.props",
+      "PackagePath": "buildTransitive\\ATS CV.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

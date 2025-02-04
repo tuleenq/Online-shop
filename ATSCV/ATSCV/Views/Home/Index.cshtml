@@ -1,0 +1,98 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand text-dark" href="#">CV Creator</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                @if (Context.Session.GetString("UserName") != null)
+                {
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Welcome, @Context.Session.GetString("UserName")</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="@Url.Action("Logout", "Authentication")">Logout</a>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="@Url.Action("Login", "Authentication")">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="@Url.Action("Signup", "Authentication")">Signup</a>
+                    </li>
+                }
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">FAQ & S</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Section -->
+<section class="hero-section text-center py-4" style="background-color: #e3f2fd;">
+    <div class="container">
+        <h1 class="display-4 mb-4" style="color: #333;">Welcome to CV Creator</h1>
+        <p class="lead mb-4" style="color: #555;">Create professional and ATS-friendly resumes with ease.</p>
+@*          @if (User.Identity.IsAuthenticated)
+        { *@
+            <a href="@Url.Action("craete", "CV")" class="btn btn-primary btn-lg">Create CV</a>
+       @*  }
+        else
+        {
+            <a href="javascript:void(0)" id="createCvButton" class="btn btn-primary btn-lg">Create CV</a>
+            <script>
+                document.getElementById("createCvButton").addEventListener("click", function () {
+                    alert("You need to log in to create a CV.");
+                });
+            </script>
+        } *@
+
+    </div>
+</section>
+
+<!-- ATS Friendly Resume Templates Section -->
+<section class="templates-section py-5" style="background-color: #fafafa;">
+    <div class="container text-center">
+        <h2 class="mb-4" style="color: #333;">Choose Your Template</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="~/Images/prof.jpeg" alt="Template 1" class="img-fluid mb-3" style="width: 310px; height: 450px;">
+                <p style="color: #666;">Professional Template</p>
+            </div>
+            <div class="col-md-4">
+                <img src="~/Images/creat.jpeg" alt="Template 2" class="img-fluid mb-3" style="width: 310px; height: 450px;">
+                <p style="color: #666;">Creative Template</p>
+            </div>
+            <div class="col-md-4">
+                <img src="~/Images/modern.jpeg" alt="Template 3" class="img-fluid mb-3" style="width: 310px; height: 450px;">
+                <p style="color: #666;">Modern Template</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+        <p>&copy; 2024 CV Creator. All Rights Reserved.</p>
+        <p>Email: contact@cvcreator.com | Phone: +962787062369</p>
+    </div>
+</footer>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ATS CV.props" />
+</Project>

@@ -1,0 +1,17 @@
+C:\Users\user\Downloads\ATS CV\ATS.Infrastructure\bin\Debug\net8.0\ATS.Infrastructure.deps.json
+C:\Users\user\Downloads\ATS CV\ATS.Infrastructure\bin\Debug\net8.0\ATS.Infrastructure.runtimeconfig.json
+C:\Users\user\Downloads\ATS CV\ATS.Infrastructure\bin\Debug\net8.0\ATS.Infrastructure.dll
+C:\Users\user\Downloads\ATS CV\ATS.Infrastructure\bin\Debug\net8.0\ATS.Infrastructure.pdb
+C:\Users\user\Downloads\ATS CV\ATS.Infrastructure\bin\Debug\net8.0\ATS.Domain.dll
+C:\Users\user\Downloads\ATS CV\ATS.Infrastructure\bin\Debug\net8.0\ATS.Domain.pdb
+C:\Users\user\Downloads\ATS CV\ATS.Infrastructure\obj\Debug\net8.0\ATS.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\ATS CV\ATS.Infrastructure\obj\Debug\net8.0\ATS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Downloads\ATS CV\ATS.Infrastructure\obj\Debug\net8.0\ATS.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\user\Downloads\ATS CV\ATS.Infrastructure\obj\Debug\net8.0\ATS.Infrastructure.AssemblyInfo.cs
+C:\Users\user\Downloads\ATS CV\ATS.Infrastructure\obj\Debug\net8.0\ATS.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\ATS CV\ATS.Infrastructure\obj\Debug\net8.0\ATS.Infr.0C2A67E7.Up2Date
+C:\Users\user\Downloads\ATS CV\ATS.Infrastructure\obj\Debug\net8.0\ATS.Infrastructure.dll
+C:\Users\user\Downloads\ATS CV\ATS.Infrastructure\obj\Debug\net8.0\refint\ATS.Infrastructure.dll
+C:\Users\user\Downloads\ATS CV\ATS.Infrastructure\obj\Debug\net8.0\ATS.Infrastructure.pdb
+C:\Users\user\Downloads\ATS CV\ATS.Infrastructure\obj\Debug\net8.0\ATS.Infrastructure.genruntimeconfig.cache
+C:\Users\user\Downloads\ATS CV\ATS.Infrastructure\obj\Debug\net8.0\ref\ATS.Infrastructure.dll

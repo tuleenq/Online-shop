@@ -1,0 +1,450 @@
+﻿@using ATS.Domain.Entities
+
+
+@{
+    ViewData["Title"] = "Create CV";
+}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand text-dark" href="#">CV Creator</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                @if (Context.Session.GetString("UserName") != null)
+                {
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Welcome, @Context.Session.GetString("UserName")</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="@Url.Action("Logout", "Authentication")">Logout</a>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="@Url.Action("Login", "Authentication")">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="@Url.Action("Signup", "Authentication")">Signup</a>
+                    </li>
+                }
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">FAQ & S</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section class="hero-section text-center py-5" style="background-color: #e3f2fd;">
+    <div class="container">
+        <h1 class="display-4 mb-4" style="color: #333;">Create Your CV</h1>
+        <p class="lead mb-4" style="color: #555;">Fill in your information and choose a template for your professional CV.</p>
+    </div>
+</section>
+
+
+<section class="cv-creation-section py-5">
+    <div class="container">
+        <form id="createCvForm" class="needs-validation" novalidate>
+            <div class="row">
+                
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="FullName">Full Name</label>
+                        <input type="text" class="form-control" id="FullName" name="FullName" value="@Model.FullName" required>
+                        <div class="invalid-feedback">Please enter your full name.</div>
+                    </div>
+                </div>
+
+               
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input type="email" class="form-control" id="Email" name="Email" value="@Model.Email" required>
+                        <div class="invalid-feedback">Please enter a valid email address.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+
+                
+                
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="Phone">Phone</label>
+                            <input type="text" class="form-control" id="Phone" name="Phone" value="@Model.Phone" required>
+                            <div class="invalid-feedback">Please enter your phone number.</div>
+                        </div>
+                    </div>
+                
+          
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="Address">Address</label>
+                        <input type="text" class="form-control" id="Address" name="Address" value="@Model.Address" required>
+                        <div class="invalid-feedback">Please enter a valid Address address.</div>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label for="Summary">Summary</label>
+                <textarea class="form-control" id="Summary" name="Summary" rows="4" required>@Model.Summary</textarea>
+                <div class="invalid-feedback">Please enter a brief summary of your professional background.</div>
+            </div>
+
+            
+
+            <div class="form-group">
+                <label for="WorkExperiences">Work Experience</label>
+                <div id="WorkExperiences">
+                    @foreach (var workExperience in Model.WorkExperiences)
+                    {
+                        <div class="work-experience">
+                            <input type="text" class="form-0control mb-2" name="Company" value="@workExperience.Company" placeholder="Company">
+                            <input type="text" class="form-control mb-2" name="Position" value="@workExperience.Position" placeholder="Position">
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <input type="text" class="form-control mb-2" name="StartDate" value="@workExperience.StartDate" placeholder="Start Date">
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" class="form-control mb-2" name="EndDate" value="@workExperience.EndDate" placeholder="End Date">
+                                </div>
+                            </div>
+                            <textarea class="form-control mb-2" name="Responsibilities" placeholder="Responsibilities">@workExperience.Responsibilities</textarea>
+                        </div>
+                    }
+                </div>
+                <button type="button" id="addWorkExperience" class="btn btn-secondary mt-2">Add Work Experience</button>
+            </div>
+            <div class="form-group">
+                <label for="Skills">Skills</label>
+                <div id="Skills">
+                    @foreach (var skill in Model.Skills)
+                    {
+                        <div class="skill">
+                            <input type="text" class="form-control mb-2" name="SkillName" value="@skill.Name" placeholder="Skill Name">
+                            
+                        </div>
+                    }
+                </div>
+                <button type="button" id="addSkill" class="btn btn-secondary mt-2">Add Skill</button>
+            </div>
+                
+            
+            <div class="form-group">
+                <label for="EducationDetails">Education</label>
+                <div id="EducationDetails">
+                    @foreach (var education in Model.EducationDetails)
+                    {
+                        <div class="education-detail">
+                            <input type="text" class="form-control mb-2" name="Institution" value="@education.Institution" placeholder="Institution">
+                            <input type="text" class="form-control mb-2" name="Degree" value="@education.Degree" placeholder="Degree">
+                            <div class="row">
+                                <div class="col-6">
+                                    <input type="text" class="form-control mb-2" name="StartDate" value="@education.StartDate" placeholder="Start Date">
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" class="form-control mb-2" name="EndDate" value="@education.EndDate" placeholder="End Date">
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <button type="button" id="addEducation" class="btn btn-secondary mt-2">Add Education</button>
+            </div>
+
+           
+            <input type="hidden" id="TemplateId" name="TemplateId" value="2">
+
+
+            <div class="mt-4 d-flex gap-3">
+                <button type="submit" class="btn btn-primary btn-lg">Create CV</button>
+                @* <button type="button" id="viewDownloadCv" class="btn btn-primary btn-lg">View & Download</button> *@
+            </div>
+        </form>
+    </div>
+</section>
+
+@section Scripts {
+    <script>
+        let createdResumeId = null; // Declare a variable to store the resume ID
+        
+
+        document.getElementById("createCvForm").addEventListener("submit", async function (e) {
+            e.preventDefault();
+            
+
+            const form = e.target;
+            if (!form.checkValidity()) {
+                form.classList.add('was-validated');
+                return;
+            }
+
+            const command = {
+                fullName: document.getElementById("FullName").value,
+                email: document.getElementById("Email").value,
+                phone: document.getElementById("Phone").value,
+                address: document.getElementById("Address").value,
+                summary: document.getElementById("Summary").value,
+                skills: Array.from(document.querySelectorAll("#Skills .skill input[name='SkillName']")).map(input => ({
+                    Name: input.value
+                })),
+                workExperiences: Array.from(document.querySelectorAll(".work-experience")).map(exp => ({
+                    company: exp.querySelector('input[name="Company"]').value,
+                    position: exp.querySelector('input[name="Position"]').value,
+                    StartDate: exp.querySelector('input[name="StartDate"]').value,
+                    EndDate: exp.querySelector('input[name="EndDate"]').value,
+
+                    responsibilities: exp.querySelector('textarea[name="Responsibilities"]').value
+                })),
+                educationDetails: Array.from(document.querySelectorAll(".education-detail")).map(edu => ({
+                    institution: edu.querySelector('input[name="Institution"]').value,
+                    degree: edu.querySelector('input[name="Degree"]').value,
+                    StartDate: edu.querySelector('input[name="StartDate"]').value,
+                    EndDate: edu.querySelector('input[name="EndDate"]').value
+                })),
+                templateId: 2
+            };
+           
+            try {
+                debugger 
+                const response = await fetch("https://localhost:7146/api/Resume/createResume", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(command)
+                });
+
+                if (response.ok) {
+                    const resumeId = await response.json(); // Get the resume ID from the response
+                    localStorage.setItem('createdResumeId', resumeId);
+                    alert(`CV created successfully! Resume ID: ${resumeId}`);
+                    window.location.href = "/CV/GetAll";
+                } else {
+                    alert("Failed to create CV. Please try again.");
+                }
+            } catch (err) {
+                alert("An error occurred. Please try again.");
+            }
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+            const workExperiencesContainer = document.getElementById("WorkExperiences");
+            document.getElementById("addWorkExperience").addEventListener("click", function () {
+                workExperiencesContainer.insertAdjacentHTML("beforeend", `
+                    <div class="work-experience">
+                        <input type="text" class="form-control mb-2" name="Company" placeholder="Company">
+                        <input type="text" class="form-control mb-2" name="Position" placeholder="Position">
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="date" class="form-control mb-2" name="StartDate" placeholder="Start Date">
+                            </div>
+                            <div class="col-6">
+                                <input type="date" class="form-control mb-2" name="EndDate" placeholder="End Date">
+                            </div>
+                        </div>
+                        <textarea class="form-control mb-2" name="Responsibilities" placeholder="Responsibilities"></textarea>
+                    </div>
+                `);
+            });
+        });
+
+
+        document.getElementById("addEducation").addEventListener("click", function () {
+            document.getElementById("EducationDetails").insertAdjacentHTML("beforeend", `
+                                <div class="education-detail">
+                                    <input type="text" class="form-control mb-2" name="Institution" placeholder="Institution">
+                                    <input type="text" class="form-control mb-2" name="Degree" placeholder="Degree">
+                                              <div class="row">
+                                <div class="col-6">
+                                    <input type="date" class="form-control mb-2" name="StartDate" placeholder="Start Date">
+                                </div>
+                                <div class="col-6">
+                                    <input type="date" class="form-control mb-2" name="EndDate" placeholder="End Date">
+                                </div>
+                            </div>
+                                </div>
+                            `);
+        });
+        document.getElementById("addSkill").addEventListener("click", function () {
+            document.getElementById("Skills").insertAdjacentHTML("beforeend", `
+                <div class="skill">
+                    <input type="text" class="form-control mb-2" name="SkillName" placeholder="Skill Name">
+                    
+                </div>
+            `);
+        });
+
+
+
+
+        // document.getElementById("viewDownloadCv").addEventListener("click", async function () {
+        //     if (!createdResumeId) {
+        //         alert("No resume created. Please create a resume first.");
+        //         return;
+        //     }
+
+        //     try {
+        //         const response = await fetch(`https://localhost:7146/api/Template/${createdResumeId}`);
+
+        //         if (response.ok) {
+        //             const resume = await response.json();
+
+        //             // Generate a CV template
+        //             const resumeContent = `
+        //     <div style="font-family: 'Times New Roman', serif; padding: 20px; border: 1px solid #000; max-width: 800px; margin: auto;">
+        //         <!-- Header Section -->
+        //         <div style="text-align: center; margin-bottom: 20px;">
+        //             <h1 style="font-size: 32px; margin: 0;">${resume.fullName.toUpperCase()}</h1>
+        //             <p style="margin: 5px 0; font-size: 18px; font-weight: bold;">${resume.professionalTitle || 'PROFESSIONAL TITLE'}</p>
+        //             <p style="margin: 0; font-size: 16px;">${resume.email} | ${resume.phone} | ${resume.address}</p>
+        //         </div>
+
+        //         <!-- Objective Section -->
+        //         <div style="margin-bottom: 20px;">
+        //             <h2 style="border-bottom: 1px solid #000; font-size: 20px;">Objective</h2>
+        //             <p>${resume.summary}</p>
+        //         </div>
+
+        //         <!-- Experience Section -->
+        //         <div style="margin-bottom: 20px;">
+        //             <h2 style="border-bottom: 1px solid #000; font-size: 20px;">Experience</h2>
+        //             ${resume.workExperiences.map(exp => `
+        //                 <div style="margin-bottom: 10px;">
+        //                     <p style="margin: 0;"><strong>${exp.company}</strong> | <em>${exp.position}</em></p>
+        //                     <p style="margin: 0; font-size: 14px;">${exp.duration}</p>
+        //                     <ul style="margin: 5px 0; padding-left: 20px;">
+        //                         <li>${exp.responsibilities}</li>
+        //                     </ul>
+        //                 </div>
+        //             `).join('')}
+        //         </div>
+
+        //         <!-- Education Section -->
+        //         <div style="margin-bottom: 20px;">
+        //             <h2 style="border-bottom: 1px solid #000; font-size: 20px;">Education</h2>
+        //             ${resume.educationDetails.map(edu => `
+        //                 <div style="margin-bottom: 10px;">
+        //                     <p style="margin: 0;"><strong>${edu.institution}</strong> | <em>${edu.degree}</em></p>
+        //                     <p style="margin: 0; font-size: 14px;">${edu.year}</p>
+        //                 </div>
+        //             `).join('')}
+        //         </div>
+
+        //         <!-- Skills Section -->
+        //         <div>
+        //             <h2 style="border-bottom: 1px solid #000; font-size: 20px;">Skills & Abilities</h2>
+        //             <ul style="padding-left: 20px; margin: 0;">
+        //                 ${resume.skills.map(skill => `<li>${skill}</li>`).join('')}
+        //             </ul>
+        //         </div>
+        //                  <div style="text-align: center; margin-top: 20px;">
+        //                         <button id="downloadCv" class="btn btn-secondary btn-lg">Download as PDF</button>
+        //                     </div>
+        //     </div>
+        // `;
+
+
+
+        //             const win = window.open("", "_blank");
+        //             win.document.write(resumeContent);
+        //             win.document.close();  // Close the document in the new window
+
+        //             // Inject the jsPDF library into the new window
+        //             const script = win.document.createElement("script");
+        //             script.src = "https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js";
+        //             win.document.head.appendChild(script);
+
+        //             // Wait for the script to load, then set up the event listener for the download button
+        //             script.onload = function () {
+        //                 // Add event listener for the download button inside the new window
+        //                 win.document.getElementById("downloadCv").addEventListener("click", function () {
+        //                     const { jsPDF } = win.jspdf; // Use jsPDF from the new window context
+        //                     const doc = new jsPDF();
+
+        //                     // Add content to the PDF
+        //                     doc.html(win.document.body, {
+        //                         callback: function (doc) {
+        //                             // Save the PDF as a file
+        //                             doc.save("resume.pdf");
+        //                         },
+        //                         x: 10,
+        //                         y: 10,
+        //                     });
+        //                 });
+        //             };
+        //         } else {
+        //             alert("Failed to retrieve the resume. Please try again.");
+        //         }
+        //     } catch (err) {
+        //         alert("An error occurred while retrieving the resume.");
+        //     }
+        // });
+
+        document.addEventListener("DOMContentLoaded", async function () {
+            debugger
+            try {
+                const response = await fetch("https://localhost:7146/api/Country/GetCountries"); // Update with your actual API endpoint
+                const countries = await response.json();
+
+                const countryDropdown = document.getElementById("Country");
+
+                countries.forEach(country => {
+                    const option = document.createElement("option");
+                    option.value = country.id; // Use the actual database ID for the country        
+                    option.textContent = country.name; // Use the display name for the country
+                    countryDropdown.appendChild(option);
+                });
+
+                countryDropdown.addEventListener("change", async function () {
+                    debugger
+                    const countryId = this.value; // Get the selected country ID (database ID)
+                console.log("Selected Country ID:", countryId);
+                    await fetchCitiesByCountry(countryId);
+                });
+            } catch (error) {
+                console.error("Failed to load countries:", error);
+                alert("Failed to load country data. Please try again later.");
+            }
+        });
+        debugger
+        async function fetchCitiesByCountry(countryId) {
+            const cityDropdown = document.getElementById("City");
+            cityDropdown.innerHTML = '<option value="" disabled selected>Select your city</option>'; 
+
+            try {
+                const response = await fetch(`https://localhost:7146/api/City/cities/${countryId}`); // Use the correct API route for cities
+
+                if (!response.ok) {
+                    throw new Error('Failed to fetch cities');
+                }
+
+                const cities = await response.json();
+
+                cities.forEach(city => {
+                    const option = document.createElement("option");
+                    option.value = city.id; 
+                    option.textContent = city.name; 
+                    cityDropdown.appendChild(option);
+                });
+            } catch (error) {
+                console.error("Failed to load cities:", error);
+                alert("Failed to load city data. Please try again later.");
+            }
+        }
+
+    </script>
+   
+
+  } 
+

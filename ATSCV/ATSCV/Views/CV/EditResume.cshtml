@@ -1,0 +1,370 @@
+﻿@using ATS.Domain.Entities
+@model EditModel
+
+
+
+@{
+    ViewData["Title"] = "Edit CV";
+ 
+}
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand text-dark" href="#">CV Creator</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                @if (Context.Session.GetString("UserName") != null)
+                {
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Welcome, @Context.Session.GetString("UserName")</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="@Url.Action("Logout", "Authentication")">Logout</a>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="@Url.Action("Login", "Authentication")">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="@Url.Action("Signup", "Authentication")">Signup</a>
+                    </li>
+                }
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">FAQ & S</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section class="hero-section text-center py-5" style="background-color: #e3f2fd;">
+    <div class="container">
+        <h1 class="display-4 mb-4" style="color: #333;">Edit Your Resume</h1>
+        <p class="lead mb-4" style="color: #555;">Update your resume details below.</p>
+    </div>
+</section>
+
+<section class="resume-edit-section py-5">
+    <div class="container">
+        <form id="editResumeForm" class="needs-validation" novalidate>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="FullName">Full Name</label>
+                        <input type="text" class="form-control" id="FullName" name="FullName" >
+                        <div class="invalid-feedback">Please enter your full name.</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input type="email" class="form-control" id="Email" name="Email" >
+                        <div class="invalid-feedback">Please enter a valid email address.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="Phone">Phone</label>
+                        <input type="text" class="form-control" id="Phone" name="Phone" >
+                        <div class="invalid-feedback">Please enter your phone number.</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="Address">Address</label>
+                        <input type="text" class="form-control" id="Address" name="Address" >
+                        <div class="invalid-feedback">Please enter a valid address.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="Summary">Summary</label>
+                <textarea class="form-control" id="Summary"></textarea>
+                <div class="invalid-feedback">Please enter a brief summary of your professional background.</div>
+            </div>
+
+            <hr />
+
+            @* <div class="form-group">
+                <h4>Work Experience</h4>
+                @foreach (var workExperience in Model.WorkExperiences)
+                {
+                    <div class="work-experience mb-4">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control mb-2" name="Company"  placeholder="Company">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control mb-2" name="Position"  placeholder="Position">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control mb-2" name="StartDate"  placeholder="Start Date">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control mb-2" name="EndDate"  placeholder="End Date">
+                            </div>
+                        </div>
+                        <textarea class="form-control" name="Responsibilities" placeholder="Responsibilities"></textarea>
+                    </div>
+                }
+            </div>
+
+            <hr /> *@
+
+            @* <div class="form-group">
+                <h4>Skills</h4>
+                @foreach (var skill in Model.Skills)
+                {
+                    <div class="skill mb-2">
+                        <input type="text" class="form-control" name="SkillName"  placeholder="Skill Name">
+                    </div>
+                }
+            </div>
+
+            <hr />
+
+            <div class="form-group">
+                <h4>Education</h4>
+                @foreach (var education in Model.EducationDetails)
+                {
+                    <div class="education-detail mb-4">
+                        <input type="text" class="form-control mb-2" name="Institution" value="@education.Institution" placeholder="Institution">
+                        <input type="text" class="form-control mb-2" name="Degree" value="@education.Degree" placeholder="Degree">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control mb-2" name="StartDate" value="@education.StartDate" placeholder="Start Date">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control mb-2" name="EndDate" value="@education.EndDate" placeholder="End Date">
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div> *@
+            <div id="workExperiences"></div>  <!-- For work experiences -->
+            <div id="skills"></div>  <!-- For skills -->
+            <div id="educationDetails"></div>
+            <div class="mt-4 d-flex gap-3">
+                <button type="submit" class="btn btn-primary btn-lg">Update</button>
+                <a asp-controller="CV" asp-action="GetAll" class="btn btn-secondary btn-lg">Back</a>
+            </div>
+        </form>
+    </div>
+</section>
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", async () => {
+        const resumeId = @Model.Id || null;
+        if (!resumeId) {
+            console.error("Resume ID not found in the URL.");
+            return;
+        }
+
+        const apiUrl = `https://localhost:7146/api/Template/${resumeId}`;
+
+        try {
+            const response = await fetch(apiUrl);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const resume = await response.json();
+            debugger
+            // Populate fields with additional checks
+            const fullNameField = document.getElementById("FullName");
+            if (fullNameField) {
+                fullNameField.value = resume.fullName || "";
+            } else {
+                console.error("FullName field not found in the DOM.");
+            }
+
+            const emailField = document.getElementById("Email");
+            if (emailField) {
+                emailField.value = resume.email || "";
+            } else {
+                console.error("Email field not found in the DOM.");
+            }
+
+            const phoneField = document.getElementById("Phone");
+            if (phoneField) {
+                phoneField.value = resume.phone || "";
+            } else {
+                console.error("Phone field not found in the DOM.");
+            }
+
+            const addressField = document.getElementById("Address");
+            if (addressField) {
+                addressField.value = resume.address || "";
+            } else {
+                console.error("Address field not found in the DOM.");
+            }
+
+                const summaryField = document.getElementById("Summary");
+            if (summaryField) {
+                summaryField.value = resume.summary || "";
+            } else {
+                console.error("Summary field not found in the DOM.");
+            }
+
+            populateWorkExperiences(resume.workExperiences || []);
+            populateSkills(resume.skills || []);
+            populateEducationDetails(resume.educationDetails || []);
+        } catch (error) {
+            console.error("Error fetching resume data:", error);
+        }
+    });
+
+    function populateWorkExperiences(workExperiences) {
+        const container = document.getElementById("workExperiences");
+        if (!container) {
+            console.error("Work experiences container not found.");
+            return;
+        }
+        container.innerHTML = "";
+        workExperiences.forEach(work => {
+            const html = `
+    <div class="work-experience mb-4">
+        <div class="row">
+            <div class="col-md-6">
+             <label for="workExperiences">workExperiences</label>
+                <input type="text" class="form-control mb-2" name="Company" value="${work.company || ''}" placeholder="Company">
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control mb-2" name="Position" value="${work.position || ''}" placeholder="Position">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <input type="text" class="form-control mb-2" name="StartDate" value="${work.startDate || ''}" placeholder="Start Date">
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control mb-2" name="EndDate" value="${work.endDate || ''}" placeholder="End Date">
+            </div>
+        </div>
+        <textarea class="form-control mb-2" name="Responsibilities" placeholder="Responsibilities">${work.responsibilities || ''}</textarea>
+    </div>
+            `;
+            container.insertAdjacentHTML("beforeend", html);
+        });
+    }
+
+    function populateSkills(skills) {
+        const container = document.getElementById("skills");
+        if (!container) {
+            console.error("Skills container not found.");
+            return;
+        }
+        container.innerHTML = "";
+        skills.forEach(skill => {
+            const html = `
+    <div class="skill mb-2">
+            <label for="skills">skills</label>
+        <input type="text" class="form-control" name="SkillName" value="${skill.name || ''}" placeholder="Skill Name">
+    </div>
+            `;
+            container.insertAdjacentHTML("beforeend", html);
+        });
+    }
+
+    function populateEducationDetails(educationDetails) {
+        const container = document.getElementById("educationDetails");
+        if (!container) {
+            console.error("Education container not found.");
+            return;
+        }
+        container.innerHTML = "";
+        educationDetails.forEach(education => {
+            const html = `
+    <div class="education-detail mb-4">
+            <label for="educationDetails">educationDetails</label>
+        <input type="text" class="form-control mb-2" name="Institution" value="${education.institution || ''}" placeholder="Institution">
+        <input type="text" class="form-control mb-2" name="Degree" value="${education.degree || ''}" placeholder="Degree">
+        <div class="row">
+            <div class="col-md-6">
+                <input type="text" class="form-control mb-2" name="StartDate" value="${education.startDate || ''}" placeholder="Start Date">
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control mb-2" name="EndDate" value="${education.endDate || ''}" placeholder="End Date">
+            </div>
+        </div>
+    </div>
+            `;
+            container.insertAdjacentHTML("beforeend", html);
+        });
+    }
+
+        document.getElementById("editResumeForm").addEventListener("submit", async (event) => {
+            event.preventDefault(); // Prevent form submission
+
+            const resumeId = @Model.Id || null;
+            if (!resumeId) {
+                console.error("Resume ID not found in the URL.");
+                return;
+            }
+
+            const apiUrl = `https://localhost:7146/api/Resume/updateResume`;
+            const payload = {
+                id: resumeId,
+                fullName: document.getElementById("FullName").value,
+                email: document.getElementById("Email").value,
+                phone: document.getElementById("Phone").value,
+                address: document.getElementById("Address").value,
+                summary: document.getElementById("Summary").value,
+                workExperiences: Array.from(document.querySelectorAll("#workExperiences .work-experience")).map(work => ({
+                    company: work.querySelector('[name="Company"]').value,
+                    position: work.querySelector('[name="Position"]').value,
+                    startDate: work.querySelector('[name="StartDate"]').value,
+                    endDate: work.querySelector('[name="EndDate"]').value,
+                    responsibilities: work.querySelector('[name="Responsibilities"]').value,
+                })),
+                educationDetails: Array.from(document.querySelectorAll("#educationDetails .education-detail")).map(education => ({
+                    institution: education.querySelector('[name="Institution"]').value,
+                    degree: education.querySelector('[name="Degree"]').value,
+                    startDate: education.querySelector('[name="StartDate"]').value,
+                    endDate: education.querySelector('[name="EndDate"]').value,
+                })),
+                skill: Array.from(document.querySelectorAll("#skills .skill")).map(skill => ({
+                    name: skill.querySelector('[name="SkillName"]').value,
+                })),
+            };
+
+            try {
+                const response = await fetch(apiUrl, {
+                    method: "PUT", // Use "PUT" for updates, or "POST" if creating a new resource
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify(payload),
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const updatedResume = await response.json();
+                alert("Resume updated successfully!");
+                console.log("Updated Resume:", updatedResume);
+            } catch (error) {
+                console.error("Error updating resume:", error);
+                alert("Failed to update resume. Please try again.");
+            }
+        });
+
+
+    </script>
+}
+

@@ -1,0 +1,214 @@
+﻿@using ATS.Domain.Entities
+
+@{
+    ViewData["Title"] = "View CV";
+}
+<style>
+    .btn:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand text-dark" href="#">CV Creator</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                @if (Context.Session.GetString("UserName") != null)
+                {
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Welcome, @Context.Session.GetString("UserName")</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="@Url.Action("Logout", "Authentication")">Logout</a>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="@Url.Action("Login", "Authentication")">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="@Url.Action("Signup", "Authentication")">Signup</a>
+                    </li>
+                }
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">FAQ & S</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-pzjw8f+ua7Kw1TIq0+Ko9T4olTt4m2Sfv1wAZyDsxch1qXdyQFhHiA5Yvs5onEJE" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-5" style="background-color: black; border-radius: 20px; padding: 30px;">
+        <h2 class="text-center mb-4" style="color: white;">Resume Management</h2>
+    </div>
+    <hr style="border: 1px solid #ddd; width: 100%; margin: 20px 0;">
+        <div class="d-flex justify-content-end mb-3">
+            <a href="/CV/craete" class="btn" style="background-color: #003366; color: white;">Create New Resume</a>
+        
+    </div>
+
+        <div class="table-responsive shadow-sm p-3 mb-5" style="background-color: #e3f2fd; border-radius: 8px;">
+            <table class="table table-hover table-striped align-middle text-center" id="resumeTable">
+                <thead class="bg-secondary text-light" style="font-weight: bold;">
+                    <tr>
+                        <th>Resume ID</th>
+                        <th>Creation Date</th>
+                        <th>Summary</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody class="bg-secondary text-light">
+                    <!-- Rows will be dynamically populated by the API -->
+                </tbody>
+            </table>
+        </div>
+        <div class="cv-content" id="cvContent"></div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0+Ko9T4olTt4m2Sfv1wAZyDsxch1qXdyQFhHiA5Yvs5onEJE" crossorigin="anonymous"></script>
+    <script>
+        // Function to fetch resumes and populate the table
+        async function fetchResumes() {
+            try {
+                const response = await fetch('https://localhost:7146/api/Resume/getResumes'); // Replace with your actual API endpoint
+                if (response.ok) {
+                    const resumes = await response.json();
+                    const tableBody = document.querySelector('#resumeTable tbody');
+                    tableBody.innerHTML = ''; // Clear existing rows
+
+                    resumes.forEach(resume => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                                    <td>${resume.id}</td>
+                                    <td>${new Date(resume.creationDate).toLocaleDateString()}</td>
+                                    <td>${resume.summary}</td>
+                                    <td>
+                                    <button class="btn btn-dark viewCVButton" data-id="${resume.id}" style="background-color: #343a40; color: white; transition: all 0.3s ease;">View CV</button>
+
+                                    <button class="btn editResumeButton" data-id="${resume.id}" style="background-color: #e3f2fd; color: black;">Edit</button>
+
+                                    <button class="btn downloadResumeButton" data-id="${resume.id}" style="background-color: #343a40; color: white;">Download PDF</button>
+
+                                    <button class="btn deleteResumeButton" data-id="${resume.id}" style="background-color: #000000; color: white;">Delete</button>
+
+
+                                            </td>
+                                `;
+                        tableBody.appendChild(row);
+                    });
+                    document.querySelectorAll('.viewCVButton').forEach(button => {
+                        button.addEventListener('click', viewCV);
+                    });
+                    document.querySelectorAll('.editResumeButton').forEach(button => {
+                        button.addEventListener('click', editResume);
+                    });
+                    document.querySelectorAll('.downloadResumeButton').forEach(button => {
+                        button.addEventListener('click', downloadResume);
+                    });
+                    document.querySelectorAll('.deleteResumeButton').forEach(button => {
+                        button.addEventListener('click', deleteResume);
+                    });
+                    
+                } else {
+                    console.error('Failed to fetch resumes');
+                }
+            } catch (error) {
+                console.error('Error fetching resumes:', error);
+            }
+        }
+        async function editResume(event) {
+            const resumeId = event.target.dataset.id;
+            window.location.href = `/CV/EditResume?resumeId=${resumeId}`;
+        }
+        async function viewCV(event) {
+            const resumeId = event.target.dataset.id;
+            try {
+                const response = await fetch(`https://localhost:7146/api/Resume/${resumeId}`);
+                if (response.ok) {
+                    const { cvHtml } = await response.json();
+                    const newWindow = window.open('', '_blank');
+                    newWindow.document.write(cvHtml);
+                    newWindow.document.close();
+                } else {
+                    console.error('Failed to fetch CV');
+                }
+            } catch (error) {
+                console.error('Error fetching CV:', error);
+            }
+        }
+        async function downloadResume(event) {
+            const resumeId = event.target.dataset.id;
+            try {
+                const response = await fetch(`https://localhost:7146/api/Resume/download-pdf/${resumeId}`);
+                if (response.ok) {
+                    const blob = await response.blob();
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.style.display = 'none';
+                    a.href = url;
+                    a.download = `Resume_${resumeId}.pdf`;
+                    document.body.appendChild(a);
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+                } else {
+                    console.error('Failed to download resume');
+                }
+            } catch (error) {
+                console.error('Error downloading resume:', error);
+            }
+        }
+        async function deleteResume(event) {
+            const resumeId = event.target.dataset.id;
+
+            if (!confirm('Are you sure you want to delete this resume?')) {
+                return; // User canceled the delete action
+            }
+
+            try {
+                const response = await fetch('https://localhost:7146/api/Resume/DeleteResume', {
+                    method: 'DELETE',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ id: parseInt(resumeId) }),
+                });
+
+                if (response.ok) {
+                    alert('Resume deleted successfully.');
+                    fetchResumes(); 
+                } else if (response.status === 404) {
+                    alert('Resume not found.');
+                } else if (response.status === 400) {
+                    alert('Invalid resume ID.');
+                } else {
+                    console.error('Failed to delete resume:', response);
+                    alert('An error occurred while deleting the resume.');
+                }
+            } catch (error) {
+                console.error('Error deleting resume:', error);
+                alert('An error occurred while deleting the resume.');
+            }
+        }
+        document.addEventListener('DOMContentLoaded', fetchResumes);
+       
+    </script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+﻿@model SignInCommand;
+
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_AuthenticationLayout.cshtml";
+}
+
+<div class="container d-flex justify-content-center align-items-center min-vh-100 bg-light">
+    <div class="card shadow-lg border-0 rounded-3" style="max-width: 400px; width: 100%;">
+        <div class="card-body p-4">
+            <div class="text-center mb-4">
+                <img src="~/Images/login.jpg" class="rounded-circle mb-3" alt="User Icon" style="width: 100px; height: 100px;">
+                <h3 class="mb-0">Sign Up</h3>
+            </div>
+
+            <!-- Display Success Message -->
+            @if (TempData["RegistrationMessage"] != null)
+            {
+                <div class="alert alert-success">
+                    @TempData["RegistrationMessage"]
+                </div>
+            }
+
+            <form asp-action="Signup" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Name" class="form-control" id="nameInput" placeholder="Name" />
+                    <label for="nameInput"><i class="bi bi-person"></i> Username</label>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Email" type="email" class="form-control" id="emailInput" placeholder="Email" />
+                    <label for="emailInput"><i class="bi bi-envelope"></i> E-mail</label>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Role" class="form-control" id="roleInput" placeholder="Role" />
+                    <label for="roleInput"><i class="bi bi-person"></i> Role</label>
+                    <span asp-validation-for="Role" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Password" type="password" class="form-control" id="passwordInput" placeholder="Password" />
+                    <label for="passwordInput"><i class="bi bi-lock"></i> Password</label>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Address" class="form-control" id="addressInput" placeholder="Address" />
+                    <label for="addressInput"><i class="bi bi-house-door"></i> Address</label>
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-success w-100 py-2">Create Account</button>
+                <p class="text-center mt-3 mb-0">
+                    Already have an account?
+                    <a asp-controller="Authentication" asp-action="Login" class="text-decoration-none">Login here</a>
+                </p>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial.cshtml");
+    }
+}
